@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BasketScript : MonoBehaviour {
+
+public UnityEvent Point;
+
     // Start is called before the first frame update
     void Start() {
         
@@ -16,7 +20,7 @@ public class BasketScript : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag.Equals("Ball")) {
-            Debug.Log("Trigger");
+            Point.Invoke();
         }
     }
 }
