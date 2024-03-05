@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class StaticData : MonoBehaviour
 {
-    public static int myNumber;
+    public static int athleticsSkill;
 }
