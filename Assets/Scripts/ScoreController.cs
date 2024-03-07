@@ -20,7 +20,7 @@ public class ScoreController : MonoBehaviour
     }
 
     public void Point() {
-        Debug.Log("point!");
+        // Debug.Log("point!");
         score++;
     }
 }
