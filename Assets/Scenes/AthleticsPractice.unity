@@ -1047,6 +1047,7 @@ GameObject:
   - component: {fileID: 1215800678}
   - component: {fileID: 1215800677}
   - component: {fileID: 1215800680}
+  - component: {fileID: 1215800681}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Ball
@@ -1150,7 +1151,7 @@ Transform:
   m_GameObject: {fileID: 1215800676}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.32, y: -2.01, z: 0}
+  m_LocalPosition: {x: 0.01, y: 1.81, z: 0}
   m_LocalScale: {x: 0.044870637, y: 0.044870637, z: 0.044870637}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1183,6 +1184,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1215800681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215800676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90e003203bbdaa4e8161138dd79dd72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startX: 0
+  startY: 1.8
 --- !u!1 &1454599763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,7 +1594,7 @@ Transform:
   m_GameObject: {fileID: 1638587025}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.801, y: -2.281, z: 0}
+  m_LocalPosition: {x: -4.08, y: -2.281, z: 0}
   m_LocalScale: {x: 0.58372736, y: 0.58372736, z: 0.58372736}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1612,6 +1627,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1215800681}
+        m_TargetAssemblyTypeName: BallScript, Assembly-CSharp
+        m_MethodName: OnPoint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  leftXBound: 4.08
+  rightXBound: -4.08
 --- !u!61 &1638587034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1692,7 +1721,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -385, y: 364}
+  m_AnchoredPosition: {x: -327, y: 320}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037444066
@@ -1840,7 +1869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 364}
+  m_AnchoredPosition: {x: 0, y: 320}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2114777141
