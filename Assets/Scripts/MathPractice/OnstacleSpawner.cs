@@ -17,8 +17,16 @@ public class OnstacleSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameObject newpipe = Instantiate(pipe);
-        timer = 0;
+        if(timer > maxTime)
+        {
+            GameObject newpipe = Instantiate(pipe);
+            newpipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
+            Destroy(newpipe, 15);
+            timer = 0;
+        }
+
+        timer += Time.deltaTime;
+        
         
     }
 }
