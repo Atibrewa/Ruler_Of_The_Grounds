@@ -21,5 +21,6 @@ public class CompareDrawings : MonoBehaviour
                 (mouthRef.randomSpriteIndex == mouthDraw.index);
 
         Debug.Log("The Match results are: " + match);
+        // TODO: based on match value trigger an event/animation that will inform user whether or not they got the match. 
     }
 }
