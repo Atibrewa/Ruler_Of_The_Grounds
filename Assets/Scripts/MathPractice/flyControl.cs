@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class flyControl : MonoBehaviour
 {
+    public MathManager gameManager;
     public float velocity = 1;
     private Rigidbody2D rigidBody;
     // Start is called before the first frame update
@@ -19,5 +20,10 @@ public class flyControl : MonoBehaviour
         {
             rigidBody.velocity = Vector2.up * velocity;
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        gameManager.GameOver();
     }
 }
