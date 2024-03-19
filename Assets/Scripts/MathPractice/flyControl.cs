@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class flyControl : MonoBehaviour
 {
-    public float velocity = 1;
+    public MathManager gameManager;
+    public float velocity = 1.5f;
+    private float rotationSpeed = 10f;
     private Rigidbody2D rigidBody;
     // Start is called before the first frame update
     void Start()
@@ -19,5 +21,15 @@ public class flyControl : MonoBehaviour
         {
             rigidBody.velocity = Vector2.up * velocity;
         }
+    }
+
+    private void FixedUpdate()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, rigidBody.velocity.y * rotationSpeed);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        gameManager.GameOver();
     }
 }
