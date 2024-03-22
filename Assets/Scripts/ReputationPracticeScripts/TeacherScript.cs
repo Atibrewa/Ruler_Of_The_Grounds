@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TeacherScript : MonoBehaviour {
 
@@ -10,6 +11,9 @@ public class TeacherScript : MonoBehaviour {
     public float max_seconds;
 
     public GameObject thought_bubble;
+
+    public UnityEvent startLooking;
+    public UnityEvent stopLooking;
 
     // Start is called before the first frame update
     void Start() {
@@ -33,9 +37,11 @@ public class TeacherScript : MonoBehaviour {
         thought_bubble.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         Look_Animate();
+        startLooking.Invoke();
         thought_bubble.SetActive(false);
         yield return new WaitForSeconds(1f);
         Look_Animate();
+        stopLooking.Invoke();
         TeachCycle();
     }
 
