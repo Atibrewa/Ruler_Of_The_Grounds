@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 1150229437}
   - component: {fileID: 1150229436}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Dustbin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -365,8 +365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -151.38, y: -5.7092}
-  m_SizeDelta: {x: 302.7631, y: 373.7816}
+  m_AnchoredPosition: {x: 273, y: 72.26}
+  m_SizeDelta: {x: 117.0633, y: 144.5205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1150229436
 MonoBehaviour:
