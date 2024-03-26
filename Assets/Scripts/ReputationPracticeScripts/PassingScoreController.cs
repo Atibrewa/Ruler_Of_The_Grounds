@@ -11,24 +11,34 @@ public class PassingScoreController : MonoBehaviour {
     float score;
     Boolean isLooking;
     public TMP_Text text;
+    public GameObject passingPaper;
 
     void Start() {
         score = 0f;
-        stopLooking();
+        StopLooking();
     }
 
     // Update is called once per frame
     void Update() {
         if (!isLooking && Input.GetMouseButton(0)) {
             score += 0.01f;
+            StartCoroutine("AnimatePassing");
         }
         text.SetText(Math.Floor(score).ToString());
     }
 
-    public void startLooking() {
+    public void StartLooking() {
         isLooking = true;
     }
-    public void stopLooking() {
+
+    public void StopLooking() {
         isLooking = false;
+    }
+
+    IEnumerator AnimatePassing() {
+        Vector3 scale = passingPaper.transform.localScale;
+        scale.y = scale.y * -1;
+        passingPaper.transform.localScale = scale;
+        yield return new WaitForSeconds(0.3f);
     }
 }
