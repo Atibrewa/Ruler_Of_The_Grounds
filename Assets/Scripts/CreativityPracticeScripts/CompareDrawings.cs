@@ -22,5 +22,6 @@ public class CompareDrawings : MonoBehaviour
 
         Debug.Log("The Match results are: " + match);
         // TODO: based on match value trigger an event/animation that will inform user whether or not they got the match. 
+        // Get Animation Object and play it (might be related to PlayableDirector)
     }
 }
