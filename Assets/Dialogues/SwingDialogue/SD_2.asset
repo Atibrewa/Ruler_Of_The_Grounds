@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SD_b
+  m_Name: SD_2
   m_EditorClassIdentifier: 
   text: What do you want to do?
   nextSentence: {fileID: 0}
   options:
   - text: '"Can I get a try?"'
     nextSentence: {fileID: 11400000, guid: 640e615b1ef79435eadac99e4c97c5bd, type: 2}
-    onOptionSelected: {fileID: 11400000, guid: 84413c58c6627497fb081cb184a7a49f, type: 2}
+    onOptionSelected: {fileID: 0}
   - text: 'Play somewhere else. '
     nextSentence: {fileID: 11400000, guid: 7428503af57d44b9b98b39dc0d492ca7, type: 2}
     onOptionSelected: {fileID: 0}
