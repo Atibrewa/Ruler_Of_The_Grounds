@@ -15,9 +15,8 @@ public class ChanceManager : MonoBehaviour
         text.text = curEvent.eventText;
     }
 
-    // Update is called once per frame
-    void Update()
+    void updateStats()
     {
-        
+
     }
 }
