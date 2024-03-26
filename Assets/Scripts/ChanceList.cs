@@ -22,6 +22,6 @@ public class ChanceList : MonoBehaviour
         // {"Text to show", Athletics, Creativity, Math, Language, Reputation}
         events = {
             {}
-        }
+        };
     }
 }
