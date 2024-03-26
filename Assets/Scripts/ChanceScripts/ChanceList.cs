@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChanceList : MonoBehaviour
 {
-    List<List<string>> events;
+    // List<List<string>> events;
     // Start is called before the first frame update
     void Start()
     {

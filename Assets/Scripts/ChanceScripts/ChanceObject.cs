@@ -5,11 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="NewChanceEvent", menuName ="ChanceEvents/EventCard")]
 public class ChanceObject : ScriptableObject
 {
-//     private void eventText;
-//     private void int athletics;
-//     private void int creativity;
-//     private void int math;
-//     private void int language;
-//     private void int reputation;
+    public string eventText;
+    public int athletics;
+    public int creativity;
+    public int math;
+    public int language;
+    public int reputation;
  
 }
