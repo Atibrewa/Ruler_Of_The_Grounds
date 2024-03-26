@@ -17,11 +17,11 @@ public class ChanceList : MonoBehaviour
         
     }
 
-    private void createlist()
-    {
-        // {"Text to show", Athletics, Creativity, Math, Language, Reputation}
-        events = {
-            {}
-        };
-    }
+    // private void createlist()
+    // {
+    //     // {"Text to show", Athletics, Creativity, Math, Language, Reputation}
+    //     events = {
+    //         {}
+    //     };
+    // }
 }

@@ -35,7 +35,7 @@ public class TeacherScript : MonoBehaviour {
     IEnumerator Look(float secs) {
         yield return new WaitForSeconds(secs);
         thought_bubble.SetActive(true);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
         Look_Animate();
         startLooking.Invoke();
         thought_bubble.SetActive(false);
