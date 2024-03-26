@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class SwingController : MonoBehaviour
 {
     private Rigidbody2D body;
-    public int speed;
+    public Statistics charStatistics;
 
     float smooth = 5.0f;
     float tiltAngle = 5.0f;
@@ -28,7 +28,7 @@ public class SwingController : MonoBehaviour
             Quaternion target = Quaternion.Euler(0, 0, tiltAroundZ);
             if (Quaternion.Angle(body.transform.rotation, target) < 2) {
                 direction = direction * -1;
-                tiltAngle += 1.0f + speed;
+                tiltAngle += 1.0f + charStatistics.athleticism;
             }
 
             if (tiltAngle < 100.0f) {

@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c7708e4905447d1bf17931871c9b3d, type: 3}
-  m_Name: Mathematics
+  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
+  m_Name: BillyStats
   m_EditorClassIdentifier: 
-  statName: Mathematics
-  statValue: 0
+  athleticism: 10
+  reputation: 0
+  language: 0
+  creativity: 0
+  mathematics: 0
