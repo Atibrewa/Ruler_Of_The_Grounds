@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A1
+  m_Name: A2
   m_EditorClassIdentifier: 
-  eventText: Oh no! As you head out to recess, you look down and see that your shoelaces
-    are missing! Across the playground, you see a kid known only as "The Dealer"
-    seems to be trading them for another kid's hoodie.
-  athletics: -1
+  eventText: 'Everyone at lunch is whispering and glancing at you. Eventually, the
+    kid next to you tells you the gossip. Someone has spread a rumor that you have
+    a crush on the most popular girl in school, Minnie the Meanie! '
+  athletics: 0
   creativity: 0
   math: 0
   language: 0
-  reputation: 0
+  reputation: -1
