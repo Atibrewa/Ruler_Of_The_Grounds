@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SD_b1
+  m_Name: SD_2a_1
   m_EditorClassIdentifier: 
-  text: "You leave. \n"
-  nextSentence: {fileID: 0}
+  text: 'talk a bit...
+
+'
+  nextSentence: {fileID: 11400000, guid: 8a40837c953fe4e8f97f5739f4d7bfb1, type: 2}
   options: []
