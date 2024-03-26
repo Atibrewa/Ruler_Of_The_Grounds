@@ -22,18 +22,33 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void AdvanceSentence(){
-        currentSentence = currentSentence.nextSentence;
-        DisplaySentence();
+        if (currentSentence.nextSentence == null){
+            EndDialogue();
+            TriggerGameEvent();
+            return;
+        }
+        else {
+            currentSentence = currentSentence.nextSentence;
+            DisplaySentence();
+        }
+
+    }
+
+    public void TriggerGameEvent() {
+        if (currentSentence.eventOption != null) {
+            currentSentence.eventOption.Raise();
+        }
     }
 
     public void DisplaySentence(){
-        if (currentSentence == null){
-            EndDialogue();
-            return;
-        }
+        // if (currentSentence == null){
+        //     EndDialogue();
+        //     return;
+        // }
         HideOptions();
         string sentence = currentSentence.text;
         //dialogueUIText.text = sentence;
+
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }

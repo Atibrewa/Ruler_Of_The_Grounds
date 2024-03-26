@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: What do you want to do?
   nextSentence: {fileID: 0}
+  eventOption: {fileID: 0}
   options:
   - text: '"Can I get a try?"'
     nextSentence: {fileID: 11400000, guid: 640e615b1ef79435eadac99e4c97c5bd, type: 2}

@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: ... battle starts!
   nextSentence: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 84413c58c6627497fb081cb184a7a49f, type: 2}
   options: []
