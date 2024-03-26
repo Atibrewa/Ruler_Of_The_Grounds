@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UIElements;
 
 public class PassingScoreController : MonoBehaviour {
@@ -12,6 +13,7 @@ public class PassingScoreController : MonoBehaviour {
     Boolean isLooking;
     public TMP_Text text;
     public GameObject passingPaper;
+    public UnityEvent getStrike;
 
     void Start() {
         score = 0f;
@@ -23,6 +25,9 @@ public class PassingScoreController : MonoBehaviour {
         if (!isLooking && Input.GetMouseButton(0)) {
             score += 0.01f;
             StartCoroutine("AnimatePassing");
+        }
+        if (isLooking && Input.GetMouseButton(0)) {
+            getStrike.Invoke();
         }
         text.SetText(Math.Floor(score).ToString());
     }
