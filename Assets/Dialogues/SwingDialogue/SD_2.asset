@@ -12,13 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
   m_Name: SD_2
   m_EditorClassIdentifier: 
-  text: What do you want to do?
-  nextSentence: {fileID: 0}
+  text: You ask for a turn.
+  speaker: 
+  nextSentence: {fileID: 11400000, guid: ef436f0c31d964088a4ff1389319c1da, type: 2}
   eventOption: {fileID: 0}
-  options:
-  - text: '"Can I get a try?"'
-    nextSentence: {fileID: 11400000, guid: 640e615b1ef79435eadac99e4c97c5bd, type: 2}
-    onOptionSelected: {fileID: 0}
-  - text: 'Play somewhere else. '
-    nextSentence: {fileID: 11400000, guid: 7428503af57d44b9b98b39dc0d492ca7, type: 2}
-    onOptionSelected: {fileID: 0}
+  options: []

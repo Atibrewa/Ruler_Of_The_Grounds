@@ -7,8 +7,10 @@ public class Sentence : ScriptableObject
 {
     [TextArea(3, 10)]
     public string text = "text";
+    public string speaker;
     public Sentence nextSentence;
     public GameEvent eventOption;
+    
     public List<Choice> options = new List<Choice>();
 
     public bool HasOptions(){
