@@ -29,7 +29,6 @@ public class TimerController : MonoBehaviour {
         while (time > 0) {
             time--;
             text.SetText(time.ToString());
-            // Debug.Log(time.ToString());
             if (time == 0) {
                 timesUp.Invoke();
             }

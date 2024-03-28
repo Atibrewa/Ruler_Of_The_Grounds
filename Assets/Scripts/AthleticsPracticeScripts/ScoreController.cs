@@ -8,6 +8,9 @@ public class ScoreController : MonoBehaviour
 
     private int score;
     public TMP_Text text;
+
+    public Statistics stats;
+
     // Start is called before the first frame update
     void Start() {
         score = 0;
@@ -22,5 +25,9 @@ public class ScoreController : MonoBehaviour
     public void Point() {
         // Debug.Log("point!");
         score++;
+    }
+
+    public void TimesUp() {
+        stats.athleticism += score/2;
     }
 }
