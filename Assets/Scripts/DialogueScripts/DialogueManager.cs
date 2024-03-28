@@ -23,9 +23,9 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void AdvanceSentence(){
+        TriggerGameEvent();
         if (currentSentence.nextSentence == null){
             EndDialogue();
-            TriggerGameEvent();
             return;
         }
         else {
