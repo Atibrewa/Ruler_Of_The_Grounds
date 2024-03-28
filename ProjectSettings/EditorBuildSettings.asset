@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ReputationPractice.unity
     guid: 8fbd4bbe180ac3a48b124f435aca86f9
+  - enabled: 1
+    path: Assets/Scenes/MathPractice.unity
+    guid: 52900a2699ea7c44882f040eb7f676ef
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 4bd1b07762d230c4db13e2876196efef
   m_configObjects: {}
