@@ -15,5 +15,5 @@ MonoBehaviour:
   text: You ask for a turn.
   speaker: 
   nextSentence: {fileID: 11400000, guid: ef436f0c31d964088a4ff1389319c1da, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: d6b8207cc8c924e3886404436ed195aa, type: 2}
   options: []
