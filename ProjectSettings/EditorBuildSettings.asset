@@ -6,17 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 6455ec27178cc1144a785eed8fb1b308
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Classroom.unity
     guid: 3ca2c43b8280df540b09a5fc4fa83590
   - enabled: 1
     path: Assets/Scenes/AthleticsPractice.unity
     guid: b268cb7dd3fd9284c832fa3e2d39f548
+  - enabled: 1
+    path: Assets/Scenes/Playground.unity
+    guid: f9f858fac7ff3594da87e75ea60b295a
   - enabled: 1
     path: Assets/Scenes/BullyTest.unity
     guid: 7b990f4f78fef7344ad066182b8d7766
