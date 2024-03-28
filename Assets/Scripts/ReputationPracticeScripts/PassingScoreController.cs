@@ -10,14 +10,17 @@ public class PassingScoreController : MonoBehaviour {
     // Start is called before the first frame update
 
     float score;
-    Boolean isLooking;
+    bool isLooking;
+    bool inMercy;
     public TMP_Text text;
     public GameObject passingPaper;
+    public float mercyTime;
     public UnityEvent getStrike;
 
     void Start() {
         score = 0f;
         StopLooking();
+        inMercy = false;
     }
 
     // Update is called once per frame
@@ -26,8 +29,10 @@ public class PassingScoreController : MonoBehaviour {
             score += 0.01f;
             StartCoroutine("AnimatePassing");
         }
-        if (isLooking && Input.GetMouseButton(0)) {
+        if (isLooking && Input.GetMouseButton(0) && !inMercy) {
             getStrike.Invoke();
+            inMercy = true;
+            Invoke("MercyTimer",mercyTime);
         }
         text.SetText(Math.Floor(score).ToString());
     }
@@ -45,5 +50,9 @@ public class PassingScoreController : MonoBehaviour {
         scale.y = scale.y * -1;
         passingPaper.transform.localScale = scale;
         yield return new WaitForSeconds(0.3f);
+    }
+
+    void MercyTimer() {
+        inMercy = false;
     }
 }

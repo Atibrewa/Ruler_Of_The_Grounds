@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class StrikesController : MonoBehaviour {
 
-    SpriteRenderer sRenderer;
+    int strikes;
+    public int maxStrikes;
+
+    public UnityEvent gameOver;
 
     // Start is called before the first frame update
     void Start() {
-        sRenderer = this.GetComponent<SpriteRenderer>();
-        sRenderer.enabled = false;
+        strikes = 0;
     }
 
     // Update is called once per frame
@@ -18,6 +22,10 @@ public class StrikesController : MonoBehaviour {
     }
 
     public void AddStrike() {
-        sRenderer.enabled = true;
+        strikes += 1;
+        GetComponent<TMP_Text>().SetText("Strikes: " + strikes);
+        if (strikes >= maxStrikes) {
+            gameOver.Invoke();
+        }
     }
 }
