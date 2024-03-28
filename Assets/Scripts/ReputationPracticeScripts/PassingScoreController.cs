@@ -17,6 +17,7 @@ public class PassingScoreController : MonoBehaviour {
     public GameObject passingPaper;
     public float mercyTime;
     public UnityEvent getStrike;
+    public Statistics stats;
 
     void Start() {
         score = 0f;
@@ -60,5 +61,6 @@ public class PassingScoreController : MonoBehaviour {
 
     public void GameOver() {
         gameOver = true;
+        stats.reputation += (int)score/10;
     }
 }
