@@ -9,6 +9,7 @@ public class TeacherScript : MonoBehaviour {
 
     public float min_seconds;
     public float max_seconds;
+    bool gameOver;
 
     public GameObject thought_bubble;
 
@@ -18,6 +19,7 @@ public class TeacherScript : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         thought_bubble.SetActive(false);
+        gameOver = false;
         TeachCycle();
     }
 
@@ -29,7 +31,9 @@ public class TeacherScript : MonoBehaviour {
     void TeachCycle() {
         float secs = Random.Range(min_seconds, max_seconds);
         Debug.Log(secs);
-        StartCoroutine(Look(secs));
+        if (!gameOver) {
+            StartCoroutine(Look(secs));
+        }
     }
 
     IEnumerator Look(float secs) {
@@ -51,5 +55,9 @@ public class TeacherScript : MonoBehaviour {
         float scaleX = scale.x;
         scale.x = -scaleX;
         transform.localScale = scale;
+    }
+
+    public void GameOver() {
+        gameOver = true;
     }
 }

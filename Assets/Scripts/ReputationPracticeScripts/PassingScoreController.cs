@@ -12,6 +12,7 @@ public class PassingScoreController : MonoBehaviour {
     float score;
     bool isLooking;
     bool inMercy;
+    bool gameOver;
     public TMP_Text text;
     public GameObject passingPaper;
     public float mercyTime;
@@ -21,11 +22,12 @@ public class PassingScoreController : MonoBehaviour {
         score = 0f;
         StopLooking();
         inMercy = false;
+        gameOver = false;
     }
 
     // Update is called once per frame
     void Update() {
-        if (!isLooking && Input.GetMouseButton(0)) {
+        if (!isLooking && Input.GetMouseButton(0) && !gameOver) {
             score += 0.01f;
             StartCoroutine("AnimatePassing");
         }
@@ -54,5 +56,9 @@ public class PassingScoreController : MonoBehaviour {
 
     void MercyTimer() {
         inMercy = false;
+    }
+
+    public void GameOver() {
+        gameOver = true;
     }
 }
