@@ -2766,6 +2766,7 @@ MonoBehaviour:
   earsDraw: {fileID: 854805645}
   mouthDraw: {fileID: 461890238}
   scoreLabel: {fileID: 276646410}
+  userStat: {fileID: 11400000, guid: aed7a1ebe9cb44290b37a07ccb42a382, type: 2}
 --- !u!4 &1382179561
 Transform:
   m_ObjectHideFlags: 0

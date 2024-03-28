@@ -10,6 +10,8 @@ public class CompareDrawings : MonoBehaviour
     public DrawingSpriteController headDraw, earsDraw, mouthDraw;
     public TextMeshProUGUI scoreLabel;
 
+    public Statistics userStat;
+
 
     public void Compare() {
         // get reference combination 
@@ -34,9 +36,8 @@ public class CompareDrawings : MonoBehaviour
             score += 1;
         }
 
+        userStat.UpdateStat("creativity", score);
         scoreLabel.text = "Creativity: +" + score;
-        
-        // TODO: based on match value trigger an event/animation that will inform user whether or not they got the match. 
-        // Get Animation Object and play it (might be related to PlayableDirector)
+    
     }
 }
