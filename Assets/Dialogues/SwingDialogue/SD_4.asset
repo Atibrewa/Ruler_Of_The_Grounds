@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SD_2a_2
+  m_Name: SD_4
   m_EditorClassIdentifier: 
-  text: ... battle starts!
-  nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 84413c58c6627497fb081cb184a7a49f, type: 2}
+  text: Hah! No one swings but the Swing King, kid. Get lost!
+  speaker: Billy
+  nextSentence: {fileID: 11400000, guid: 45474ace4e72844d083095394e88543a, type: 2}
+  eventOption: {fileID: 0}
   options: []

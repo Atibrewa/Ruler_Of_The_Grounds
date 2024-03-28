@@ -6,6 +6,6 @@ using UnityEngine;
 public class DialogueTree : ScriptableObject
 {
     [Tooltip("The name of the character speaking")]
-    public string characterName;
+    // public string characterName;
     public Sentence startingSentence;
 }

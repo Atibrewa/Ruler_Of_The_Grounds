@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SD_1
+  m_Name: SD_5a_2
   m_EditorClassIdentifier: 
-  text: 'You decide to play on the swingset for recess, but notice that there''s
-    someone hogging the swing. '
-  speaker: 
-  nextSentence: {fileID: 11400000, guid: 8d57be22afb0448adb4cbe39af693835, type: 2}
+  text: Uh-huuuuhhhh.
+  speaker: Billy
+  nextSentence: {fileID: 11400000, guid: 64dd442f0108c48538c85775d909366e, type: 2}
   eventOption: {fileID: 0}
   options: []

@@ -6,6 +6,7 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI dialogueUIText;
+    public TextMeshProUGUI dialogueLabel;
     public Canvas dialogueCanvas;
     public GameObject continueButton;
     public GameObject optionPanel;
@@ -31,6 +32,7 @@ public class DialogueManager : MonoBehaviour
             currentSentence = currentSentence.nextSentence;
             DisplaySentence();
         }
+        // dialogueLabel.text = currentSentence.speaker;
 
     }
 
@@ -45,6 +47,7 @@ public class DialogueManager : MonoBehaviour
         //     EndDialogue();
         //     return;
         // }
+        dialogueLabel.text = currentSentence.speaker;
         HideOptions();
         string sentence = currentSentence.text;
         //dialogueUIText.text = sentence;
