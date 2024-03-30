@@ -5,6 +5,7 @@ using UnityEngine;
 public class LanguageButtonClick : MonoBehaviour
 {
     public string letter;
+    public WordSpeller speller;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +19,6 @@ public class LanguageButtonClick : MonoBehaviour
 
     public void OnMouseDown(){
         Debug.Log(letter + " Clicked");
+        speller.Add(letter);
     }
 }
