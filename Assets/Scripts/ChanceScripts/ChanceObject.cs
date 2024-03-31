@@ -8,8 +8,8 @@ public class ChanceObject : ScriptableObject
     public string eventText;
     public int athletics;
     public int creativity;
-    public int math;
     public int language;
+    public int math;
     public int reputation;
  
 }

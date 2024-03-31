@@ -7,16 +7,24 @@ public class ChanceManager : MonoBehaviour
 {
     public List<ChanceObject> objects;
     public TMP_Text text;
+    public Statistics playerStats;
+    private ChanceObject curEvent;
+
     // Start is called before the first frame update
     void Start()
     {
         int chanceIndex = Random.Range (1,(objects.Count - 1));
-        ChanceObject curEvent = objects[chanceIndex];
+        curEvent = objects[chanceIndex];
         text.text = curEvent.eventText;
+        updateStats();
     }
 
     void updateStats()
     {
-
+        playerStats.UpdateStat("athleticism", curEvent.athletics);
+        playerStats.UpdateStat("creativity", curEvent.creativity);
+        playerStats.UpdateStat("language", curEvent.language);
+        playerStats.UpdateStat("math", curEvent.math);
+        playerStats.UpdateStat("reputation", curEvent.reputation);
     }
 }
