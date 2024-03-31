@@ -21,7 +21,7 @@ public class ChanceManager : MonoBehaviour
 
     void updateStats()
     {
-        playerStats.UpdateStat("athleticism", curEvent.athletics);
+        playerStats.UpdateStat("athletics", curEvent.athletics);
         playerStats.UpdateStat("creativity", curEvent.creativity);
         playerStats.UpdateStat("language", curEvent.language);
         playerStats.UpdateStat("math", curEvent.math);
