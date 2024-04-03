@@ -35,7 +35,6 @@ private bool timesUp;
 
     public void RandomPosition() {
         float randX = Random.Range(leftXBound, rightXBound);
-        Debug.Log(randX.ToString());
         float y = this.transform.position.y;
         this.transform.position = new Vector3(randX, y, 0);
     }

@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "RulerOfTheGrounds.sln"
+    "dotnet.defaultSolution": "Ruler_Of_The_Grounds.sln"
 }

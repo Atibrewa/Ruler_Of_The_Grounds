@@ -7,9 +7,13 @@ public class BallScript : MonoBehaviour {
     public float startX;
     public float startY;
 
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start() {
         ResetPos();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.time = 0.07f;
     }
 
     // Update is called once per frame
@@ -18,10 +22,15 @@ public class BallScript : MonoBehaviour {
     }
 
     void ResetPos() {
-        this.transform.position = new Vector3(startX, startY, 0);
+        transform.position = new Vector3(startX, startY, 0);
     }
 
     public void OnPoint() {
         Invoke("ResetPos", 1f);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) {
+        audioSource.volume = collision.relativeVelocity.magnitude/100;
+        audioSource.Play();
     }
 }
