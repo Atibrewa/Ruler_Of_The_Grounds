@@ -33,7 +33,7 @@ public class SwingController : MonoBehaviour
             Quaternion target = Quaternion.Euler(0, 0, tiltAroundZ);
             if (Quaternion.Angle(body.transform.rotation, target) < 2) {
                 direction = direction * -1;
-                tiltAngle += 1.0f + charStatistics.athleticism;
+                tiltAngle += 1.0f + charStatistics.athletics;
             }
 
             if (tiltAngle < 100.0f) {
