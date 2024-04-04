@@ -20,6 +20,8 @@ public class WordSpeller : MonoBehaviour
         reference.text = targetWord;
         GenerateSpaces();
         spelling.text = "";
+
+    
     }
 
     private void GenerateSpaces() {
@@ -41,19 +43,26 @@ public class WordSpeller : MonoBehaviour
             if (targetWord == spelling.text) {
                 // TODO: Add point
                 Debug.Log("Adding +1 point");
-                targetWord = possibleWords[Random.Range(0, possibleWords.Length)];
-                GenerateSpaces();
-                reference.text = targetWord;
+                StartCoroutine(AnimateCorrect());
             }
             else {
                 Debug.Log("Did not the right word"); 
                 // TODO: Add visual indicator that the user didn't spell the right word
             }
-            spelling.text = "";
+            // spelling.text = "";
         }
-    
-        
+    }
 
+    public IEnumerator AnimateCorrect() {
+        Debug.Log("AnimateCorrect() method called");
+        yield return new WaitForSeconds(5f);
 
+        targetWord = possibleWords[Random.Range(0, possibleWords.Length)];
+        spelling.text = "";
+        GenerateSpaces();
+               
+        reference.text = targetWord;
+        Debug.Log("Done");
     }
 }
+
