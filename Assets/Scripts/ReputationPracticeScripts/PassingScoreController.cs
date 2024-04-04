@@ -19,11 +19,15 @@ public class PassingScoreController : MonoBehaviour {
     public UnityEvent getStrike;
     public Statistics stats;
 
+    public GameObject popup;
+    public TMP_Text scoreLabel;
+
     void Start() {
         score = 0f;
         StopLooking();
         inMercy = false;
         gameOver = false;
+        popup.SetActive(false);
     }
 
     // Update is called once per frame
@@ -61,6 +65,9 @@ public class PassingScoreController : MonoBehaviour {
 
     public void GameOver() {
         gameOver = true;
-        stats.reputation += (int)score/10;
+        int statUpdate = (int)score/10;
+        scoreLabel.SetText("Stat: +" + statUpdate);
+        stats.reputation += statUpdate;
+        popup.SetActive(true);
     }
 }
