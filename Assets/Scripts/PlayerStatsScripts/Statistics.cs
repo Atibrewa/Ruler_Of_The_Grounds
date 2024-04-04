@@ -5,11 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="Statistics", menuName ="Statistics")]
 public class Statistics : ScriptableObject
 {
-    public int athleticism, reputation, language, creativity, mathematics;
+    public int athletics, reputation, language, creativity, math;
 
     public void UpdateStat(string stat, int add) {
         if (stat == "athleticism") {
-            athleticism += add;
+            athletics += add;
         }
         else if (stat == "reputation") {
             reputation += add;
@@ -21,7 +21,7 @@ public class Statistics : ScriptableObject
             creativity += add;
         }
         else if (stat == "mathematics") {
-            mathematics += add;
+            math += add;
         }
     }
 }
