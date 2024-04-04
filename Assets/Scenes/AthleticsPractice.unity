@@ -2342,7 +2342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 2037444067}
-  stats: {fileID: 11400000, guid: aed7a1ebe9cb44290b37a07ccb42a382, type: 2}
+  stats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
 --- !u!114 &2037444067
 MonoBehaviour:
   m_ObjectHideFlags: 0
