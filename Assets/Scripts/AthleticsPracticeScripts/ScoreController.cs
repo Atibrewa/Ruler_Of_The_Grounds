@@ -34,6 +34,6 @@ public class ScoreController : MonoBehaviour
         int statUpdate = score/2;
         scoreLabel.SetText("Stat: +" + statUpdate);
         popup.SetActive(true);
-        stats.athleticism += statUpdate;
+        stats.athletics+= statUpdate;
     }
 }

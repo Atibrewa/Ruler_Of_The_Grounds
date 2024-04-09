@@ -18,11 +18,11 @@ public class StatsCanvasScript : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        athleticsText.SetText("Athletics: " + stats.athleticism.ToString());
+        athleticsText.SetText("Athletics: " + stats.athletics.ToString());
         reputationText.SetText("Reputation: " + stats.reputation.ToString());
         languageText.SetText("Language: " + stats.language.ToString());
         creativityText.SetText("Creativity: " + stats.creativity.ToString());
-        mathematicsText.SetText("Mathematics: " + stats.mathematics.ToString());
+        mathematicsText.SetText("Math: " + stats.math.ToString());
     }
 
     public void GoBack() {
