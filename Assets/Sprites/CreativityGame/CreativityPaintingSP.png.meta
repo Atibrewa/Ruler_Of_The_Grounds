@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f8eda160a9f7442aa9788832c174b2d
+guid: d3e64420c91ac44888c4e636097019be
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,43 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: c_scribble_0
+      name: CreativityPaintingSP_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 10
-        width: 748.5
-        height: 702
+        x: 0
+        y: 0
+        width: 641
+        height: 563
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8691916faa0f34b83b8611833e51fe22
-      internalID: 1123069526
+      spriteID: a01cf62014f3446bdaeb1aedbf84970e
+      internalID: -61734727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: c_scribble_1
+      name: CreativityPaintingSP_1
       rect:
         serializedVersion: 2
-        x: 778
-        y: 10
-        width: 748.5
-        height: 702
+        x: 641
+        y: 0
+        width: 641
+        height: 563
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49503cbc504ec433b9144c02d4e4e23c
-      internalID: 64102867
+      spriteID: 840a2e94b79f54bc19378d1cf4bfc539
+      internalID: 145703969
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      c_scribble_0: 1123069526
-      c_scribble_1: 64102867
+      CreativityPaintingSP_0: -61734727
+      CreativityPaintingSP_1: 145703969
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
