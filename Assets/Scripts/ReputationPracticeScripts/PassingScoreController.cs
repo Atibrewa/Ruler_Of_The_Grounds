@@ -13,33 +13,45 @@ public class PassingScoreController : MonoBehaviour {
     bool isLooking;
     bool inMercy;
     bool gameOver;
+    bool mouseDown;
+    bool animating;
     public TMP_Text text;
     public GameObject passingPaper;
     public float mercyTime;
     public UnityEvent getStrike;
     public Statistics stats;
+    Animator animator;
 
     public GameObject popup;
     public TMP_Text scoreLabel;
 
     void Start() {
         score = 0f;
-        StopLooking();
         inMercy = false;
         gameOver = false;
+        mouseDown = false;
+        animating = false;
         popup.SetActive(false);
+        animator = passingPaper.GetComponent<Animator>();
+        animator.Play("StudentSit");
+        StopLooking();
     }
 
     // Update is called once per frame
     void Update() {
         if (!isLooking && Input.GetMouseButton(0) && !gameOver) {
             score += 0.01f;
-            StartCoroutine("AnimatePassing");
+            mouseDown = true;
+            Animate();
         }
         if (isLooking && Input.GetMouseButton(0) && !inMercy) {
             getStrike.Invoke();
             inMercy = true;
             Invoke("MercyTimer",mercyTime);
+        }
+        if (!Input.GetMouseButton(0)) {
+            mouseDown = false;
+            Animate();
         }
         text.SetText(Math.Floor(score).ToString());
     }
@@ -52,12 +64,6 @@ public class PassingScoreController : MonoBehaviour {
         isLooking = false;
     }
 
-    IEnumerator AnimatePassing() {
-        Vector3 scale = passingPaper.transform.localScale;
-        scale.y = scale.y * -1;
-        passingPaper.transform.localScale = scale;
-        yield return new WaitForSeconds(0.3f);
-    }
 
     void MercyTimer() {
         inMercy = false;
@@ -69,5 +75,16 @@ public class PassingScoreController : MonoBehaviour {
         scoreLabel.SetText("Stat: +" + statUpdate);
         stats.reputation += statUpdate;
         popup.SetActive(true);
+    }
+
+    void Animate() {
+        if (mouseDown & !animating) {
+            animator.Play("StudentAnimator");
+            animating = true;
+        }
+        else if (animating & !mouseDown) {
+            animator.Play("StudentSit");
+            animating = false;
+        }
     }
 }
