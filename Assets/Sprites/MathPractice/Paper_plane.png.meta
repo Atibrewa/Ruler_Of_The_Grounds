@@ -115,8 +115,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 242
-        width: 257
-        height: 106
+        width: 262
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff941ed0902400746b86ef69bc7dd30c
-      internalID: 726968447
+      spriteID: 20a2c88f037d85b48b8a34ede8e34c37
+      internalID: 1815219036
       vertices: []
       indices: 
       edges: []
@@ -135,9 +135,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 121
-        width: 257
-        height: 106
+        y: 122
+        width: 262
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbd2c8c84e6954341af75ea8c5dea897
-      internalID: 1826400314
+      spriteID: a88142989c859054a968b5040a016d37
+      internalID: 1286281585
       vertices: []
       indices: 
       edges: []
@@ -157,8 +157,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 257
-        height: 106
+        width: 262
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1269a8cae6b0d6b4baefdb7ede4b39c3
-      internalID: 892494897
+      spriteID: a9984c44102686f47970ae985daceab0
+      internalID: 1390929397
       vertices: []
       indices: 
       edges: []
@@ -183,9 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Paper_plane_0: 726968447
-      Paper_plane_1: 1826400314
-      Paper_plane_2: 892494897
+      Paper_plane_0: 1815219036
+      Paper_plane_1: 1286281585
+      Paper_plane_2: 1390929397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
