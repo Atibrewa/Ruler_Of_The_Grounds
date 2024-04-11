@@ -10,16 +10,22 @@ public class TeacherScript : MonoBehaviour {
     public float min_seconds;
     public float max_seconds;
     bool gameOver;
+    bool isLooking;
 
     public GameObject thought_bubble;
 
     public UnityEvent startLooking;
     public UnityEvent stopLooking;
 
+    Animator animator;
+
     // Start is called before the first frame update
     void Start() {
         thought_bubble.SetActive(false);
         gameOver = false;
+        isLooking = false;
+        animator = GetComponent<Animator>();
+        animator.Play("TeacherAnimation");
         TeachCycle();
     }
 
@@ -40,21 +46,24 @@ public class TeacherScript : MonoBehaviour {
         yield return new WaitForSeconds(secs);
         thought_bubble.SetActive(true);
         yield return new WaitForSeconds(0.3f);
+        isLooking = true;
         Look_Animate();
         startLooking.Invoke();
         thought_bubble.SetActive(false);
         yield return new WaitForSeconds(1f);
+        isLooking = false;
         Look_Animate();
         stopLooking.Invoke();
         TeachCycle();
     }
 
     void Look_Animate() {
-        Debug.Log("in Look_Animate");
-        Vector3 scale = transform.localScale;
-        float scaleX = scale.x;
-        scale.x = -scaleX;
-        transform.localScale = scale;
+        if (isLooking) {
+            animator.Play("TeacherLook");
+        }
+        else {
+            animator.Play("TeacherAnimation");
+        }
     }
 
     public void GameOver() {
