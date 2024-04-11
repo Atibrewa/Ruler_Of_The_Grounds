@@ -8,7 +8,7 @@ public class Statistics : ScriptableObject
     public int athletics, reputation, language, creativity, math;
 
     public void UpdateStat(string stat, int add) {
-        if (stat == "athleticism") {
+        if (stat == "athletics") {
             athletics += add;
         }
         else if (stat == "reputation") {
@@ -20,7 +20,7 @@ public class Statistics : ScriptableObject
         else if (stat == "creativity") {
             creativity += add;
         }
-        else if (stat == "mathematics") {
+        else if (stat == "math") {
             math += add;
         }
     }

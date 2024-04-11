@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c98d201ecdff0dd4780f5367c1c5f102
+guid: 345e278faed7c4549b7e7c8a5d43804e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,70 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Paper_plane_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 243
-        width: 252
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5bc390efe92d7f41989a1a38f23bc5c
-      internalID: 633986384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Paper_plane_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 122
-        width: 252
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db10caf28d3f35748a4ddb52ba5189ad
-      internalID: -26965366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Paper_plane_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 252
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 600a72c40405f19428c48481aa10d603
-      internalID: -702689522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -182,16 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Paper_plane_0: 197206302
-      Paper_plane_1: 633986384
-      Paper_plane_2: 349187373
-      Paper_plane_3: -2107296311
-      Paper_plane_4: -26965366
-      Paper_plane_5: 1236859373
-      Paper_plane_6: -514415023
-      Paper_plane_7: -702689522
-      Paper_plane_8: 1631791279
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
