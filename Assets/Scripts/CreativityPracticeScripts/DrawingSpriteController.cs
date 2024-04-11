@@ -20,14 +20,23 @@ public class DrawingSpriteController : MonoBehaviour
     }
 
     void GetList() {
-        if (gameObject.name.Contains("Head")) {
+        if (gameObject.name.Contains("Ear")) {
+            spriteList = sprites.earSprites;
+        }
+        else if (gameObject.name.Contains("Head")) {
             spriteList = sprites.headSprites;
         }
-        else if (gameObject.name.Contains("Ear")) {
-            spriteList = sprites.earSprites;
+        else if (gameObject.name.Contains("Arm")) {
+            spriteList = sprites.armsSprites;
+        }
+        else if (gameObject.name.Contains("Eyes")) {
+            spriteList = sprites.eyeSprites;
         }
         else if (gameObject.name.Contains("Mouth")) {
             spriteList = sprites.mouthSprites;
+        }
+        else if (gameObject.name.Contains("Misc")) {
+            spriteList = sprites.miscSprites;
         }
     }
 

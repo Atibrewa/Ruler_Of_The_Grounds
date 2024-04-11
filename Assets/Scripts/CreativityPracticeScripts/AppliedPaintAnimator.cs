@@ -6,14 +6,15 @@ using UnityEngine.Events;
 public class AppliedPaintAnimator : MonoBehaviour
 {
     public UnityEvent finishedPaintingEvent;
-    public GameObject gObj; 
+    public GameObject painter; 
 
     void Start() {
-        finishedPaintingEvent = new UnityEvent();
     }
+
     // This C# function can be called by an Animation Event
     public void PrintFloat (float theValue) {
         Debug.Log ("ANIMATION ENDED WOOT");
-        // finishedPaintingEvent.Invoke();
+        finishedPaintingEvent.Invoke();
     }
+
 }
