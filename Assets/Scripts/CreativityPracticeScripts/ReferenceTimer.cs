@@ -12,7 +12,7 @@ public class ReferenceTimer : MonoBehaviour
     public int waitTime = 5;
     public AudioSource tick;
 
-    public UnityEvent startGame;
+    public UnityEvent timerDone;
 
 
     // Start is called before the first frame update
@@ -40,6 +40,6 @@ public class ReferenceTimer : MonoBehaviour
         yield return new WaitForSeconds(1f);
         count.text = "";
 
-        startGame.Invoke();
+        timerDone.Invoke();
     }
 }
