@@ -22,7 +22,7 @@ public class CompareDrawings : MonoBehaviour
         //         (earRef.randomSpriteIndex == earsDraw.index) &
         //         (mouthRef.randomSpriteIndex == mouthDraw.index);
 
-        Debug.Log("The Match results are: " + match);
+    
 
         if (refEars.randomSpriteIndex == paintEars.index) {
             score += 1;
@@ -50,8 +50,6 @@ public class CompareDrawings : MonoBehaviour
 
         userStat.UpdateStat("creativity", score);
         scoreLabel.text = "Creativity: +" + score;
-
-        Debug.Log("Total score: " + score);
     
     }
 }

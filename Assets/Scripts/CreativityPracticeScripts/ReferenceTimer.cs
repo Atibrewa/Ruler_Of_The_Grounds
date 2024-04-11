@@ -13,35 +13,22 @@ public class ReferenceTimer : MonoBehaviour
     public AudioSource tick;
 
     public UnityEvent startGame;
-    
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Start!");
         count.text = "";
         StartCoroutine(Wait());
-        Debug.Log("Start finished");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public IEnumerator Wait() {
-        Debug.Log("Called Wait() for timer");
         int seconds = waitTime;
-
         while (seconds > 0) {
 
             count.text = seconds.ToString();
             tick.Play(0);
             
-    
-            Debug.Log(seconds);
             yield return new WaitForSeconds(1f);
             seconds -= 1;
             if (seconds == 0) {
