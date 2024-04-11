@@ -10,8 +10,11 @@ public class ReferenceTimer : MonoBehaviour
     public TextMeshProUGUI count;
     public TextMeshProUGUI directions;
     public int waitTime = 5;
+    public AudioSource tick;
 
     public UnityEvent startGame;
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +38,7 @@ public class ReferenceTimer : MonoBehaviour
         while (seconds > 0) {
 
             count.text = seconds.ToString();
-
+            tick.Play(0);
             
     
             Debug.Log(seconds);
