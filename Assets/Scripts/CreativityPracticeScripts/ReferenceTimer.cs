@@ -30,18 +30,19 @@ public class ReferenceTimer : MonoBehaviour
 
     public IEnumerator Wait() {
         Debug.Log("Called Wait() for timer");
-        int seconds = 0;
+        int seconds = waitTime;
 
-        while (seconds <= waitTime) {
-            if (seconds != 0) {
-                count.text = seconds.ToString();
-            }
+        while (seconds > 0) {
+
+            count.text = seconds.ToString();
+
             
     
             Debug.Log(seconds);
             yield return new WaitForSeconds(1f);
-            seconds += 1;
-            if (seconds == waitTime) {
+            seconds -= 1;
+            if (seconds == 0) {
+                count.text = seconds.ToString();
                 directions.text = "TIME'S UP!";
             }
 

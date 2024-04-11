@@ -6,8 +6,8 @@ using TMPro;
 public class CompareDrawings : MonoBehaviour
 {
 
-    public ReferenceSpriteController headRef, earRef, mouthRef;
-    public DrawingSpriteController headDraw, earsDraw, mouthDraw;
+    public ReferenceSpriteController refEars, refHead, refArms, refEyes, refMouth, refMisc;
+    public DrawingSpriteController paintEars, paintHead, paintArms, paintEyes, paintMouth, paintMisc;
     public TextMeshProUGUI scoreLabel;
 
     public Statistics userStat;
@@ -18,26 +18,40 @@ public class CompareDrawings : MonoBehaviour
         bool match = false;
         int score = 0;
 
-        match = (headRef.randomSpriteIndex == headDraw.index) &
-                (earRef.randomSpriteIndex == earsDraw.index) &
-                (mouthRef.randomSpriteIndex == mouthDraw.index);
+        // match = (headRef.randomSpriteIndex == headDraw.index) &
+        //         (earRef.randomSpriteIndex == earsDraw.index) &
+        //         (mouthRef.randomSpriteIndex == mouthDraw.index);
 
         Debug.Log("The Match results are: " + match);
 
-        if (headRef.randomSpriteIndex == headDraw.index) {
+        if (refEars.randomSpriteIndex == paintEars.index) {
             score += 1;
         }
 
-        if (earRef.randomSpriteIndex == earsDraw.index) {
+        if (refHead.randomSpriteIndex == paintHead.index) {
             score += 1;
         }
 
-        if (mouthRef.randomSpriteIndex == mouthDraw.index) {
+        if (refArms.randomSpriteIndex == paintArms.index) {
+            score += 1;
+        }
+
+        if (refEyes.randomSpriteIndex == paintEyes.index) {
+            score += 1;
+        }
+
+        if (refMouth.randomSpriteIndex == paintMouth.index) {
+            score += 1;
+        }
+
+        if (refMisc.randomSpriteIndex == paintMisc.index) {
             score += 1;
         }
 
         userStat.UpdateStat("creativity", score);
         scoreLabel.text = "Creativity: +" + score;
+
+        Debug.Log("Total score: " + score);
     
     }
 }
