@@ -13,7 +13,6 @@ public class ReferenceObjectComboGetter : MonoBehaviour
         
     }
 
-
     void GetIndices() {
         Debug.Log("Head index is:" + headController.randomSpriteIndex);
         Debug.Log("Ears index is:" + earsController.randomSpriteIndex);
