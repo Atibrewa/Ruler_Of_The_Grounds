@@ -17,7 +17,7 @@ public class flyControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0))
         {
             rigidBody.velocity = Vector2.up * velocity;
         }
