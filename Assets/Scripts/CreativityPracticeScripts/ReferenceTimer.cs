@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class ReferenceTimer : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class ReferenceTimer : MonoBehaviour
     public TextMeshProUGUI count;
     public TextMeshProUGUI directions;
     public int waitTime = 5;
+
+    public UnityEvent startGame;
 
     // Start is called before the first frame update
     void Start()
@@ -45,5 +48,7 @@ public class ReferenceTimer : MonoBehaviour
         }
         yield return new WaitForSeconds(1f);
         count.text = "";
+
+        startGame.Invoke();
     }
 }
