@@ -15,7 +15,11 @@ public class WordSpeller : MonoBehaviour
     public int score = 0;
 
     // Letters Used: m, x, h, a, b, s, o
-    private string[] possibleWords = {"bash", "abs", "baxom", "ox", "moss", "sham"};
+    private string[] possibleWords = {
+        "bash", "abs", "baxom", "ox", "moss", "sham", "ham", "mam", "hash", "sos", "shoo", "shab", "ooh", "hoo", "soso", "bass", "box", 
+        "max", "mooh", "sass", "oxo", "hobo", "hobb", "bobb", "hax", "ash", "hash", "mash", "sash", "hoam", "hamo", "bama", "sho", "abos",
+        "xox", "hoax", "moax", "sxo", "omo", "boo", "xoo", "moo", "hosh", "mama", "habs", "haso", "saho", "soho", "boho", "bobo", "bahm"
+        };
     // Start is called before the first frame update
     void Start()
     {
