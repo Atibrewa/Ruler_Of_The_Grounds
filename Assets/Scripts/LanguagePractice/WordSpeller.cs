@@ -5,7 +5,6 @@ using TMPro;
 
 public class WordSpeller : MonoBehaviour
 {
-
     public TextMeshProUGUI spelling;
     public TextMeshProUGUI spaces;
     public TextMeshProUGUI reference;
@@ -13,6 +12,7 @@ public class WordSpeller : MonoBehaviour
 
     private bool isMaxString = false;
     private Color textColor;
+    public int score = 0;
 
     // Letters Used: m, x, h, a, b, s, o
     private string[] possibleWords = {"bash", "abs", "baxom", "ox", "moss", "sham"};
@@ -49,20 +49,15 @@ public class WordSpeller : MonoBehaviour
             if (targetWord.Length <= spelling.text.Length) {
                 isMaxString = true;
                 if (targetWord == spelling.text) {
-                    // TODO: Add point
-                    Debug.Log("Adding +1 point");
+                    score += 1;
                     StartCoroutine(AnimateCorrect());
                 }
                 else {
-                    Debug.Log("Did not the right word"); 
-                    // TODO: Add visual indicator that the user didn't spell the right word
+                    score -= 1;
                     StartCoroutine(AnimateIncorrect());
                 }
-            // spelling.text = "";
-        }
-
-        }
-        
+            }   
+        } 
     }
 
     public IEnumerator AnimateIncorrect() {

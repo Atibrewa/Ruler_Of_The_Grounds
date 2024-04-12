@@ -471,6 +471,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7138802213797235142, guid: 23eb6dbac9e13497eb0239d32840797c, type: 3}
   m_PrefabInstance: {fileID: 404262282}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &521965555 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5453605292296944614, guid: 8f194f5453eea46a5b443af1a3c15cdf, type: 3}
+  m_PrefabInstance: {fileID: 1349660418}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &552172538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1295,6 +1306,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1537144720}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1475202580}
+        m_TargetAssemblyTypeName: LanguageCalculateScore, Assembly-CSharp
+        m_MethodName: CalculateScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!82 &1126871773
 AudioSource:
@@ -2163,13 +2198,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1475202578}
   - component: {fileID: 1475202579}
+  - component: {fileID: 1475202580}
   m_Layer: 0
   m_Name: MiniGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1475202578
 Transform:
   m_ObjectHideFlags: 0
@@ -2204,6 +2240,22 @@ MonoBehaviour:
   spelling: {fileID: 587573136}
   spaces: {fileID: 1205268684}
   reference: {fileID: 1783159339}
+  score: 0
+--- !u!114 &1475202580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475202577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5fcd782428c4855b24451e5bf6a84f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speller: {fileID: 1475202579}
+  scoreText: {fileID: 521965555}
+  playerStats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
 --- !u!1001 &1517288151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2634,7 +2686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9170677080130352229, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
