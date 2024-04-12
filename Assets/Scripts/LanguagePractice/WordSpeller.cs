@@ -8,6 +8,7 @@ public class WordSpeller : MonoBehaviour
     public TextMeshProUGUI spelling;
     public TextMeshProUGUI spaces;
     public TextMeshProUGUI reference;
+    public TextMeshProUGUI scoreText;
     private string targetWord;
 
     private bool isMaxString = false;
@@ -90,6 +91,12 @@ public class WordSpeller : MonoBehaviour
                
         reference.text = targetWord;
         isMaxString = false;
+
+        UpdateScore();
+    }
+
+    public void UpdateScore() {
+        scoreText.text = "Score: " + score.ToString();
     }
 }
 
