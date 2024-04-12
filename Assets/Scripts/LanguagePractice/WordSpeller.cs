@@ -15,6 +15,7 @@ public class WordSpeller : MonoBehaviour
     public int score = 0;
 
     // Letters Used: m, x, h, a, b, s, o
+    // Roughly ~51 words
     private string[] possibleWords = {
         "bash", "abs", "baxom", "ox", "moss", "sham", "ham", "mam", "hash", "sos", "shoo", "shab", "ooh", "hoo", "soso", "bass", "box", 
         "max", "mooh", "sass", "oxo", "hobo", "hobb", "bobb", "hax", "ash", "hash", "mash", "sash", "hoam", "hamo", "bama", "sho", "abos",
