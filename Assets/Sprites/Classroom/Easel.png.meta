@@ -114,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 284
-        height: 492
+        y: 1
+        width: 257
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be61311f484595d43bc18aa8e65ce1cb
-      internalID: -1907757502
+      spriteID: ffceda7afce63804aaa5eefab8f02e49
+      internalID: -1360135323
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Easel_1
       rect:
         serializedVersion: 2
-        x: 384
+        x: 353
         y: 0
-        width: 284
-        height: 492
+        width: 254
+        height: 446
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2efdeaf2cbe0ddb47bef728e1799032f
-      internalID: 1224462228
+      spriteID: 1ee666671a0dccf438b9f34aba97265e
+      internalID: -1084305672
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Easel_0: -1907757502
-      Easel_1: 1224462228
+      Easel_0: -1360135323
+      Easel_1: -1084305672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

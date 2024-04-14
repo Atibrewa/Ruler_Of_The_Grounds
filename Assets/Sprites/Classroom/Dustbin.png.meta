@@ -115,8 +115,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 89
-        height: 114
+        width: 112
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0914cf7e90af9b9459d5b1685c77c004
-      internalID: 203155349
+      spriteID: 057e122358c670145bf6dd9b2865b8c6
+      internalID: 94373334
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Dustbin_1
       rect:
         serializedVersion: 2
-        x: 94
+        x: 119
         y: 0
-        width: 89
-        height: 114
+        width: 111
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7086d75bd80168a41bc5c7adff99077d
-      internalID: -525205412
+      spriteID: 4e3a1bcd83b7eb64994e48de690145a0
+      internalID: -934049033
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dustbin_0: 203155349
-      Dustbin_1: -525205412
+      Dustbin_0: 94373334
+      Dustbin_1: -934049033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
