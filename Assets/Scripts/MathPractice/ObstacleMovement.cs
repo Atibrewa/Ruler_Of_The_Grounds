@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class ObstacleMovement : MonoBehaviour
 {
-    private float speed;
     // Start is called before the first frame update
     void Start()
     {
-        speed = OnstacleSpawner.columnSpeed;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.left * speed * Time.deltaTime;
+        transform.position += Vector3.left * OnstacleSpawner.columnSpeed * Time.deltaTime;
     }
 }

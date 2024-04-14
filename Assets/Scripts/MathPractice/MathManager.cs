@@ -11,7 +11,7 @@ public class MathManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0;
     }
 
     public void GameOver()
@@ -20,10 +20,15 @@ public class MathManager : MonoBehaviour
         Time.timeScale = 0;
 
         // Changes stat in player object
-        player.UpdateStat("math", Score.score);
+        player.UpdateStat("math", Score.score/2);
 
         // edits and displays the end game prefab
-        text.text = "Stat: +" + Score.score.ToString();
+        text.text = "Stat: +" + (Score.score/2).ToString();
         gameOverCanvas.SetActive(true);
+    }
+
+    public void startTime()
+    {
+        Time.timeScale = 1;
     }
 }

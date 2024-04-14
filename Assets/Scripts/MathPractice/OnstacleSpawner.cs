@@ -33,8 +33,8 @@ public class OnstacleSpawner : MonoBehaviour
         timer += Time.deltaTime;
         
         if(count >= 5){
-            columnSpeed += 0.4f;
-            maxTime -= 0.7f;
+            columnSpeed += 0.5f;
+            maxTime -= 1f;
             count = 0;
         }
     }
