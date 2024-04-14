@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 160e2e2a08d9c7f4fad8477aad64efef
+guid: b9b1228701286a64a8ff1cfacd29b1b2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chalkboard_0
+      name: Easel_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 384
-        height: 254
+        width: 284
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7799a1d90e332244837b7146cc4f941
-      internalID: -1101609352
+      spriteID: be61311f484595d43bc18aa8e65ce1cb
+      internalID: -1907757502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chalkboard_1
+      name: Easel_1
       rect:
         serializedVersion: 2
-        x: 396
+        x: 384
         y: 0
-        width: 383
-        height: 254
+        width: 284
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa781659cce6d44f9d9fa7aec1ee565
-      internalID: 1691766857
+      spriteID: 2efdeaf2cbe0ddb47bef728e1799032f
+      internalID: 1224462228
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Chalkboard_0: -1101609352
-      Chalkboard_1: 1691766857
+      Easel_0: -1907757502
+      Easel_1: 1224462228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

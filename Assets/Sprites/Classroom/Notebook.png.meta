@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f6d10058cde158c46ab1c27182474a5e
+guid: bff58b66a2b5c1940a5e7879c4f1a241
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,43 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Easel_3
+      name: Notebook_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 178
-        height: 330
+        width: 152
+        height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd867c96ae79d904ca9fcceb817b3282
-      internalID: 2062052781
+      spriteID: fa8567f79e9f16846bd2a4c855617081
+      internalID: 368337521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Easel_5
+      name: Notebook_1
       rect:
         serializedVersion: 2
-        x: 207
+        x: 157
         y: 0
-        width: 185
-        height: 330
+        width: 189
+        height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67a7a40dfeb108c429079825f9ca3353
-      internalID: -453975396
+      spriteID: aa479caa8abe4cf44bf21994b67639f4
+      internalID: -591751979
       vertices: []
       indices: 
       edges: []
@@ -162,12 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Easel_0: 331303368
-      Easel_1: 1376856195
-      Easel_2: -2117618886
-      Easel_3: 2062052781
-      Easel_4: -996331057
-      Easel_5: -453975396
+      Notebook_0: 368337521
+      Notebook_1: -591751979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

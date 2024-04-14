@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6550d95662a9886409112948846558cd
+guid: 16201bf296bd6d148b68fc89fc4302f0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Door_0
+      name: ReadingCorner_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 190
-        height: 305
+        y: 409
+        width: 636
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6534f1b39f5226c4fac99ce25c66957f
-      internalID: 2109134721
+      spriteID: 11bacba08932d3e4e8e52264fb863742
+      internalID: -2081265412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Door_1
+      name: ReadingCorner_1
       rect:
         serializedVersion: 2
-        x: 208
+        x: 0
         y: 0
-        width: 190
-        height: 320
+        width: 636
+        height: 386
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1379eaa7b6988cc40a34a87262c27aaa
-      internalID: 1395438592
+      spriteID: 703fb16b3bd0c084989d00a60411cd8e
+      internalID: 282037773
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Door_0: 2109134721
-      Door_1: 1395438592
+      ReadingCorner_0: -2081265412
+      ReadingCorner_1: 282037773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

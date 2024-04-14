@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d8c0dd202db51e544b3ba298b0ee6c26
+guid: c2ba3fa333f929e4685e568710792335
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -114,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 7
-        width: 100
-        height: 123
+        y: 0
+        width: 89
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98c591927fa9dbd44aac9a697e714a2d
-      internalID: -334796095
+      spriteID: 0914cf7e90af9b9459d5b1685c77c004
+      internalID: 203155349
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Dustbin_1
       rect:
         serializedVersion: 2
-        x: 106
+        x: 94
         y: 0
-        width: 109
-        height: 138
+        width: 89
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fc96474e2ab41a41867753115944e5e
-      internalID: -795793268
+      spriteID: 7086d75bd80168a41bc5c7adff99077d
+      internalID: -525205412
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dustbin_0: -334796095
-      Dustbin_1: -795793268
+      Dustbin_0: 203155349
+      Dustbin_1: -525205412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
