@@ -898,6 +898,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 448399180632382696, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d10a97811b8113847b70c5ee150054cc, type: 3}
     - target: {fileID: 1369300914708980226, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -942,6 +946,19 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2292297063447405841, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_text
+      value: Click SPACE or your mouse to fly your plane through your math homework
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468123375875530256, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_text
+      value: Get the math right or you'll crash! The more you score, the higher your
+        stats/grades get :)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764456777120076867, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53556a81c602a954590484832f020758, type: 3}
     - target: {fileID: 7453805741628600635, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
       propertyPath: m_Pivot.x
       value: 0

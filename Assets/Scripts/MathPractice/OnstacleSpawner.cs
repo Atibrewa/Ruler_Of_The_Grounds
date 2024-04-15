@@ -34,7 +34,9 @@ public class OnstacleSpawner : MonoBehaviour
         
         if(count >= 5){
             columnSpeed += 0.5f;
-            maxTime -= 1f;
+            if(maxTime > 3){
+                maxTime -= 1f;
+            }
             count = 0;
         }
     }
