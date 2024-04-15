@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChanceManager : MonoBehaviour
 {
     public List<ChanceObject> objects;
     public TMP_Text text;
     public Statistics playerStats;
+    public Image imgSpot;
     private ChanceObject curEvent;
 
     // Start is called before the first frame update
     void Start()
     {
-        int chanceIndex = Random.Range (1,(objects.Count - 1));
+        int chanceIndex = Random.Range (0,(objects.Count - 1));
         curEvent = objects[chanceIndex];
         text.text = curEvent.eventText;
+        imgSpot.sprite = curEvent.imgSprite;
         updateStats();
     }
 

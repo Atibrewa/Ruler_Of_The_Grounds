@@ -17,6 +17,7 @@ MonoBehaviour:
     seems to be trading them for another kid's hoodie.
   athletics: -1
   creativity: 0
-  math: 0
   language: 0
+  math: 0
   reputation: 0
+  imgSprite: {fileID: 21300000, guid: eceb938fb1c044dcb8dd4d0ae57b559b, type: 3}
