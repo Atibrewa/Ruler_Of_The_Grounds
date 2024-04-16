@@ -15,7 +15,7 @@ public class CompareDrawings : MonoBehaviour
 
     public void Compare() {
         // get reference combination 
-        bool match = false;
+        // bool match = false;
         int score = 0;
 
         // match = (headRef.randomSpriteIndex == headDraw.index) &
