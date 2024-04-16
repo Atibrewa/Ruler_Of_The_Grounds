@@ -558,6 +558,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1786995543606191307, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_text
+      value: Practice your Athletics Skills!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2292297063447405841, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_text
+      value: Hold your mouse down and drag to toss the ball into the trash.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616882548215830640, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 32.692307
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468123375875530256, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
+      propertyPath: m_text
+      value: Try and toss as many crumpled papers in the trash before the time ends!
+      objectReference: {fileID: 0}
     - target: {fileID: 7453805741628600635, guid: fc97bced9f2ac0146aa58859bdd4305f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
