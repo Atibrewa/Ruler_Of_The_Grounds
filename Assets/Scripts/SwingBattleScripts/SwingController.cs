@@ -36,7 +36,7 @@ public class SwingController : MonoBehaviour
                 tiltAngle += 1.0f + charStatistics.athletics;
             }
 
-            if (tiltAngle < 100.0f) {
+            if (tiltAngle < 80.0f) {
                 body.transform.rotation = Quaternion.Slerp(body.transform.rotation, target,  Time.deltaTime * smooth);
             }
             else {
@@ -51,7 +51,12 @@ public class SwingController : MonoBehaviour
     }
 
     private void UpdateLabel() {
-        winLabel.text = gameObject.name + " wins!"; 
+        if (gameObject.name == "Billy") {
+            winLabel.text = gameObject.name + " wins!"; 
+        }
+        else {
+            winLabel.text = gameObject.name + " wins!"; 
+        }
     }
 
     public void StopSwinging() {
