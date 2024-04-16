@@ -55,7 +55,7 @@ public class SwingController : MonoBehaviour
             winLabel.text = gameObject.name + " wins!"; 
         }
         else {
-            winLabel.text = gameObject.name + " wins!"; 
+            winLabel.text = gameObject.name + " win!"; 
         }
     }
 
