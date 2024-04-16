@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bell_ring_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 310.6
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cc6ace7ee8b4094b45b7073636a949
+      internalID: -216356139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bell_ring_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 310.6
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccf8abfe494447d684bb51911d66ce0
+      internalID: 860017724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bell_ring_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 310.6
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77767bc6d9f274f3589c7f7e9636c460
+      internalID: 1357424694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bell_ring_3
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 0
+        width: 310.6
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0547f0ed58524a468dfef2c2fab752b
+      internalID: 1067578659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bell_ring_4
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 0
+        width: 310.6
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d847d818aee7649eab6fe2e2ad9c0a48
+      internalID: 1595892963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bell_ring_0: -216356139
+      bell_ring_1: 860017724
+      bell_ring_2: 1357424694
+      bell_ring_3: 1067578659
+      bell_ring_4: 1595892963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
