@@ -15,5 +15,5 @@ MonoBehaviour:
   text: '*sigh* I''m going to the nurses....'
   speaker: Lawrence
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: b1438a408a02b4aebac8de0afeb6c534, type: 2}
   options: []
