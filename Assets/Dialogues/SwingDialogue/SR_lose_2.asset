@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SD_5a_1
+  m_Name: SR_lose_2
   m_EditorClassIdentifier: 
-  text: 'You''re not the boss of me! '
-  speaker: You
-  nextSentence: {fileID: 11400000, guid: aab744dfc0184428082cc59dc846277c, type: 2}
+  text: You've just beat Billy the supposed Swing King...
+  speaker: 
+  nextSentence: {fileID: 11400000, guid: 1efa15035830e46778c39773548d76d9, type: 2}
   eventOption: {fileID: 0}
   options: []

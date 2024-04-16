@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SD_5a_3
   m_EditorClassIdentifier: 
   text: Oh yeah!? Prove it!
-  speaker: Player
+  speaker: You
   nextSentence: {fileID: 0}
   eventOption: {fileID: 11400000, guid: 84413c58c6627497fb081cb184a7a49f, type: 2}
   options: []

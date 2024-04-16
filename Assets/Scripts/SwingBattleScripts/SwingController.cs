@@ -15,6 +15,7 @@ public class SwingController : MonoBehaviour
     float tiltAngle = 5.0f;
     int direction = 1;
     public UnityEvent hitAngle;
+    public TriggerDialogueBasedOnResults results;
 
     
 
@@ -53,16 +54,20 @@ public class SwingController : MonoBehaviour
     private void UpdateLabel() {
         if (gameObject.name == "Billy") {
             winLabel.text = gameObject.name + " wins!"; 
+            results.win = false;
+            
         }
         else {
             winLabel.text = gameObject.name + " win!"; 
+            results.win = true;
         }
+
+
     }
 
     public void StopSwinging() {
         hit = true;
         direction = 0;
         UpdateLabel();
-
     }
 }

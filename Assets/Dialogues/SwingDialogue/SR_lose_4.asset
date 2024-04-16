@@ -10,10 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SD_5a_1
+  m_Name: SR_lose_4
   m_EditorClassIdentifier: 
-  text: 'You''re not the boss of me! '
-  speaker: You
-  nextSentence: {fileID: 11400000, guid: aab744dfc0184428082cc59dc846277c, type: 2}
+  text: 'You feel kinda bad... '
+  speaker: 
+  nextSentence: {fileID: 0}
   eventOption: {fileID: 0}
-  options: []
+  options:
+  - text: 'Tell Billy that we can share the swings. '
+    nextSentence: {fileID: 0}
+    onOptionSelected: {fileID: 0}
+  - text: Tell Billy that HE SHOULD SUCK IT!!!
+    nextSentence: {fileID: 0}
+    onOptionSelected: {fileID: 0}
