@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d984123f3115a45e88e591e4a8bd435f
+guid: d8c73a93c97e7481cbf79aef20bd5fc7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,112 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: lawrence_intro_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 736.4
-        height: 632
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad5930d2fa46241a4844159f8b901b15
-      internalID: 303001281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lawrence_intro_1
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 736.4
-        height: 632
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68b0a8fefb5c84217b4a42ac9b371938
-      internalID: 1692109755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lawrence_intro_2
-      rect:
-        serializedVersion: 2
-        x: 1472
-        y: 0
-        width: 736.4
-        height: 632
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f1098c89afa94c99882fa41bdc9c3f8
-      internalID: 938186954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lawrence_intro_3
-      rect:
-        serializedVersion: 2
-        x: 2208
-        y: 0
-        width: 736.4
-        height: 632
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f660b22d640374f81ad4f8bb9f858ee8
-      internalID: 834842617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lawrence_intro_4
-      rect:
-        serializedVersion: 2
-        x: 2944
-        y: 0
-        width: 736.4
-        height: 632
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1150e04a5f16c40248756ff870251265
-      internalID: 1142582683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -224,12 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      lawrence_intro_0: 303001281
-      lawrence_intro_1: 1692109755
-      lawrence_intro_2: 938186954
-      lawrence_intro_3: 834842617
-      lawrence_intro_4: 1142582683
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,5 +15,5 @@ MonoBehaviour:
   text: ...
   speaker: Classmates
   nextSentence: {fileID: 11400000, guid: b97db7e53280d44c789d8b0c52c4ddbe, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: e8624711c1d9743fe8d058f052c70fb5, type: 2}
   options: []

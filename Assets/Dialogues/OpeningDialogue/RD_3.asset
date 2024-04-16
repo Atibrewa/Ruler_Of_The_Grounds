@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: OD_5
+  m_Name: RD_3
   m_EditorClassIdentifier: 
-  text: I know you all will welcome our new friend and help them have a great first
-    day!
-  speaker: Teacher
-  nextSentence: {fileID: 11400000, guid: 6e56c9852caf144309f27c3b2deef960, type: 2}
-  eventOption: {fileID: 11400000, guid: e304327f840d7485a9ca44de71e4226b, type: 2}
+  text: ...
+  speaker: You
+  nextSentence: {fileID: 11400000, guid: 3f704ec904f884e7797c36337fa9e9d5, type: 2}
+  eventOption: {fileID: 0}
   options: []

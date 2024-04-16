@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
   m_Name: OD_7
   m_EditorClassIdentifier: 
-  text: Hiiiiiiiiiiiiii!!!
+  text: Welcome!
   speaker: Classmates
-  nextSentence: {fileID: 0}
-  eventOption: {fileID: 0}
+  nextSentence: {fileID: 11400000, guid: b409d34d687254fb5a38bc9e27355f06, type: 2}
+  eventOption: {fileID: 11400000, guid: 919e1af931b9f4ad592eadca61d405bc, type: 2}
   options: []
