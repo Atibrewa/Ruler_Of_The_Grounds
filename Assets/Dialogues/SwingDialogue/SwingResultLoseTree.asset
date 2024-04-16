@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590f33a3004a34c2d8b63091a1e1394a, type: 3}
   m_Name: SwingResultLoseTree
   m_EditorClassIdentifier: 
-  startingSentence: {fileID: 11400000, guid: 1005caa3df6194c1785409b87fd7c9fc, type: 2}
+  startingSentence: {fileID: 11400000, guid: be42c4e1eb5814c81a584b3304d7c286, type: 2}

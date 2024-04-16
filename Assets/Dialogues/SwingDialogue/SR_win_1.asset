@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SR_lose_3
+  m_Name: SR_win_1
   m_EditorClassIdentifier: 
-  text: 'You see tears well up in his eyes... '
+  text: 'The crowd gasps at your victory. '
   speaker: 
-  nextSentence: {fileID: 11400000, guid: 37c99b8578f024c5cbd85f5f8993bd98, type: 2}
+  nextSentence: {fileID: 11400000, guid: 6bf22aa6093da4766a129e9e4c0a1962, type: 2}
   eventOption: {fileID: 0}
   options: []
