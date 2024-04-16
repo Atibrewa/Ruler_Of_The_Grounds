@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Classroom.unity
     guid: 3ca2c43b8280df540b09a5fc4fa83590
   - enabled: 1
+    path: Assets/Scenes/OpeningScene.unity
+    guid: 867129a4230184ac39fefcb14515c9be
+  - enabled: 1
     path: Assets/Scenes/AthleticsPractice.unity
     guid: b268cb7dd3fd9284c832fa3e2d39f548
   - enabled: 1
@@ -38,7 +41,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Playground.unity
     guid: f9f858fac7ff3594da87e75ea60b295a
-  - enabled: 1
-    path: Assets/Scenes/OpeningScene.unity
-    guid: 867129a4230184ac39fefcb14515c9be
   m_configObjects: {}
