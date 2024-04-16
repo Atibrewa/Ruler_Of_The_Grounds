@@ -15,5 +15,5 @@ MonoBehaviour:
   text: You shove Billy out of the way as you keep swinging.
   speaker: 
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 8af9522b95c904942ba393fc9d02e405, type: 2}
   options: []
