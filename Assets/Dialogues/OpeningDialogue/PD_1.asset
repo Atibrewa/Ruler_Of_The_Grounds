@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: PD_1
+  m_EditorClassIdentifier: 
+  text: Learn your place fast or get real comfortable with being on the ground, new
+    kid!
+  speaker: Jeff
+  nextSentence: {fileID: 11400000, guid: 28ea540e0c58d40539883c20b703b304, type: 2}
+  eventOption: {fileID: 11400000, guid: ba2cf1e97386f4197bdbab4c4e346453, type: 2}
+  options: []
