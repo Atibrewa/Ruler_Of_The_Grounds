@@ -18,4 +18,9 @@ public class ChangeScene : MonoBehaviour
             PlayNewScene(newScene);
         }
     }
+
+    public void PlayResetActions(string newScene) {
+        stats.actions = 0;
+        PlayNewScene(newScene);
+    }
 }
