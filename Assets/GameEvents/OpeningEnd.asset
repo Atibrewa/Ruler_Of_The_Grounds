@@ -9,11 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: PD_11
+  m_Script: {fileID: 11500000, guid: 9ea6a6384a21d45bdb3351ae6298a6b7, type: 3}
+  m_Name: OpeningEnd
   m_EditorClassIdentifier: 
-  text: '*sigh* I''m going to the nurses....'
-  speaker: Lawrence
-  nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: b1438a408a02b4aebac8de0afeb6c534, type: 2}
-  options: []
