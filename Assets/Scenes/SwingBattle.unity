@@ -3469,11 +3469,11 @@ PrefabInstance:
     - target: {fileID: 6843572496433218670, guid: 0c02de299c8cb4adc93e12102d17afa6, type: 3}
       propertyPath: m_SpriteState.m_PressedSprite
       value: 
-      objectReference: {fileID: 443466483, guid: 79dcd66e6b60fe94abcf17ad0e69dfe6, type: 3}
+      objectReference: {fileID: -703948771, guid: ec03375e41d041947921e716baab90db, type: 3}
     - target: {fileID: 6843572496433218670, guid: 0c02de299c8cb4adc93e12102d17afa6, type: 3}
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
-      objectReference: {fileID: 443466483, guid: 79dcd66e6b60fe94abcf17ad0e69dfe6, type: 3}
+      objectReference: {fileID: -703948771, guid: ec03375e41d041947921e716baab90db, type: 3}
     - target: {fileID: 7022072847676647249, guid: 0c02de299c8cb4adc93e12102d17afa6, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -313
