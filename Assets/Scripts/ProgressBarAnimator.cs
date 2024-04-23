@@ -20,11 +20,11 @@ public class ProgressBarAnimator : MonoBehaviour
     void Update()
     {
         if (xScale < 1) {
-            if (Input.GetAxis("Horizontal") >0 ) {
+            if (Input.GetAxis("Horizontal") > 0 ) {
                 xScale += 0.001f;
                 playerProgress.GetComponent<Transform>().localScale = new Vector3(xScale, 1,1);
             }
-            if (Input.GetAxis("Horizontal") <0 ) {
+            if (Input.GetAxis("Horizontal") < 0 ) {
                 xScale -= 0.001f;
                 playerProgress.GetComponent<Transform>().localScale = new Vector3(xScale, 1,1);
             }

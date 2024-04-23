@@ -12,7 +12,7 @@ public class SwingController : MonoBehaviour
     public Statistics charStatistics;
 
     float smooth = 5.0f;
-    float tiltAngle = 5.0f;
+    public float tiltAngle = 5.0f;
     int direction = 1;
     public UnityEvent hitAngle;
     public TriggerDialogueBasedOnResults results;
