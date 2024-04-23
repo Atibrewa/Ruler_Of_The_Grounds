@@ -2137,6 +2137,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+  recessTime:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 737176368}
+        m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+        m_MethodName: changeToText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: It's time for recess!
+          m_BoolArgument: 0
+        m_CallState: 2
+  toPlayground:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 737176366}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: PlayNewScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Playground
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1189638645
 MonoBehaviour:
   m_ObjectHideFlags: 0
