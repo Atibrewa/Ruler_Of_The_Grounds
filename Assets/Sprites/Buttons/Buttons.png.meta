@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79dcd66e6b60fe94abcf17ad0e69dfe6
+guid: ec03375e41d041947921e716baab90db
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button_bgs_0
+      name: Buttons_0
       rect:
         serializedVersion: 2
-        x: 86
-        y: 305
-        width: 166
-        height: 90
+        x: 58
+        y: 208
+        width: 111
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,41 +124,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c22158c9600a6b844aa9257cda4d88cc
-      internalID: 443466483
+      spriteID: a3c9d4cc699685b4dae9cff181bfac4b
+      internalID: -1193826051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_bgs_1
+      name: Buttons_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 137
+        width: 110
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabb309dcee72564ba0a3a899823735c
+      internalID: 169553995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 98
-        width: 244
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc79bd984b79a5943b413a119c995387
-      internalID: 722238582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button_bgs_2
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 200
+        y: 65
         width: 164
-        height: 90
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5d6c74e196d2e4f9a1f54ad0ee5898
-      internalID: 944771262
+      spriteID: dbb4d881e2d1635418ef8152f556aed2
+      internalID: -703948771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_bgs_3
+      name: Buttons_3
       rect:
         serializedVersion: 2
-        x: 56
+        x: 37
         y: 0
-        width: 183
-        height: 77
+        width: 123
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ed7e9f476a4fd14eab974bc783f6ae3
-      internalID: -462239941
+      spriteID: 7cbde0e9753bf9142a72e08b6f61938b
+      internalID: 223026704
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Button_bgs_0: 443466483
-      Button_bgs_1: 722238582
-      Button_bgs_2: 944771262
-      Button_bgs_3: -462239941
+      Buttons_0: -1193826051
+      Buttons_1: 169553995
+      Buttons_2: -703948771
+      Buttons_3: 223026704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
