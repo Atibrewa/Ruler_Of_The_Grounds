@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f0081a5d7370e83429ccde5eb8271438
+guid: e1e637a6ae660314cb47070906e11038
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Minnie_0
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 34
+        width: 316
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8926598f51a11e24b99708a46c687c21
+      internalID: 1172903276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minnie_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 34
+        width: 316
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16a09b31f5f20f4992229ed1be57b72
+      internalID: 1038390962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +161,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Minnie_0: 1172903276
+      Minnie_1: 1038390962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
