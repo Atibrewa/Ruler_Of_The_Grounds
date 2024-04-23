@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SeeSaw_0
+      name: Seesaw_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 260
-        width: 601
-        height: 203
+        x: 5
+        y: 272
+        width: 660
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd37fb566ecf65445b2f912fcef1ca23
-      internalID: 1393893698
+      spriteID: 7c63685f69cff024b9720f75bbc57048
+      internalID: 1136771505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SeeSaw_1
+      name: Seesaw_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 601
-        height: 202
+        x: 4
+        y: 6
+        width: 660
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2906dcf95bd894b9bff249222bec6c
-      internalID: 180631965
+      spriteID: cb820df1fe1bbdb4b9b487bb5579cb5a
+      internalID: -126067655
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SeeSaw_0: 1393893698
-      SeeSaw_1: 180631965
+      Seesaw_0: 1136771505
+      Seesaw_1: -126067655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

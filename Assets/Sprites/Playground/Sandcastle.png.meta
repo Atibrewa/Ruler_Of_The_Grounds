@@ -113,19 +113,19 @@ TextureImporter:
       name: Sandcastle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 400
-        height: 335
+        x: 4
+        y: 393
+        width: 576
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de1161a474767ae4c80cc0f2bc05d24d
-      internalID: 592841081
+      spriteID: 77d20730bc611204e8e42fddd8088c68
+      internalID: 1106083835
       vertices: []
       indices: 
       edges: []
@@ -134,19 +134,19 @@ TextureImporter:
       name: Sandcastle_1
       rect:
         serializedVersion: 2
-        x: 433
-        y: 36
-        width: 378
-        height: 301
+        x: 5
+        y: 8
+        width: 576
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d42d4175f6802a64eadaad6573fb186b
-      internalID: 76074327
+      spriteID: 66ce68a5353de1241a95b416a4d612bb
+      internalID: -2016317358
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sandcastle_0: 592841081
-      Sandcastle_1: 76074327
+      Sandcastle_0: 1106083835
+      Sandcastle_1: -2016317358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

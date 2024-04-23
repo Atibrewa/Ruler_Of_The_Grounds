@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayStructure_0
+      name: Playstructure_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 461
-        height: 463
+        x: 6
+        y: 7
+        width: 808
+        height: 701
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6cb2f99596fc2247ad14667b6b5433c
-      internalID: -390058460
+      spriteID: 15f1906283956da4db683e6cc437c7f7
+      internalID: -1422496800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayStructure_1
+      name: Playstructure_1
       rect:
         serializedVersion: 2
-        x: 500
-        y: 0
-        width: 470
-        height: 463
+        x: 829
+        y: 4
+        width: 808
+        height: 701
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a552ce505c172e4f93aa6c2fb066eba
-      internalID: 1579315088
+      spriteID: b50dd07f1bd36f04baa26c1efa682628
+      internalID: 30317174
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayStructure_0: -390058460
-      PlayStructure_1: 1579315088
+      Playstructure_0: -1422496800
+      Playstructure_1: 30317174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
