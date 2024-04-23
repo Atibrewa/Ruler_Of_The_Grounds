@@ -1034,7 +1034,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 339719588}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: PlayResetActions
+        m_MethodName: PlayNewScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
