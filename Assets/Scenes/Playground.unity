@@ -977,7 +977,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 550140386}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
+        m_MethodName: SetBullyBattle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlayStructure
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &550140386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1659,7 +1671,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1175829519}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
+        m_MethodName: SetBullyBattle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Minnie
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1175829519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1790,6 +1814,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: SwingBattle
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
+        m_MethodName: SetBullyBattle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Swings
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1195337923
@@ -2891,7 +2927,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1975745599}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
+        m_MethodName: SetBullyBattle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SeeSaw
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1975745599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3022,6 +3070,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
+        m_MethodName: SetBullyBattle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sandcastle
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2007236655
