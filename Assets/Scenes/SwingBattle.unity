@@ -588,8 +588,8 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1779316390}
-  - {fileID: 1930986402}
   - {fileID: 1099808956}
+  - {fileID: 1930986402}
   m_Father: {fileID: 146782331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1786,6 +1786,7 @@ GameObject:
   - component: {fileID: 1528780953}
   - component: {fileID: 1528780954}
   - component: {fileID: 1528780955}
+  - component: {fileID: 1528780956}
   m_Layer: 0
   m_Name: SwingBattle
   m_TagString: Untagged
@@ -1850,6 +1851,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battle: {fileID: 415798195}
+--- !u!114 &1528780956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528780952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b02d373bdf5b434682d7c9dcec3e8fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullySwing: {fileID: 1846202744}
+  playerSwing: {fileID: 2009839886}
+  progressBar: {fileID: 634250841}
 --- !u!1 &1600534747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,6 +2379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winLabel: {fileID: 733812922}
   charStatistics: {fileID: 11400000, guid: 13de01f6527f544ca9d4acd0002cd45a, type: 2}
+  tiltAngle: 5
   hitAngle:
     m_PersistentCalls:
       m_Calls:
@@ -2382,6 +2399,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1528780956}
+        m_TargetAssemblyTypeName: SwingManager, Assembly-CSharp
+        m_MethodName: TurnOffProgressUpdates
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2500,7 +2529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1930986402
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2819,6 +2848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winLabel: {fileID: 733812922}
   charStatistics: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+  tiltAngle: 5
   hitAngle:
     m_PersistentCalls:
       m_Calls:
@@ -2838,6 +2868,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1528780956}
+        m_TargetAssemblyTypeName: SwingManager, Assembly-CSharp
+        m_MethodName: TurnOffProgressUpdates
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
