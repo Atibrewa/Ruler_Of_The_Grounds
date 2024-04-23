@@ -6,13 +6,15 @@ using UnityEngine;
 public class BattleSetUp : ScriptableObject
 {
     public string bullyBattle;
-    
-    // public float playerProgress = 0f;
-    // public float bullyProgress = 0f;
+
+    public GameObject SwingBattle;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (bullyBattle.Contains("Swing")) {
+            SwingBattle.SetActive(true);
+        }
         
     }
 

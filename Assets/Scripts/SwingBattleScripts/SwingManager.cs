@@ -15,8 +15,8 @@ public class SwingManager : MonoBehaviour
 
 
     public void Start() {
-        bullyProgressBar = progressBar.transform.GetChild(0).gameObject.GetComponent<Transform>();
-        playerProgressBar = progressBar.transform.GetChild(1).gameObject.GetComponent<Transform>();
+        bullyProgressBar = progressBar.transform.GetChild(1).gameObject.GetComponent<Transform>();
+        playerProgressBar = progressBar.transform.GetChild(2).gameObject.GetComponent<Transform>();
     }
 
     public void Update() {
