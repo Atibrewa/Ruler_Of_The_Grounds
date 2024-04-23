@@ -7,9 +7,14 @@ public class BattleSetUp : ScriptableObject
 {
     public string bullyBattle;
 
+    public GameObject SwingBattle;
+
     // Start is called before the first frame update
     void Start()
     {
+        if (bullyBattle.Contains("Swing")) {
+            SwingBattle.SetActive(true);
+        }
         
     }
 
