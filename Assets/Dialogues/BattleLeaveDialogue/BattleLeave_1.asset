@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_3
+  m_Name: BattleLeave_1
   m_EditorClassIdentifier: 
-  text: "I\u2019ve heard SO many interesting rumors\u2026 and maybe spread a few.
-    Do we have a problem or something?\n"
-  speaker: Minnie
-  nextSentence: {fileID: 11400000, guid: 24f6ccfc9ce14491eb9d10554fd41d3b, type: 2}
+  text: 'A crowd watches you as you walk away. What a loser! '
+  speaker: 
+  nextSentence: {fileID: 11400000, guid: 4848cba3f0155408997526d1490585f9, type: 2}
   eventOption: {fileID: 0}
   options: []

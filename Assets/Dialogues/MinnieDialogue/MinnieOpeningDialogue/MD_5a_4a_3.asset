@@ -10,10 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_5a_2
+  m_Name: MD_5a_4a_3
   m_EditorClassIdentifier: 
-  text: text
-  speaker: Minnie
+  text: What do you do?
+  speaker: 
   nextSentence: {fileID: 0}
   eventOption: {fileID: 0}
-  options: []
+  options:
+  - text: 'Accept Minnie''s challenge. '
+    nextSentence: {fileID: 0}
+    onOptionSelected: {fileID: 11400000, guid: 4b587a340cc504b0f9657b7dcd0f0b0f, type: 2}
+  - text: Leave.
+    nextSentence: {fileID: 11400000, guid: 0898e21b488b9448f8e067e7931b695d, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 0859d2ce59f71463087f32cf2624456a, type: 2}
