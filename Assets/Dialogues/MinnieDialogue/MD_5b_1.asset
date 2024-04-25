@@ -10,16 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_5
+  m_Name: MD_5b_1
   m_EditorClassIdentifier: 
-  text: What do you do?
-  speaker: 
+  text: 'Aw ok, well have SUCH a great day! '
+  speaker: Minnie
   nextSentence: {fileID: 0}
   eventOption: {fileID: 0}
-  options:
-  - text: Confront her about spreading rumors.
-    nextSentence: {fileID: 11400000, guid: 18ae9170f57f14b5390c71d4e5a74f06, type: 2}
-    onOptionSelected: {fileID: 0}
-  - text: 'Play somewhere else. '
-    nextSentence: {fileID: 11400000, guid: 4add328540b2e4cef89bc87065fe0f20, type: 2}
-    onOptionSelected: {fileID: 0}
+  options: []
