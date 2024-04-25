@@ -29,12 +29,12 @@ public class Statistics : ScriptableObject
     }
 
     public void LeaveBattle() {
-        if (reputation < 5) {
-            reputation = 0;
-        }
-        else {
-            reputation -= 5;
-        }
+        // if (reputation < 1) {
+        //     reputation = 0;
+        // }
+        // else {
+        //     reputation -1;
+        // }
     }
 }
 

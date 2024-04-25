@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
   m_Name: BattleLeave_2
   m_EditorClassIdentifier: 
-  text: -5 reputation.
+  text: -1 reputation.
   speaker: 
   nextSentence: {fileID: 0}
   eventOption: {fileID: 11400000, guid: 25586fc374eb64464b54f1b6b663ca27, type: 2}
