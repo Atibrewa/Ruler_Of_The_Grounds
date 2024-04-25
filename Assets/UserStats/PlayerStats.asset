@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
   athletics: 5
-  reputation: -3
+  reputation: -4
   language: 5
-  creativity: 10
+  creativity: 11
   math: 1
-  actions: 0
+  actions: -5
