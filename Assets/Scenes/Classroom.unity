@@ -2150,6 +2150,18 @@ MonoBehaviour:
           m_StringArgument: It's time for recess!
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227022387}
+        m_TargetAssemblyTypeName: BellScript, Assembly-CSharp
+        m_MethodName: Ring
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: It's time for recess!
+          m_BoolArgument: 0
+        m_CallState: 2
   toPlayground:
     m_PersistentCalls:
       m_Calls:
@@ -2273,6 +2285,7 @@ GameObject:
   - component: {fileID: 1227022386}
   - component: {fileID: 1227022385}
   - component: {fileID: 1227022384}
+  - component: {fileID: 1227022387}
   m_Layer: 0
   m_Name: bell_ring_0
   m_TagString: Untagged
@@ -2288,7 +2301,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227022383}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 95dc3d97c4a074e98afb56e8ebbc8daf, type: 2}
   m_CullingMode: 0
@@ -2368,6 +2381,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227022387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227022383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63445e47886a954da746e0a31f3a0d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1227022384}
 --- !u!1 &1274738491
 GameObject:
   m_ObjectHideFlags: 0
