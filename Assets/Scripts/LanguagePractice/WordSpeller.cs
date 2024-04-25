@@ -59,7 +59,7 @@ public class WordSpeller : MonoBehaviour
                     StartCoroutine(AnimateCorrect());
                 }
                 else {
-                    score -= 1;
+                    // score -= 1;
                     StartCoroutine(AnimateIncorrect());
                 }
             }   
