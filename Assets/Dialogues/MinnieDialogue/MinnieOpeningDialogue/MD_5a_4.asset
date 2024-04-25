@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_3
+  m_Name: MD_5a_4
   m_EditorClassIdentifier: 
-  text: "I\u2019ve heard SO many interesting rumors\u2026 and maybe spread a few.
-    Do we have a problem or something?\n"
-  speaker: Minnie
-  nextSentence: {fileID: 11400000, guid: 24f6ccfc9ce14491eb9d10554fd41d3b, type: 2}
+  text: How should you respond?
+  speaker: 
+  nextSentence: {fileID: 0}
   eventOption: {fileID: 0}
-  options: []
+  options:
+  - text: '"That''s not true!"'
+    nextSentence: {fileID: 11400000, guid: 9b5a3009b7f9a4293b11b2dcfda8de27, type: 2}
+    onOptionSelected: {fileID: 0}
+  - text: Blush and run away...
+    nextSentence: {fileID: 0}
+    onOptionSelected: {fileID: 11400000, guid: b268a7c071ee6480d94c7603704622f8, type: 2}

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_5b_1
+  m_Name: MD_5a_1
   m_EditorClassIdentifier: 
-  text: 'Aw ok, well have SUCH a great day! '
-  speaker: Minnie
-  nextSentence: {fileID: 0}
+  text: I heard you've been spreading rumors about me!
+  speaker: You
+  nextSentence: {fileID: 11400000, guid: 0f3d94c11247c4ad6af208eb396a68d7, type: 2}
   eventOption: {fileID: 0}
   options: []

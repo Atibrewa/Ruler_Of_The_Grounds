@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_5a_1
+  m_Name: MD_5a_4a_2
   m_EditorClassIdentifier: 
-  text: I heard you've been spreading rumors about me!
-  speaker: You
-  nextSentence: {fileID: 0}
+  text: "Start jumping rope and only stop jumping when we say the first letter of
+    your crush\u2019s name!\n"
+  speaker: Minnie
+  nextSentence: {fileID: 11400000, guid: 8c5ea693861ec433eae298816ffe2097, type: 2}
   eventOption: {fileID: 0}
   options: []
