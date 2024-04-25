@@ -2165,6 +2165,8 @@ MonoBehaviour:
           m_StringArgument: Playground
           m_BoolArgument: 0
         m_CallState: 2
+  bell: {fileID: 1227022383}
+  animator: {fileID: 0}
 --- !u!114 &1189638645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,7 +2290,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227022383}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 95dc3d97c4a074e98afb56e8ebbc8daf, type: 2}
   m_CullingMode: 0
