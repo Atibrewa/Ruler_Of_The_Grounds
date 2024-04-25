@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
   m_Name: MD_3
   m_EditorClassIdentifier: 
-  text: "I\u2019ve heard SO many interesting rumors\u2026 and maybe spread a few.
-    Do we have a problem or something?\n"
+  text: "I\u2019ve heard SO many interesting rumors\u2026 and maybe spread a few. "
   speaker: Minnie
   nextSentence: {fileID: 11400000, guid: 2a5cf4952155545d588f637a98e75e14, type: 2}
   eventOption: {fileID: 0}

@@ -27,4 +27,14 @@ public class Statistics : ScriptableObject
             actions += add;
         }
     }
+
+    public void LeaveBattle() {
+        if (reputation < 5) {
+            reputation = 0;
+        }
+        else {
+            reputation -= 5;
+        }
+    }
 }
+

@@ -22,4 +22,4 @@ MonoBehaviour:
     onOptionSelected: {fileID: 0}
   - text: Blush and run away...
     nextSentence: {fileID: 0}
-    onOptionSelected: {fileID: 11400000, guid: b268a7c071ee6480d94c7603704622f8, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 0859d2ce59f71463087f32cf2624456a, type: 2}
