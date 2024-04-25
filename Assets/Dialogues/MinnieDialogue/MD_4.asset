@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: MD_4
   m_EditorClassIdentifier: 
-  athletics: 2
-  reputation: 4
-  language: 3
-  creativity: 15
-  math: 5
-  actions: 0
+  text: 'Do we have a problem or something?
+
+'
+  speaker: Minnie
+  nextSentence: {fileID: 11400000, guid: 24f6ccfc9ce14491eb9d10554fd41d3b, type: 2}
+  eventOption: {fileID: 0}
+  options: []

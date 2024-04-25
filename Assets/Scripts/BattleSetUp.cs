@@ -6,20 +6,26 @@ using UnityEngine;
 public class BattleSetUp : ScriptableObject
 {
     public string bullyBattle;
-    
-    // public float playerProgress = 0f;
-    // public float bullyProgress = 0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+   
+
+    // // Start is called before the first frame update
+    // public void StartBattleScene()
+    // {
+    //     if (bullyBattle.Contains("Swing")) {
+    //         SwingBattle.SetActive(true);
+    //     }
         
-    }
+    // }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void SetBullyBattle(string name) {
+        bullyBattle = name;
     }
 
     public void SetDialogueTree() {
