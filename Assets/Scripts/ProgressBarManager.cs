@@ -10,6 +10,8 @@ public class ProgressBarManager : MonoBehaviour
     public List<Sprite> bullySprites;
 
     private Image bullyProgressBar, playerProgressBar;
+    private float playerTargetAmount, bullyTargetAmount;
+    private float smooth = 0.5f;
     
     // Start is called before the first frame update
     void Start()
@@ -18,6 +20,9 @@ public class ProgressBarManager : MonoBehaviour
         bullyProgressBar.fillAmount = 0;
         playerProgressBar = progressBar.transform.GetChild(2).gameObject.GetComponent<Image>();
         playerProgressBar.fillAmount = 0;
+
+        playerTargetAmount = 0f;
+        bullyTargetAmount = 0f;
     }
 
     public void SetBullySprite() {
@@ -25,11 +30,23 @@ public class ProgressBarManager : MonoBehaviour
         // bullySprite.sprite = bullySprites[index]
     }
 
+    public void Update() {
+        if (bullyProgressBar.fillAmount < bullyTargetAmount) {
+            bullyProgressBar.fillAmount += (smooth * Time.deltaTime);
+        }
+
+        if (playerProgressBar.fillAmount < playerTargetAmount) {
+            playerProgressBar.fillAmount += (smooth * Time.deltaTime);
+        }
+    }
+
     public void SetPlayerProgress(float amount) {
-        playerProgressBar.fillAmount = amount;
+        // playerProgressBar.fillAmount = amount;
+        playerTargetAmount = amount;
     }
 
     public void SetBullyProgress(float amount) {
-        bullyProgressBar.fillAmount = amount;
+        // bullyProgressBar.fillAmount = amount;
+        bullyTargetAmount = amount;
     }
 }
