@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 public class ChantTracker : MonoBehaviour
 {
 
     public TMP_Text chantText;
     public Statistics playerStat;
+    public UnityEvent jumpDone, pantDone;
 
     private int index = 0;
     private int endIndex = 0;
@@ -42,13 +44,19 @@ public class ChantTracker : MonoBehaviour
             chantText.text = alphabet[index];
             // tick.Play(0);
             
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.8f);
             index += 1;
 
         }
-        yield return new WaitForSeconds(1f);
         // count.text = "";
+        yield return new WaitForSeconds(0.1f);
 
-        // timerDone.Invoke();
+        jumpDone.Invoke();
+
+        yield return new WaitForSeconds(1.5f);
+
+        Debug.Log("printed after 1 second");
+        pantDone.Invoke();
+
     }
 }
