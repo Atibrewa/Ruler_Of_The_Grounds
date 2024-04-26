@@ -17,6 +17,6 @@ MonoBehaviour:
 
 '
   speaker: 
-  nextSentence: {fileID: 0}
+  nextSentence: {fileID: 11400000, guid: e473e481876be4cc5a53331fbe446c7e, type: 2}
   eventOption: {fileID: 0}
   options: []
