@@ -9,12 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 590f33a3004a34c2d8b63091a1e1394a, type: 3}
+  m_Name: MinnieWin
   m_EditorClassIdentifier: 
-  athletics: 2
-  reputation: 14
-  language: 14
-  creativity: 5
-  math: 5
-  actions: 0
+  startingSentence: {fileID: 11400000, guid: 956b25731e40e419dacfb7b1e9d0d287, type: 2}

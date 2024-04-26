@@ -10,7 +10,7 @@ public class ChantTracker : MonoBehaviour
 
     public TMP_Text chantText;
     public Statistics playerStat;
-    public UnityEvent jumpDone, pantDone;
+    public UnityEvent jumpDone, pantDone, winEvent, loseEvent;
 
     private int index = 0;
     private int endIndex = 0;
@@ -57,6 +57,15 @@ public class ChantTracker : MonoBehaviour
 
         Debug.Log("printed after 1 second");
         pantDone.Invoke();
+
+        if (endIndex < 19) {
+            // lose
+            loseEvent.Invoke();
+        }
+        else {
+            // win
+            winEvent.Invoke();
+        }
 
     }
 }

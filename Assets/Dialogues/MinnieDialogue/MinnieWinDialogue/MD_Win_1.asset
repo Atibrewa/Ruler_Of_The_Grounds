@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: MD_Win_1
   m_EditorClassIdentifier: 
-  athletics: 2
-  reputation: 14
-  language: 14
-  creativity: 5
-  math: 5
-  actions: 0
+  text: 'Hah! Told you so! See everyone?  '
+  speaker: You
+  nextSentence: {fileID: 11400000, guid: 9b4828d0be04345da84af7918b7fca33, type: 2}
+  eventOption: {fileID: 0}
+  options: []
