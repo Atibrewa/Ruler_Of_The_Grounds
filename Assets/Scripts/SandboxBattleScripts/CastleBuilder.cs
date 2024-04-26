@@ -6,6 +6,7 @@ public class CastleBuilder : MonoBehaviour
 {
     public List<Sprite> castleLevels;
     public SpriteRenderer playerCastle, bullyCastle;
+    public ProgressBarManager progressBar;
 
     public Statistics playerStat;
     public Statistics bullyStat;
@@ -46,6 +47,8 @@ public class CastleBuilder : MonoBehaviour
         while (playerBuildIndex <= 6 && bullyBuildIndex <= 6) {
             Debug.Log("PlayerBuildIndex = " + playerBuildIndex + " bullybuildindex = " + bullyBuildIndex);
             playerCount += (playerStat.creativity / 12.0f);
+            
+
             bullyCount += (bullyStat.creativity / 12.0f);
 
             playerThreshold = AnimatePlayerCastleBasedOnThreshold(playerThreshold, playerCount);
@@ -65,6 +68,7 @@ public class CastleBuilder : MonoBehaviour
             bullyBuildIndex += 1;
 
             bullyCastle.sprite = castleLevels[bullyBuildIndex];
+            progressBar.SetBullyProgress((bullyBuildIndex/14.0f));
             return threshold + 4;
         }
         return threshold;
@@ -81,6 +85,7 @@ public class CastleBuilder : MonoBehaviour
                 }
                 
                 playerCastle.sprite = castleLevels[playerBuildIndex];
+                progressBar.SetPlayerProgress(playerBuildIndex/14.0f);
                 return threshold + 4;
             }
             return threshold;
