@@ -50,27 +50,23 @@ public class CastleBuilder : MonoBehaviour
             playerCount += (playerStat.creativity / 12.0f);
             bullyCount += (bullyStat.creativity / 12.0f);
 
-            if (playerCount >= playerThreshold) {
-                playerThreshold += 4;
-                
-                if (playerBuildIndex != 6) {
-                    playerBuildIndex += 1;
-                }
-                else {  
-                    playerBuildIndex = 8;
-                }
-                
-                playerCastle.sprite = castleLevels[playerBuildIndex];
-                
-            }
 
-            if (bullyCount >= bullyThreshold) {
-       
-                bullyThreshold += 4;
-                bullyBuildIndex += 1;
+            // if (playerCount >= playerThreshold) {
+            //     playerThreshold += 4;
+                
+            //     if (playerBuildIndex != 6) {
+            //         playerBuildIndex += 1;
+            //     }
+            //     else {  
+            //         playerBuildIndex = 8;
+            //     }
+                
+            //     playerCastle.sprite = castleLevels[playerBuildIndex];
+            // }
+            playerThreshold = AnimatePlayerCastleBasedOnThreshold(playerThreshold, playerCount);
+            bullyThreshold = AnimateBullyCastleBasedOnThreshold(bullyThreshold, bullyCount);
 
-                bullyCastle.sprite = castleLevels[bullyBuildIndex];
-            }
+            
 
             
             yield return new WaitForSeconds(0.5f);
@@ -80,6 +76,33 @@ public class CastleBuilder : MonoBehaviour
 
         Debug.Log("DONE!");
         yield return new WaitForSeconds(1f);
+    }
+
+    private int AnimateBullyCastleBasedOnThreshold(int threshold, float count) {
+        if (count >= threshold) {
+            bullyBuildIndex += 1;
+
+            bullyCastle.sprite = castleLevels[bullyBuildIndex];
+            return threshold + 4;
+        }
+        return threshold;
+
+    }
+
+    private int AnimatePlayerCastleBasedOnThreshold(int threshold, float count) {
+            if (count >= threshold) { 
+                if (playerBuildIndex != 6) {
+                    playerBuildIndex += 1;
+                }
+                else {  
+                    playerBuildIndex = 8;
+                }
+                
+                playerCastle.sprite = castleLevels[playerBuildIndex];
+                return threshold + 4;
+            }
+            return threshold;
+
     }
 
 
