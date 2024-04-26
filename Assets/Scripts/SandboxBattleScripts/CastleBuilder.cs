@@ -31,8 +31,6 @@ public class CastleBuilder : MonoBehaviour
         // make this a 12 second animation 
         // roughly 1.5 seconds per sprite
         // only change sprite if you reach a threshold
-
-
     }
 
     public IEnumerator AnimateCastles() {
@@ -50,24 +48,8 @@ public class CastleBuilder : MonoBehaviour
             playerCount += (playerStat.creativity / 12.0f);
             bullyCount += (bullyStat.creativity / 12.0f);
 
-
-            // if (playerCount >= playerThreshold) {
-            //     playerThreshold += 4;
-                
-            //     if (playerBuildIndex != 6) {
-            //         playerBuildIndex += 1;
-            //     }
-            //     else {  
-            //         playerBuildIndex = 8;
-            //     }
-                
-            //     playerCastle.sprite = castleLevels[playerBuildIndex];
-            // }
             playerThreshold = AnimatePlayerCastleBasedOnThreshold(playerThreshold, playerCount);
             bullyThreshold = AnimateBullyCastleBasedOnThreshold(bullyThreshold, bullyCount);
-
-            
-
             
             yield return new WaitForSeconds(0.5f);
             seconds += 1;
