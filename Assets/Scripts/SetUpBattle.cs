@@ -9,15 +9,20 @@ public class SetUpBattle : MonoBehaviour
 
     public GameObject SwingBattle;
     public GameObject MinnieBattle;
+    public GameObject SandboxBattle;
     // Start is called before the first frame update
     void Start()
     {
         if (setUp.bullyBattle.Contains("Swing")) {
             SwingBattle.SetActive(true);
         }
-        if (setUp.bullyBattle.Contains("Minnie")) {
+        else if (setUp.bullyBattle.Contains("Minnie")) {
             MinnieBattle.SetActive(true);
         }
+        else if (setUp.bullyBattle.Contains("Sandbox")) {
+            SandboxBattle.SetActive(true);
+        }
+
     }
 
     // Update is called once per frame

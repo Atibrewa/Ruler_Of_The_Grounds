@@ -1,0 +1,86 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CastleBuilder : MonoBehaviour
+{
+    public List<Sprite> castleLevels;
+    public SpriteRenderer playerCastle, bullyCastle;
+
+    public Statistics playerStat;
+    public Statistics bullyStat;
+
+    private int playerBuildIndex, bullyBuildIndex;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        playerBuildIndex = 0;
+        bullyBuildIndex = 0;
+
+        playerCastle.sprite = castleLevels[playerBuildIndex];
+        bullyCastle.sprite = castleLevels[bullyBuildIndex];
+
+        StartCoroutine(AnimateCastles());
+    }
+
+    
+    // Update is called once per frame
+    void Update()
+    {
+        // make this a 12 second animation 
+        // roughly 1.5 seconds per sprite
+        // only change sprite if you reach a threshold
+
+
+    }
+
+    public IEnumerator AnimateCastles() {
+        int seconds = 0; // 12 second animation
+
+        float playerCount = 0;
+        int playerThreshold = 4;
+
+        float bullyCount = 0;
+        int bullyThreshold = 4;
+
+
+        while (playerBuildIndex <= 6 && bullyBuildIndex <= 6) {
+            Debug.Log("PlayerBuildIndex = " + playerBuildIndex + " bullybuildindex = " + bullyBuildIndex);
+            playerCount += (playerStat.creativity / 12.0f);
+            bullyCount += (bullyStat.creativity / 12.0f);
+
+            if (playerCount >= playerThreshold) {
+                playerThreshold += 4;
+                
+                if (playerBuildIndex != 6) {
+                    playerBuildIndex += 1;
+                }
+                else {  
+                    playerBuildIndex = 8;
+                }
+                
+                playerCastle.sprite = castleLevels[playerBuildIndex];
+                
+            }
+
+            if (bullyCount >= bullyThreshold) {
+       
+                bullyThreshold += 4;
+                bullyBuildIndex += 1;
+
+                bullyCastle.sprite = castleLevels[bullyBuildIndex];
+            }
+
+            
+            yield return new WaitForSeconds(0.5f);
+            seconds += 1;
+
+        }
+
+        Debug.Log("DONE!");
+        yield return new WaitForSeconds(1f);
+    }
+
+
+}

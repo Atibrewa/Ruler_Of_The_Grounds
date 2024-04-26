@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: BillyStats
+  m_Name: BaileyStats
   m_EditorClassIdentifier: 
-  athletics: 5
+  athletics: 0
   reputation: 0
   language: 0
-  creativity: 0
+  creativity: 15
   math: 0
   actions: 0
