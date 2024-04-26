@@ -13,10 +13,9 @@ public class SwingManager : MonoBehaviour
     private bool finished = false;
 
     public void Update() {
-        if (!finished && progressBar.transform.parent.gameObject.activeSelf) {
+        if (!finished) {
             UpdateProgressBar();
         }
-        
     }
 
     public void UpdateProgressBar() {
@@ -25,7 +24,7 @@ public class SwingManager : MonoBehaviour
         }
 
         if (playerSwing.tiltAngle > 0) {
-            progressBar.SetPlayerProgress(bullySwing.tiltAngle/160.0f);
+            progressBar.SetPlayerProgress(playerSwing.tiltAngle/160.0f);
         }
     }
 

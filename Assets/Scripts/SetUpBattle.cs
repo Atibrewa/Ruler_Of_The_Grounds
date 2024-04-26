@@ -9,7 +9,7 @@ public class SetUpBattle : MonoBehaviour
 
     public GameObject SwingBattle;
     public GameObject MinnieBattle;
-    public GameObject SandboxBattle;
+    public GameObject SandcastleBattle;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +19,8 @@ public class SetUpBattle : MonoBehaviour
         else if (setUp.bullyBattle.Contains("Minnie")) {
             MinnieBattle.SetActive(true);
         }
-        else if (setUp.bullyBattle.Contains("Sandbox")) {
-            SandboxBattle.SetActive(true);
+        else if (setUp.bullyBattle.Contains("Sandcastle")) {
+            SandcastleBattle.SetActive(true);
         }
 
     }
