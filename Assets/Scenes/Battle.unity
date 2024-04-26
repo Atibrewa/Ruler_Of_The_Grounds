@@ -1413,6 +1413,7 @@ GameObject:
   - component: {fileID: 634250842}
   - component: {fileID: 634250844}
   - component: {fileID: 634250843}
+  - component: {fileID: 634250845}
   m_Layer: 5
   m_Name: ProgressBar
   m_TagString: Untagged
@@ -1482,6 +1483,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634250841}
   m_CullTransparentMesh: 1
+--- !u!114 &634250845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634250841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9e96753d22949508d00d7e2a1f8492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressBar: {fileID: 634250841}
+  bullySprite: {fileID: 818774955}
+  bullySprites: []
 --- !u!1 &652422708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,7 +3288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullySwing: {fileID: 1846202744}
   playerSwing: {fileID: 2009839886}
-  progressBar: {fileID: 634250841}
+  progressBar: {fileID: 634250845}
+  progressBarObject: {fileID: 634250841}
 --- !u!1 &1600534747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4178,7 +4195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1974346702
 Transform:
   m_ObjectHideFlags: 0
@@ -4346,7 +4363,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2003000335
 Transform:
   m_ObjectHideFlags: 0
