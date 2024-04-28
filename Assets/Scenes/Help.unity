@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db6e52eb38982a742b90fc93d916494c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats: {fileID: 0}
 --- !u!114 &673914170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,9 +899,65 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1323045147}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
       objectReference: {fileID: 673914169}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayOneShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayNewScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: d82dae5b6ab1e4f01a4d62037bd7508a, type: 3}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Home
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.AudioClip, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2503365645542382788, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4401269683103603374, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
       propertyPath: m_Name
       value: Back
