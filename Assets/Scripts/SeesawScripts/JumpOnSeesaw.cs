@@ -27,44 +27,26 @@ public class JumpOnSeesaw : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (index + 1 >= jumpSprites.Count) {
-        //     index = 0;
-        // }
-        // gameSprite.sprite = jumpSprites[index];
-        // index += 1;
-        // if (body.velocity )
-
-        Debug.Log("body velocity" + body.velocity );
-        if (body.velocity.y > 2) {
-            // Debug.Log("GOING UP!!");
-            // body.AddForce(new Vector2(0, -1.0f));
-            // body.AddForce(new Vector2(0, 1.0f));
-            body.mass = 5;
-            
-        }
-        else if (body.velocity.y > -1 && body.velocity.y < 0) {
-            // body.AddForce(new Vector2(0, -1.0f));
-            // Debug.Log("***ADDING FORCE ON WAY DOWN ****");
-            // body.AddForce(new Vector2(0, 1.0f));
-            // body.mass = (15 + pushWeight);
-            // pushWeight += (stats.math/25.0f);
-            // body.AddForce(new Vector2(0, 1.0f));
-            // pushWeight += (stats.math/200.0f);
-            pushWeight += weight;
-
-            
+        if (transform.position.y < 10) {
+            ManageWeightPerJump();
         }
         else {
-            // Debug.Log("BACK TO NORMAL ==========");
-            // body.AddForce(new Vector2(0, -1.0f));
-            // body.AddForce(new Vector2(0, 3.0f));
-            // body.mass = 1;
-            body.mass = (15 + pushWeight);
+            Debug.Log(gameObject.name + " lost!");
         }
+        
 
-        // pushWeight += (stats.math/50.0f);
-          
+    }
 
+    private void ManageWeightPerJump() {
+        if (body.velocity.y > 2) {
+            body.mass = 5;
+        }
+        else if (body.velocity.y > -1 && body.velocity.y < 0) {
+            pushWeight += weight;          
+        }
+        else {
+            body.mass = (15 + pushWeight);
+        }  
     }
 
     private void DetermineWeight() {
