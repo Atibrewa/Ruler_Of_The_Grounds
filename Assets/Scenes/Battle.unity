@@ -2735,9 +2735,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
-  opponentStats: {fileID: 11400000, guid: 591e807ddf0ae4c929249a98e9bb4b3b, type: 2}
-  gameSprite: {fileID: 1989496779}
   progressBar: {fileID: 146782332}
+  winEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1145626661}
+        m_TargetAssemblyTypeName: JumpOnSeesaw, Assembly-CSharp
+        m_MethodName: GoFlyingOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!70 &796479347
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3242,9 +3255,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 591e807ddf0ae4c929249a98e9bb4b3b, type: 2}
-  opponentStats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
-  gameSprite: {fileID: 0}
   progressBar: {fileID: 146782332}
+  winEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 796479346}
+        m_TargetAssemblyTypeName: JumpOnSeesaw, Assembly-CSharp
+        m_MethodName: GoFlyingOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &1145626662
 Animator:
   serializedVersion: 5
@@ -5792,9 +5818,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 0}
-  opponentStats: {fileID: 0}
-  gameSprite: {fileID: 1989496779}
   progressBar: {fileID: 0}
+  winEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2003000334
 GameObject:
   m_ObjectHideFlags: 0
