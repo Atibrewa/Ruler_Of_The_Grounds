@@ -9,7 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c5233309273d4346b4742680eb9a80d, type: 3}
-  m_Name: BattleSetUp
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: SSD_3
   m_EditorClassIdentifier: 
-  bullyBattle: Seesaw
+  text: 'Yes, I think you''ll do just fine. '
+  speaker: Cecil
+  nextSentence: {fileID: 11400000, guid: 3ed00ce491b164679b1a6189bf6123eb, type: 2}
+  eventOption: {fileID: 0}
+  options: []
