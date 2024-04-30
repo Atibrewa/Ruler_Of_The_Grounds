@@ -59,15 +59,6 @@ public class JumpOnSeesaw : MonoBehaviour
 
     }
 
-    public void OnTriggerStay2D(Collider2D other)
-    {
-        Debug.Log(gameObject.name +  " hit " + other.name);
-        // body.mass = (15 + pushWeight);
-        // body.velocity = (transform.up * 5.0f);
-        // body.mass = 1;
-        body.mass = (15 + pushWeight);
-    }
-
     public void OnTriggerExit2D(Collider2D other) 
     {
         Debug.Log(gameObject.name +  " exits " + other.name);
