@@ -8,6 +8,8 @@ public class JumpOnSeesaw : MonoBehaviour
     public Statistics stats;
     public ProgressBarManager progressBar;
     public UnityEvent winEvent; 
+    public UnityEvent winDialogueStart;
+    public UnityEvent loseDialogueStart;
 
 
     private float bounceCount;
@@ -34,12 +36,12 @@ public class JumpOnSeesaw : MonoBehaviour
             winEvent.Invoke();
         }
 
-        if (!running) {
+        if (isPlayer && !running) {
             if (transform.position.x > 9.0f) {
-                Debug.Log("Player went flying!");
+                loseDialogueStart.Invoke();
             }
             else if (transform.position.x < -9.0f) {
-                Debug.Log("Bully went flying!");
+                winDialogueStart.Invoke();
             }
 
         }
