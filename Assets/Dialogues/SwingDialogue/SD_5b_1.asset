@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "That\u2019s what I thought, loser. Go play hide and seek with yourself!\n"
   speaker: Billy
-  nextSentence: {fileID: 0}
+  nextSentence: {fileID: 11400000, guid: 3e31ec40ae4f14455b6051a621c5a563, type: 2}
   eventOption: {fileID: 11400000, guid: 0859d2ce59f71463087f32cf2624456a, type: 2}
   options: []
