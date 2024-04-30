@@ -15,5 +15,5 @@ MonoBehaviour:
   text: Step on up! Anyone else want to learn how to fly?
   speaker: You
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: cc1bdbd5a9e5246839bd55ad649b9f8c, type: 2}
   options: []

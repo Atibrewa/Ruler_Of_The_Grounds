@@ -19,7 +19,7 @@ MonoBehaviour:
   options:
   - text: '"Uh.. bye"'
     nextSentence: {fileID: 11400000, guid: 4d59ace24f2214e63a46b3678caa8102, type: 2}
-    onOptionSelected: {fileID: 0}
+    onOptionSelected: {fileID: 11400000, guid: 0859d2ce59f71463087f32cf2624456a, type: 2}
   - text: '"Quit the act, weirdo"'
     nextSentence: {fileID: 11400000, guid: c058c492b6f4a424ab3d3587e19705b0, type: 2}
     onOptionSelected: {fileID: 0}

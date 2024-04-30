@@ -22,4 +22,4 @@ MonoBehaviour:
     onOptionSelected: {fileID: 11400000, guid: 1d083768cce2f41e0ac120c3bbdfade6, type: 2}
   - text: Leave.
     nextSentence: {fileID: 0}
-    onOptionSelected: {fileID: 0}
+    onOptionSelected: {fileID: 11400000, guid: 0859d2ce59f71463087f32cf2624456a, type: 2}
