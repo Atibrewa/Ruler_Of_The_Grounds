@@ -8,6 +8,7 @@ public class JumpOnSeesaw : MonoBehaviour
     public int midAirIndex = 4;
     public Statistics stats;
     public Statistics opponentStats;
+    public BoxCollider2D triggerCollider;
 
     public SpriteRenderer gameSprite;
     private int index = 0;
@@ -30,7 +31,7 @@ public class JumpOnSeesaw : MonoBehaviour
     void Update()
     {
         if (transform.position.y < 10) {
-            ManageWeightPerJump();
+            //ManageWeightPerJump();
         }
         else {
             Debug.Log(gameObject.name + " loses!");
@@ -47,18 +48,48 @@ public class JumpOnSeesaw : MonoBehaviour
         }  
     }
 
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log(gameObject.name +  " hit " + other.name);
+        // body.mass = (15 + pushWeight);
+        // body.velocity = (transform.up * 5.0f);
+        // body.mass = 1;
+        body.velocity = (transform.up * -20.0f);
+        body.mass = (15 + pushWeight);
 
-    private void ManageWeightPerJump() {
-        if (body.velocity.y > 2) {
-            body.mass = 5;
-        }
-        else if (body.velocity.y > -1 && body.velocity.y < 0) {
-            pushWeight += weight;          
-        }
-        else {
-            body.mass = (15 + pushWeight);
-        }  
     }
+
+    public void OnTriggerStay2D(Collider2D other)
+    {
+        Debug.Log(gameObject.name +  " hit " + other.name);
+        // body.mass = (15 + pushWeight);
+        // body.velocity = (transform.up * 5.0f);
+        // body.mass = 1;
+        body.mass = (15 + pushWeight);
+    }
+
+    public void OnTriggerExit2D(Collider2D other) 
+    {
+        Debug.Log(gameObject.name +  " exits " + other.name);
+        body.velocity = (transform.up * 20.0f);
+        body.mass = 1;
+        // body.mass = (15 + pushWeight);
+        pushWeight += weight;   
+    }
+
+   
+
+    // private void ManageWeightPerJump() {
+    //     if (body.velocity.y > 2) {
+    //         body.mass = 5;
+    //     }
+    //     else if (body.velocity.y > -1 && body.velocity.y < 0) {
+    //         pushWeight += weight;          
+    //     }
+    //     else {
+    //         body.mass = (15 + pushWeight);
+    //     }  
+    // }
 
     private void DetermineWeight() {
         if (stats.math > opponentStats.math) {

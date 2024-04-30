@@ -2555,6 +2555,7 @@ GameObject:
   - component: {fileID: 796479344}
   - component: {fileID: 796479345}
   - component: {fileID: 796479346}
+  - component: {fileID: 796479347}
   m_Layer: 0
   m_Name: PlayerPhysics
   m_TagString: Untagged
@@ -2571,7 +2572,7 @@ Transform:
   m_GameObject: {fileID: 796479340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.26, y: 3.58, z: 0}
+  m_LocalPosition: {x: 3.23, y: 3, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2639,7 +2640,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 796479340}
   m_BodyType: 0
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 5
   m_LinearDrag: 0
@@ -2746,7 +2747,43 @@ MonoBehaviour:
   midAirIndex: 4
   stats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
   opponentStats: {fileID: 11400000, guid: 591e807ddf0ae4c929249a98e9bb4b3b, type: 2}
+  triggerCollider: {fileID: 0}
   gameSprite: {fileID: 1989496779}
+--- !u!70 &796479347
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796479340}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.12112975, y: -1.5746882}
+  m_Size: {x: 2.7360559, y: 7.721942}
+  m_Direction: 0
 --- !u!1 &818774953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,6 +3093,7 @@ GameObject:
   - component: {fileID: 1145626660}
   - component: {fileID: 1145626661}
   - component: {fileID: 1145626662}
+  - component: {fileID: 1145626663}
   m_Layer: 0
   m_Name: BullyPhysics
   m_TagString: Untagged
@@ -3124,7 +3162,7 @@ Transform:
   m_GameObject: {fileID: 1145626656}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1, y: 2.93, z: 0}
+  m_LocalPosition: {x: -3.1, y: 3, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3218,6 +3256,7 @@ MonoBehaviour:
   midAirIndex: 4
   stats: {fileID: 11400000, guid: 591e807ddf0ae4c929249a98e9bb4b3b, type: 2}
   opponentStats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+  triggerCollider: {fileID: 0}
   gameSprite: {fileID: 0}
 --- !u!95 &1145626662
 Animator:
@@ -3240,6 +3279,41 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &1145626663
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145626656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18222123, y: -1.8525841}
+  m_Size: {x: 2.7220206, y: 8.377456}
+  m_Direction: 0
 --- !u!1 &1165967002
 GameObject:
   m_ObjectHideFlags: 0
@@ -5741,6 +5815,7 @@ MonoBehaviour:
   midAirIndex: 4
   stats: {fileID: 0}
   opponentStats: {fileID: 0}
+  triggerCollider: {fileID: 0}
   gameSprite: {fileID: 1989496779}
 --- !u!1 &2003000334
 GameObject:
