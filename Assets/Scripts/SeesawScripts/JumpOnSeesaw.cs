@@ -35,17 +35,6 @@ public class JumpOnSeesaw : MonoBehaviour
             running = false;
             winEvent.Invoke();
         }
-
-        if (isPlayer && !running) {
-            if (transform.position.x > 9.0f) {
-                loseDialogueStart.Invoke();
-            }
-            else if (transform.position.x < -9.0f) {
-                winDialogueStart.Invoke();
-            }
-
-        }
-        
     }
 
 
@@ -87,11 +76,28 @@ public class JumpOnSeesaw : MonoBehaviour
         transform.Rotate(0, 0, 1);
         
         if (isPlayer) {
+            Debug.Log("bully wins");
             body.velocity = new Vector3(20, 15, 0);
+            // StartCoroutine(WaitAFewSeconds(loseDialogueStart));
+            loseDialogueStart.Invoke();
+            
         }
         else {
+            Debug.Log("player wins");
             body.velocity = new Vector3(-20, 15, 0);
+            // StartCoroutine(WaitAFewSeconds(winDialogueStart));
+            winDialogueStart.Invoke();
+            
         }
-       
+
+    }
+
+    public IEnumerator WaitAFewSeconds(UnityEvent battleEvent) {
+        int seconds = 2;
+        while (seconds > 0) {
+            yield return new WaitForSeconds(1f);
+            seconds -= 1;
+        }
+        battleEvent.Invoke();
     }
 }
