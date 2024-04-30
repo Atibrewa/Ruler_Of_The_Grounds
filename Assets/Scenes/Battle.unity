@@ -439,7 +439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &146782328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2571,7 +2571,7 @@ Transform:
   m_GameObject: {fileID: 796479340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.23, y: 1, z: 0}
+  m_LocalPosition: {x: 3.23, y: 3, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2734,20 +2734,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3de10be876bf4b6ab20a23fb98727fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSprites:
-  - {fileID: -731076341, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 475770615, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 42799026, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 606646292, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: -164389236, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 1439434512, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: -204897186, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: -1518085850, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  midAirIndex: 4
   stats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
   opponentStats: {fileID: 11400000, guid: 591e807ddf0ae4c929249a98e9bb4b3b, type: 2}
-  triggerCollider: {fileID: 0}
   gameSprite: {fileID: 1989496779}
+  progressBar: {fileID: 146782332}
 --- !u!70 &796479347
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3161,7 +3151,7 @@ Transform:
   m_GameObject: {fileID: 1145626656}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1, y: 1, z: 0}
+  m_LocalPosition: {x: -3.1, y: 2, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3251,12 +3241,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3de10be876bf4b6ab20a23fb98727fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSprites: []
-  midAirIndex: 4
   stats: {fileID: 11400000, guid: 591e807ddf0ae4c929249a98e9bb4b3b, type: 2}
   opponentStats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
-  triggerCollider: {fileID: 0}
   gameSprite: {fileID: 0}
+  progressBar: {fileID: 146782332}
 --- !u!95 &1145626662
 Animator:
   serializedVersion: 5
@@ -5362,7 +5350,7 @@ Transform:
   m_GameObject: {fileID: 1912371950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.59, z: 0}
+  m_LocalPosition: {x: 0, y: -2.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5803,20 +5791,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3de10be876bf4b6ab20a23fb98727fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSprites:
-  - {fileID: -731076341, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 475770615, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 42799026, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 606646292, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: -164389236, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: 1439434512, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: -204897186, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  - {fileID: -1518085850, guid: 3656aefc554b444eca1389747187a16b, type: 3}
-  midAirIndex: 4
   stats: {fileID: 0}
   opponentStats: {fileID: 0}
-  triggerCollider: {fileID: 0}
   gameSprite: {fileID: 1989496779}
+  progressBar: {fileID: 0}
 --- !u!1 &2003000334
 GameObject:
   m_ObjectHideFlags: 0
