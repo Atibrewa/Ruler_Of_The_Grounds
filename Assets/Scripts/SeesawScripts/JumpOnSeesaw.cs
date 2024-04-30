@@ -71,13 +71,14 @@ public class JumpOnSeesaw : MonoBehaviour
         running = false;
 
         body.constraints = RigidbodyConstraints2D.None;
-
+        body.freezeRotation = false;
+        transform.Rotate(0, 0, 1);
         
         if (isPlayer) {
-            body.velocity = new Vector3(-20, 10, 0);
+            body.velocity = new Vector3(-20, 15, 0);
         }
         else {
-            body.velocity = new Vector3(20, 10, 0);
+            body.velocity = new Vector3(20, 15, 0);
         }
        
     }
