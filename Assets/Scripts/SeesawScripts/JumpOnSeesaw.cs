@@ -33,6 +33,16 @@ public class JumpOnSeesaw : MonoBehaviour
             running = false;
             winEvent.Invoke();
         }
+
+        if (!running) {
+            if (transform.position.x > 9.0f) {
+                Debug.Log("Player went flying!");
+            }
+            else if (transform.position.x < -9.0f) {
+                Debug.Log("Bully went flying!");
+            }
+
+        }
         
     }
 
