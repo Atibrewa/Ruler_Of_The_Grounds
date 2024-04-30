@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
   m_Name: BattleLeave_1
   m_EditorClassIdentifier: 
-  text: 'A crowd watches you as you walk away. What a loser! '
+  text: "You leave, and recess has ended. \n"
   speaker: 
-  nextSentence: {fileID: 11400000, guid: 4848cba3f0155408997526d1490585f9, type: 2}
-  eventOption: {fileID: 0}
+  nextSentence: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 3e56511945a7241fb9974338202a1362, type: 2}
   options: []

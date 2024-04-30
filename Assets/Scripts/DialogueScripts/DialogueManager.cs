@@ -47,7 +47,10 @@ public class DialogueManager : MonoBehaviour
         //     EndDialogue();
         //     return;
         // }
-        dialogueLabel.text = currentSentence.speaker;
+        if (currentSentence.speaker != null) {
+            dialogueLabel.text = currentSentence.speaker;
+        }
+        
         HideOptions();
         string sentence = currentSentence.text;
         //dialogueUIText.text = sentence;
