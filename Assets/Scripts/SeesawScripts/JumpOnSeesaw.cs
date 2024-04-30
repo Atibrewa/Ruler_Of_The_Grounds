@@ -14,6 +14,8 @@ public class JumpOnSeesaw : MonoBehaviour
     private Rigidbody2D body;
     private float pushWeight;
     private float weight;
+    private bool jumped = false;
+    private int count = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -31,11 +33,20 @@ public class JumpOnSeesaw : MonoBehaviour
             ManageWeightPerJump();
         }
         else {
-            Debug.Log(gameObject.name + " lost!");
+            Debug.Log(gameObject.name + " loses!");
         }
-        
 
     }
+
+    private void JumpAFewTimes() {
+        if (body.velocity.y > 2) {
+            body.mass = 5;
+        }
+        else {
+            body.mass = (15 + pushWeight);
+        }  
+    }
+
 
     private void ManageWeightPerJump() {
         if (body.velocity.y > 2) {
@@ -51,39 +62,20 @@ public class JumpOnSeesaw : MonoBehaviour
 
     private void DetermineWeight() {
         if (stats.math > opponentStats.math) {
-            weight = (15/200.0f);
+            weight = (15/100.0f);
         }
         else if (stats.math == opponentStats.math) {
             if (gameObject.name.Contains("Player")) {
-                weight = (5/200.0f);
+                weight = (5/100.0f);
             }
             else {
-                weight = (15/200.0f);
+                weight = (15/100.0f);
             }   
         }
         else {
-            weight = (5/200.0f);
+            weight = (5/100.0f);
         }
         Debug.Log(gameObject.name + "'s push weight is: " + weight);
 
-    }
-
-    public IEnumerator JumpAFewTimes() {
-        int times = 0;
-        while (times < 3) {
-            Debug.Log("changing sprite");
-            if (index + 1 >= jumpSprites.Count) {
-                index = 0;
-                times += 1;
-            }
-            gameSprite.sprite = jumpSprites[index];
-            // transform.position += Vector3.down * 0.05f;
-            index += 1;
-            yield return new WaitForSeconds(0.1f);
-        }
-        yield return new WaitForSeconds(1f);
-        // count.text = "";
-
-        // timerDone.Invoke();
     }
 }
