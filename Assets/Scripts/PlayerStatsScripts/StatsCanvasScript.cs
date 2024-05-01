@@ -17,6 +17,7 @@ public class StatsCanvasScript : MonoBehaviour {
     public Image languageBar;
     public Image mathBar;
     public Statistics stats;
+    public GameObject swingsSticker, seesawSticker, minnieSticker, sandboxSticker, EmperorSticker;
 
     public void updateText() {
         athleticsText.SetText("Athletics: " + stats.athletics.ToString());
@@ -29,5 +30,14 @@ public class StatsCanvasScript : MonoBehaviour {
         creativityBar.fillAmount = stats.creativity/50f;
         mathematicsText.SetText("Math: " + stats.math.ToString());
         mathBar.fillAmount = stats.math/50f;
+        UpdateStickers();
+    }
+
+    private void UpdateStickers() {
+        swingsSticker.SetActive(stats.getStickerbyStructureName("swings"));
+        seesawSticker.SetActive(stats.getStickerbyStructureName("seesaw"));
+        minnieSticker.SetActive(stats.getStickerbyStructureName("minnie"));
+        sandboxSticker.SetActive(stats.getStickerbyStructureName("sandbox"));
+        EmperorSticker.SetActive(stats.getStickerbyStructureName("playstructure"));
     }
 }

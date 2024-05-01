@@ -6,6 +6,7 @@ using UnityEngine;
 public class Statistics : ScriptableObject
 {
     public int athletics, reputation, language, creativity, math, actions;
+    private bool swings, seesaw, minnie, playstructure, sandbox = false;
 
     public void UpdateStat(string stat, int add) {
         if (stat == "athletics") {
@@ -45,6 +46,36 @@ public class Statistics : ScriptableObject
         // else {
         //     reputation -1;
         // }
+    }
+
+    public void setStickerbyStructureName(string structure) {
+        if (structure == "swings") {
+            swings = true;
+        } else if (structure == "seesaw") {
+            seesaw = true;
+        } else if (structure == "minnie") {
+            minnie = true;
+        } else if (structure == "sandbox") {
+            sandbox = true;
+        } else if (structure == "playstructure") {
+            playstructure = true;
+        }
+    }
+
+    public bool getStickerbyStructureName(string structure) {
+        if (structure == "swings") {
+            return swings;
+        } else if (structure == "seesaw") {
+            return seesaw;
+        } else if (structure == "minnie") {
+            return minnie;
+        } else if (structure == "sandbox") {
+            return sandbox;
+        } else if (structure == "playstructure") {
+            return playstructure;
+        } else {
+            return false;
+        }
     }
 }
 
