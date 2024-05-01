@@ -19,28 +19,26 @@ The choice is yours, and recess has just begun.
 ## Tech Stack
 
 ## Credits/About Us
-Maggie Faust
+### Maggie Faust
 [ADD YOUR ROLES HERE]
 
-Linda Lor
+### Linda Lor
 [ADD YOUR ROLES HERE]
 
-Sean Restivo
+### Sean Restivo
 Narrative Writing
 Game Design
 Sound Design
 
-Aahanaa Tibrewal
+### Aahanaa Tibrewal
 Game Design
 Game Development
 Art Design and Creation?
 
-Special thanks to Dr. James Dawes and Dr. Bret Jackson for their invaluable support and instruction!
+### Special thanks to Dr. James Dawes and Dr. Bret Jackson for their invaluable support and instruction!
 
+### Assets and Music
 Crumpled paper background image by “kues1” on Freepik: https://www.freepik.com/free-photo/white-paper-texture_1033849.htm#fromView=search&page=1&position=5&uuid=5211ce1e-e772-4418-97c8-16773b4f6975
-
 Ruled paper background image by “rawpixel.com” on Freepik: https://www.freepik.com/free-vector/blank-white-notepaper-design-vector_24382364.htm
-
 Songs “March of the Babes,” “Bitsy,” and “Sunshine” by Silent Swimmer on itch.io: https://silentswimmer.itch.io/
- 
 Font is “First Time Writing!” by GGBotNet on dafont.com: https://www.dafont.com/first-time-writing.font
