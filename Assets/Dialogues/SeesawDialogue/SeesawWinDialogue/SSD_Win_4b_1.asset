@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: See saws are about balance and cooperation, Cecil.
   speaker: You
-  nextSentence: {fileID: 0}
+  nextSentence: {fileID: 11400000, guid: 847aa8a75bc5e488a9eecc921a0acf30, type: 2}
   eventOption: {fileID: 0}
   options: []

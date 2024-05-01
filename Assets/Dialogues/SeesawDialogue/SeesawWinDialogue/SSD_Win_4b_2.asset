@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "The science world could use more collaboration. \n"
   speaker: You
-  nextSentence: {fileID: 0}
+  nextSentence: {fileID: 11400000, guid: d0fcb449b8ffe44a0bcb787d65d57380, type: 2}
   eventOption: {fileID: 0}
   options: []

@@ -15,6 +15,6 @@ MonoBehaviour:
   text: "I\u2019ll have to test this hypothesis in the future. Thank you for your
     suggestion\u2026"
   speaker: Cecil
-  nextSentence: {fileID: 0}
+  nextSentence: {fileID: 11400000, guid: d2e175c05570f486ebdfc6f92fcf0b5f, type: 2}
   eventOption: {fileID: 0}
   options: []
