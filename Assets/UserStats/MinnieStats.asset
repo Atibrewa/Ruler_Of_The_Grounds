@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: CecilStats
+  m_Name: MinnieStats
   m_EditorClassIdentifier: 
   athletics: 0
-  reputation: 0
-  language: 0
+  reputation: 35
+  language: 35
   creativity: 0
-  math: 20
+  math: 0
   actions: 0

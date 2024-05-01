@@ -10,6 +10,7 @@ public class ChantTracker : MonoBehaviour
 
     public TMP_Text chantText;
     public Statistics playerStat;
+    public Statistics bullyStat;
     public UnityEvent jumpDone, pantDone, winEvent, loseEvent;
 
     private int index = 0;
@@ -19,7 +20,7 @@ public class ChantTracker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (playerStat.reputation >= 10 && playerStat.language >= 10) {
+        if (playerStat.reputation >= bullyStat.reputation && playerStat.language >= bullyStat.language) {
             endIndex = 19;
         }
         else {

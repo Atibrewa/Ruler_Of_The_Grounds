@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
   m_Name: JeffStats
   m_EditorClassIdentifier: 
-  athletics: 0
-  reputation: 0
-  language: 0
-  creativity: 0
-  math: 0
-  actions: 0
+  athletics: 45
+  reputation: 45
+  language: 45
+  creativity: 45
+  math: 45
+  actions: 45
