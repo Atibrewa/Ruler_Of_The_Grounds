@@ -15,5 +15,5 @@ MonoBehaviour:
   text: "I don\u2019t accept this finding! You must have manipulated the results! "
   speaker: Cecil
   nextSentence: {fileID: 11400000, guid: 5e191ee59fe2a44c3aa32a612060a9cf, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 95307257f30a94e36b532c55fcae5227, type: 2}
   options: []

@@ -43,6 +43,7 @@ public class JumpOnSeesaw : MonoBehaviour
 
         if (transform.position.x < -9.0f) {
             Debug.Log("player wins");
+            Debug.Log(gameObject.name + " called player wins");
             winDialogueStart.Invoke();
         }
     }

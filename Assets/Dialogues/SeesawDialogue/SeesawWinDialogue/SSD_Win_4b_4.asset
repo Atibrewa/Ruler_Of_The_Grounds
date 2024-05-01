@@ -16,5 +16,5 @@ MonoBehaviour:
     suggestion\u2026"
   speaker: Cecil
   nextSentence: {fileID: 11400000, guid: d2e175c05570f486ebdfc6f92fcf0b5f, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 95307257f30a94e36b532c55fcae5227, type: 2}
   options: []
