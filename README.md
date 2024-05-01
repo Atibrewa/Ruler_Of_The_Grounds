@@ -1,6 +1,6 @@
 # Ruler_Of_The_Grounds
 
-![Ruler of the Grounds](blob:chrome-untrusted://media-app/e1b0e2a7-6a68-45e6-822c-0d803fa57362)
+![Ruler of the Grounds Image](https://github.com/Atibrewa/Ruler_Of_The_Grounds/assets/87740693/cdcc27d8-3c89-4efd-b7d7-a73fefd3ffa1)
  
 Welcome to Westwood Elementary! 
 It’s your first day of third grade and you’re excited to enjoy everything school has to offer, but most of all, that glorious time of day when you can forget about your classes and just be a kid: Recess.
