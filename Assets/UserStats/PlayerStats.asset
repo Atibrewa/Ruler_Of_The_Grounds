@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  athletics: 2
-  reputation: 44
+  athletics: 30
+  reputation: 54
   language: 44
   creativity: 5
   math: 4
