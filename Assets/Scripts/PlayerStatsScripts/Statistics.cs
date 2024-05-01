@@ -29,8 +29,11 @@ public class Statistics : ScriptableObject
     }
 
     public void Subtract5FromReputation() {
-        Debug.Log("Subtracted 5 from reputation");
         UpdateStat("reputation", -5);
+    }
+
+    public void Add5ToReputation() {
+        UpdateStat("reputation", 5);
     }
 
     public void LeaveBattle() {
