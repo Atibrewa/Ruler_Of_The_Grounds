@@ -39,6 +39,9 @@ Art Design and Creation?
 
 ### Assets and Music
 Crumpled paper background image by “kues1” on Freepik: https://www.freepik.com/free-photo/white-paper-texture_1033849.htm#fromView=search&page=1&position=5&uuid=5211ce1e-e772-4418-97c8-16773b4f6975
+
 Ruled paper background image by “rawpixel.com” on Freepik: https://www.freepik.com/free-vector/blank-white-notepaper-design-vector_24382364.htm
+
 Songs “March of the Babes,” “Bitsy,” and “Sunshine” by Silent Swimmer on itch.io: https://silentswimmer.itch.io/
+
 Font is “First Time Writing!” by GGBotNet on dafont.com: https://www.dafont.com/first-time-writing.font
