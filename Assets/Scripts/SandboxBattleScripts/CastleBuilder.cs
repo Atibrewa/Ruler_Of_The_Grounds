@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CastleBuilder : MonoBehaviour
 {
     public List<Sprite> castleLevels;
     public SpriteRenderer playerCastle, bullyCastle;
     public ProgressBarManager progressBar;
+    public UnityEvent winDialogueStart;
+    public UnityEvent loseDialogueStart;
 
     public Statistics playerStat;
     public Statistics bullyStat;
@@ -56,11 +59,17 @@ public class CastleBuilder : MonoBehaviour
             
             yield return new WaitForSeconds(0.5f);
             seconds += 1;
-
         }
 
         Debug.Log("DONE!");
         yield return new WaitForSeconds(1f);
+
+        if (playerBuildIndex > bullyBuildIndex) { // player wins!
+            winDialogueStart.Invoke();
+        }
+        else {
+            loseDialogueStart.Invoke();
+        }
     }
 
     private int AnimateBullyCastleBasedOnThreshold(int threshold, float count) {

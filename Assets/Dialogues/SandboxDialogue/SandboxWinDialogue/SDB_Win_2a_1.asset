@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: SDB_Win_2a_1
   m_EditorClassIdentifier: 
-  athletics: 20
-  reputation: 70
-  language: 14
-  creativity: 40
-  math: 23
-  actions: 1
+  text: "Do you even have fun doing art anymore?  \n"
+  speaker: You
+  nextSentence: {fileID: 11400000, guid: 9c37e3f930a334e70a07f0e8438b96dc, type: 2}
+  eventOption: {fileID: 0}
+  options: []

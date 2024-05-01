@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: SDB_Win_2b_2
   m_EditorClassIdentifier: 
-  athletics: 20
-  reputation: 70
-  language: 14
-  creativity: 40
-  math: 23
-  actions: 1
+  text: "NO! You\u2019re a MONSTER!"
+  speaker: 
+  nextSentence: {fileID: 11400000, guid: 822f077133b97415cb9e76d0d10b05a0, type: 2}
+  eventOption: {fileID: 0}
+  options: []

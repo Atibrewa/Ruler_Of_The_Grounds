@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: SDB_Win_5
+  m_EditorClassIdentifier: 
+  text: 'What do you do?
+
+'
+  speaker: 
+  nextSentence: {fileID: 0}
+  eventOption: {fileID: 0}
+  options:
+  - text: Claim the sandbox.
+    nextSentence: {fileID: 11400000, guid: 5aa68ed045b1845a4a6e54e3198e7b4d, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 81256a21a24604647906a84ac2933875, type: 2}
+  - text: Share the sandbox.
+    nextSentence: {fileID: 11400000, guid: ab69ad5050cbb4bd1a42eaf3e54964c4, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 3992ed92aec914dacb1dd3bbd276a2ee, type: 2}
