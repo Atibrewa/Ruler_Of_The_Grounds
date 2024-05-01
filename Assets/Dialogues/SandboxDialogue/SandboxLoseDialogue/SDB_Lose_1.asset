@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SDB_Lose_1
   m_EditorClassIdentifier: 
   text: "Really, I don\u2019t know what you expected\u2026 "
-  speaker: 
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: d7967f236b364409ba1abe0044cee8b9, type: 2}
   eventOption: {fileID: 0}
   options: []

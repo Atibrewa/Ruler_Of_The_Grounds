@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SDB_Win_2b_2
   m_EditorClassIdentifier: 
   text: "NO! You\u2019re a MONSTER!"
-  speaker: 
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 822f077133b97415cb9e76d0d10b05a0, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: fd85aa769256a4a798c227c8dd7564c8, type: 2}
   options: []

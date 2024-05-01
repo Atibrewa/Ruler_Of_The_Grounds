@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SDB_Win_1
   m_EditorClassIdentifier: 
   text: "But\u2026 but\u2026 Your clumsy, clunky, AMATEUR hands! How is this possible!?"
-  speaker: 
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 4d6467af079244337860e4c58bbd71f3, type: 2}
   eventOption: {fileID: 0}
   options: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SBD_3a_2
   m_EditorClassIdentifier: 
   text: How DARE you!!!
-  speaker: Bailey
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 9540f6a7ac39040579404730e626cab7, type: 2}
   eventOption: {fileID: 0}
   options: []

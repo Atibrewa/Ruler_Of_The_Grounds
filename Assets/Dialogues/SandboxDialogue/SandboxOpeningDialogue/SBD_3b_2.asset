@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SBD_3b_2
   m_EditorClassIdentifier: 
   text: 'Mhm, amateurs should stay out of the arts. '
-  speaker: Bailey
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 3e31ec40ae4f14455b6051a621c5a563, type: 2}
-  eventOption: {fileID: 11400000, guid: 0859d2ce59f71463087f32cf2624456a, type: 2}
+  eventOption: {fileID: 0}
   options: []

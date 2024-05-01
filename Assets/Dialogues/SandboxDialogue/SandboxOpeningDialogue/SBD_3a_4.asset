@@ -15,7 +15,7 @@ MonoBehaviour:
   text: 'I challenge you to create its equal!
 
 '
-  speaker: 
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 8c458f3bfd9a14e7187d1f35e28985f2, type: 2}
   eventOption: {fileID: 0}
   options: []

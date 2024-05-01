@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "My masterpiece is taking shape, you\u2019d only ruin it with those unskilled
     hands.\n"
-  speaker: Bailey
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 45a09cc68b3ea458f9a211636df21f28, type: 2}
   eventOption: {fileID: 0}
   options: []

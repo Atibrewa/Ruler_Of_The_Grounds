@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SBD_1
   m_EditorClassIdentifier: 
   text: Don't take another step!
-  speaker: Bailey
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 262dd6616c5354bf09989ca51635e010, type: 2}
   eventOption: {fileID: 0}
   options: []

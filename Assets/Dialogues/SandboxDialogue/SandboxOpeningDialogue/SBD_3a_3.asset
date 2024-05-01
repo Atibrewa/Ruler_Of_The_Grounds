@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SBD_3a_3
   m_EditorClassIdentifier: 
   text: 'My art is far beyond what your mind could comprehend. '
-  speaker: Bailey
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: e20e828afafba498a85ee2e1953a4d5d, type: 2}
   eventOption: {fileID: 0}
   options: []

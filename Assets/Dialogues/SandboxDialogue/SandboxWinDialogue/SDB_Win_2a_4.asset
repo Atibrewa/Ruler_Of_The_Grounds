@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SDB_Win_2a_4
   m_EditorClassIdentifier: 
   text: "I think I\u2019ll give hopscotch a try! Thanks, new kid, I needed that!\n"
-  speaker: 
+  speaker: Riley
   nextSentence: {fileID: 11400000, guid: 8ae54a6191d2246408862c63fe5f3dea, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: fd85aa769256a4a798c227c8dd7564c8, type: 2}
   options: []
