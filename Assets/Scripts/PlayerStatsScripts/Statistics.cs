@@ -28,6 +28,11 @@ public class Statistics : ScriptableObject
         }
     }
 
+    public void Subtract5FromReputation() {
+        Debug.Log("Subtracted 5 from reputation");
+        UpdateStat("reputation", -5);
+    }
+
     public void LeaveBattle() {
         // if (reputation < 1) {
         //     reputation = 0;

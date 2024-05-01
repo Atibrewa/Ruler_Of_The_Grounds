@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battle: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+  playerStats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
   resultsText: {fileID: 665774988}
 --- !u!1 &133576233
 GameObject:
@@ -5277,6 +5278,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+        m_TargetAssemblyTypeName: Statistics, Assembly-CSharp
+        m_MethodName: Subtract5FromReputation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1528780952}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine

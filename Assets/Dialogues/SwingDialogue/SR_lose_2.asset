@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SR_lose_1
+  m_Name: SR_lose_2
   m_EditorClassIdentifier: 
-  text: 'You watch in defeat as Billy reaches the top of the swings. '
+  text: He hops off the swing, and the crowd looks at him in awe.
   speaker: 
-  nextSentence: {fileID: 11400000, guid: e9f47d3282dcf425d9a496ecdfa63055, type: 2}
+  nextSentence: {fileID: 11400000, guid: b0334208187b24ae3b54119582d12a28, type: 2}
   eventOption: {fileID: 0}
   options: []

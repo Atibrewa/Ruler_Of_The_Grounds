@@ -6,6 +6,7 @@ using TMPro;
 public class GenerateResults : MonoBehaviour
 {
     public BattleSetUp battle;
+    public Statistics playerStats;
     public TextMeshProUGUI resultsText;
 
     private string playset;
