@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SR_win_4b_4
+  m_Name: SR_lose_5
   m_EditorClassIdentifier: 
-  text: You shove Billy out of the way as you keep swinging.
+  text: '-5 Reputation.
+
+'
   speaker: 
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 2401429f69ce744289d2e6b39524baa7, type: 2}
+  eventOption: {fileID: 11400000, guid: 3e56511945a7241fb9974338202a1362, type: 2}
   options: []

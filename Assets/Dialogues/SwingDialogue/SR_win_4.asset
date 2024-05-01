@@ -19,7 +19,7 @@ MonoBehaviour:
   options:
   - text: 'Tell Billy that we can share the swings. '
     nextSentence: {fileID: 11400000, guid: 949d44124b3174881bfda8b55f0608e2, type: 2}
-    onOptionSelected: {fileID: 0}
+    onOptionSelected: {fileID: 11400000, guid: 3992ed92aec914dacb1dd3bbd276a2ee, type: 2}
   - text: Tell Billy that HE SHOULD SUCK IT!!!
     nextSentence: {fileID: 11400000, guid: 7600dc852cae741839c1de22f2b76da7, type: 2}
-    onOptionSelected: {fileID: 0}
+    onOptionSelected: {fileID: 11400000, guid: 81256a21a24604647906a84ac2933875, type: 2}

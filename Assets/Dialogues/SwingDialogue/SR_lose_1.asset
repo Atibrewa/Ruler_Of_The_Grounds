@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
   m_Name: SR_lose_1
   m_EditorClassIdentifier: 
-  text: 'You''ve lost. '
+  text: 'You watch in defeat as Billy reaches the top of the swings. '
   speaker: 
-  nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 8af9522b95c904942ba393fc9d02e405, type: 2}
+  nextSentence: {fileID: 11400000, guid: e9f47d3282dcf425d9a496ecdfa63055, type: 2}
+  eventOption: {fileID: 0}
   options: []

@@ -10,12 +10,15 @@ public class SwingController : MonoBehaviour
     private bool hit = false;
     public TextMeshProUGUI winLabel;
     public Statistics charStatistics;
+    public BattleSetUp battle;
 
     float smooth = 5.0f;
     public float tiltAngle = 5.0f;
     int direction = 1;
-    public UnityEvent hitAngle;
-    public TriggerDialogueBasedOnResults results;
+    public UnityEvent winDialogueStart;
+    public UnityEvent loseDialogueStart;
+
+    private Quaternion target;
 
     
 
@@ -29,9 +32,7 @@ public class SwingController : MonoBehaviour
     void Update()
     {
         float tiltAroundZ =  tiltAngle * direction; 
-        
-
-            Quaternion target = Quaternion.Euler(0, 0, tiltAroundZ);
+            target = Quaternion.Euler(0, 0, tiltAroundZ);
             if (Quaternion.Angle(body.transform.rotation, target) < 2) {
                 direction = direction * -1;
                 tiltAngle += 1.0f + charStatistics.athletics;
@@ -42,9 +43,17 @@ public class SwingController : MonoBehaviour
             }
             else {
                 if (!hit) {
-                    hitAngle.Invoke();
-                    StopSwinging();
-                    Debug.Log(gameObject.name +  " HIT ANGLE EVOKED");
+                    hit = true;
+                    if (gameObject.name.Contains("Billy")){
+                        loseDialogueStart.Invoke();
+                        battle.SetPlayerWin(false);
+                    }
+                    else {
+                        winDialogueStart.Invoke();
+                        battle.SetPlayerWin(true);
+                    }
+                    // Debug.Log(gameObject.name +  " HIT ANGLE EVOKED");
+                    // hitAngle.Invoke();
                 }
                 
             }
@@ -52,15 +61,15 @@ public class SwingController : MonoBehaviour
     }
 
     private void UpdateLabel() {
-        if (gameObject.name == "Billy") {
-            winLabel.text = gameObject.name + " wins!"; 
-            results.win = false;
+        // if (gameObject.name == "Billy") {
+        //     winLabel.text = gameObject.name + " wins!"; 
+        //     results.win = false;
             
-        }
-        else {
-            winLabel.text = gameObject.name + " win!"; 
-            results.win = true;
-        }
+        // }
+        // else {
+        //     winLabel.text = gameObject.name + " win!"; 
+        //     results.win = true;
+        // }
 
 
     }

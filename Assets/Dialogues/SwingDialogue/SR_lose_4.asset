@@ -9,6 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ea6a6384a21d45bdb3351ae6298a6b7, type: 3}
-  m_Name: PeacefulBattleConquer
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: SR_lose_4
   m_EditorClassIdentifier: 
+  text: 'You run away from the swingset, horrified. '
+  speaker: 
+  nextSentence: {fileID: 11400000, guid: 0b0b17d06816640c3ab976cd9cd5aafb, type: 2}
+  eventOption: {fileID: 0}
+  options: []

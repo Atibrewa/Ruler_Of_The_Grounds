@@ -28,6 +28,14 @@ public class Statistics : ScriptableObject
         }
     }
 
+    public void Subtract5FromReputation() {
+        UpdateStat("reputation", -5);
+    }
+
+    public void Add5ToReputation() {
+        UpdateStat("reputation", 5);
+    }
+
     public void LeaveBattle() {
         // if (reputation < 1) {
         //     reputation = 0;
