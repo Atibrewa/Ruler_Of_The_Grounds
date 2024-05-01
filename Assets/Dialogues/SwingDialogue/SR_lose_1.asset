@@ -15,5 +15,5 @@ MonoBehaviour:
   text: 'You''ve lost. '
   speaker: 
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 8af9522b95c904942ba393fc9d02e405, type: 2}
+  eventOption: {fileID: 11400000, guid: 2401429f69ce744289d2e6b39524baa7, type: 2}
   options: []

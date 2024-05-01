@@ -6,22 +6,17 @@ using UnityEngine;
 public class BattleSetUp : ScriptableObject
 {
     public string bullyBattle;
+    public bool peacefulEnding;
+    public bool playerWin;
 
    
 
-    // // Start is called before the first frame update
-    // public void StartBattleScene()
-    // {
-    //     if (bullyBattle.Contains("Swing")) {
-    //         SwingBattle.SetActive(true);
-    //     }
-        
-    // }
+    public void SetPeacefulEnding(bool ending) {
+        peacefulEnding = ending;
+    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void SetPlayerWin(bool win) {
+        playerWin = win;
     }
 
     public void SetBullyBattle(string name) {
