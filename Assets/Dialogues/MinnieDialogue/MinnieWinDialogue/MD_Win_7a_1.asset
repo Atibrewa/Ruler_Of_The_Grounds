@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
+  m_Name: MD_Win_7a_1
   m_EditorClassIdentifier: 
-  athletics: 5
-  reputation: 75
-  language: 2
-  creativity: 40
-  math: 5
-  actions: 1
+  text: Minnie is nothing but a lying BRAT!
+  speaker: You
+  nextSentence: {fileID: 11400000, guid: fde3b1f7a9cfd4d89b4a9f917ec12aec, type: 2}
+  eventOption: {fileID: 0}
+  options: []

@@ -18,8 +18,8 @@ MonoBehaviour:
   eventOption: {fileID: 0}
   options:
   - text: Further expose Minnie.
-    nextSentence: {fileID: 0}
+    nextSentence: {fileID: 11400000, guid: cb2d0b43238164121a6151faed059656, type: 2}
     onOptionSelected: {fileID: 11400000, guid: 81256a21a24604647906a84ac2933875, type: 2}
   - text: Further spread kindness.
-    nextSentence: {fileID: 0}
+    nextSentence: {fileID: 11400000, guid: 8cb156d60a1d74f338fe5179cfb1a2c7, type: 2}
     onOptionSelected: {fileID: 11400000, guid: 3992ed92aec914dacb1dd3bbd276a2ee, type: 2}
