@@ -8,6 +8,9 @@ public class MathManager : MonoBehaviour
     public GameObject gameOverCanvas;
     public TMP_Text text;
     public Statistics player;
+    public AudioSource audioplayer;
+    public AudioClip crashSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +19,9 @@ public class MathManager : MonoBehaviour
 
     public void GameOver()
     {
+        // Plays crash sound
+        audioplayer.PlayOneShot(crashSound);
+
         // Stops time
         Time.timeScale = 0;
 
