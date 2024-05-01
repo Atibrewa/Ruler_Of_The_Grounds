@@ -23,5 +23,5 @@ MonoBehaviour:
     nextSentence: {fileID: 11400000, guid: 713ef971a4efa4c23af86f26f542b5a0, type: 2}
     onOptionSelected: {fileID: 0}
   - text: '"It''s ok."'
-    nextSentence: {fileID: 0}
+    nextSentence: {fileID: 11400000, guid: 85b79eda4661449eca2b512d7f16d49c, type: 2}
     onOptionSelected: {fileID: 0}

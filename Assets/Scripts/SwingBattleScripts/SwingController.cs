@@ -46,11 +46,11 @@ public class SwingController : MonoBehaviour
                     hit = true;
                     if (gameObject.name.Contains("Billy")){
                         loseDialogueStart.Invoke();
-                        battle.SetPlayerWin(false);
+                        
                     }
                     else {
                         winDialogueStart.Invoke();
-                        battle.SetPlayerWin(true);
+                        
                     }
                     // Debug.Log(gameObject.name +  " HIT ANGLE EVOKED");
                     // hitAngle.Invoke();

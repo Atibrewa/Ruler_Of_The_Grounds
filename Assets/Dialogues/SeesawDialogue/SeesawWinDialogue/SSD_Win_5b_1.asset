@@ -15,5 +15,5 @@ MonoBehaviour:
   text: From now on, there will be no more launching of children!
   speaker: You
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: a76abdab70abc4853ab337599efefc2b, type: 2}
+  eventOption: {fileID: 11400000, guid: 2401429f69ce744289d2e6b39524baa7, type: 2}
   options: []

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "Hmm\u2026 Perhaps you\u2019re correct."
   speaker: Cecil
-  nextSentence: {fileID: 0}
+  nextSentence: {fileID: 11400000, guid: 1a39d7e5241ab4cee8326e21bc3eee6a, type: 2}
   eventOption: {fileID: 0}
   options: []

@@ -15,14 +15,12 @@ public class GenerateResults : MonoBehaviour
     void Start()
     {
         ChoosePlaysetName();
-        if (battle.playerWin) {
-            if (battle.peacefulEnding) {
-                resultsText.text = "You've liberated the " + playset + "!";
-            }
-            else {
-                resultsText.text = "You've conquered the " + playset + "!";
-            } 
+        if (battle.peacefulEnding) {
+            resultsText.text = "You've liberated the " + playset + "!";
         }
+        else {
+            resultsText.text = "You've conquered the " + playset + "!";
+        } 
     }
 
     // Update is called once per frame
@@ -41,7 +39,7 @@ public class GenerateResults : MonoBehaviour
         else if (battle.bullyBattle.Contains("Sandcastle")) {
             playset = "sandbox";
         }
-        else if (battle.bullyBattle.Contains("SeeSaw")) {
+        else if (battle.bullyBattle.Contains("Seesaw")) {
             playset = "seesaw";
         }
 
