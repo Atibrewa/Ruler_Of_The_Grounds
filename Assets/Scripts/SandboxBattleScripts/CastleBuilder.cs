@@ -94,7 +94,11 @@ public class CastleBuilder : MonoBehaviour
                 }
                 
                 playerCastle.sprite = castleLevels[playerBuildIndex];
-                progressBar.SetPlayerProgress(playerBuildIndex/14.0f);
+
+                if (progressBar != null) {
+                    progressBar.SetPlayerProgress(playerBuildIndex/14.0f);
+                }
+                
                 return threshold + 4;
             }
             return threshold;
