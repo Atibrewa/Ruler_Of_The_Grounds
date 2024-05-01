@@ -48,7 +48,6 @@ public class CastleBuilder : MonoBehaviour
 
 
         while (playerBuildIndex <= 6 && bullyBuildIndex <= 6) {
-            Debug.Log("PlayerBuildIndex = " + playerBuildIndex + " bullybuildindex = " + bullyBuildIndex);
             playerCount += (playerStat.creativity / 12.0f);
             
 
@@ -61,7 +60,6 @@ public class CastleBuilder : MonoBehaviour
             seconds += 1;
         }
 
-        Debug.Log("DONE!");
         yield return new WaitForSeconds(1f);
 
         if (playerBuildIndex > bullyBuildIndex) { // player wins!
