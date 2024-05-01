@@ -1,15 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 
 public class PushBattleHandler : MonoBehaviour
 {
     public ProgressBarManager progressBar;
+    public UnityEvent winAnimation, loseAnimation;
+    public UnityEvent winDialogueStart, loseDialogueStart;
+
 
     private int wins = 0;
     private bool battleStarted;
     private float playerPlusAmount, bullyPlusAmount;
     private float playerTotalProgress, bullyTotalProgress;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +24,6 @@ public class PushBattleHandler : MonoBehaviour
 
         playerTotalProgress = 0;
         bullyTotalProgress = 0;
-    }
-
-    public void Update() {
-        // if (battleStarted) {
-        //     UpdateProgressBar();
-        // }
-
     }
 
     private void UpdateProgressBar() {
@@ -57,6 +56,7 @@ public class PushBattleHandler : MonoBehaviour
 
     public IEnumerator AnimatePushProgress() {
         int seconds = 0; // 12 second animation
+        
 
         while (playerTotalProgress <= 0.55f && bullyTotalProgress <= 0.55f) {
             
@@ -64,8 +64,18 @@ public class PushBattleHandler : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
             seconds += 1;
         }
+        bool win = (playerTotalProgress > bullyTotalProgress);
 
-        yield return new WaitForSeconds(1f);
+        if (win) {
+            winAnimation.Invoke();
+            yield return new WaitForSeconds(2f);
+            winDialogueStart.Invoke();
+        }
+        else {
+            loseAnimation.Invoke();
+            yield return new WaitForSeconds(2f);
+            loseDialogueStart.Invoke();
+        }
 
 
     }

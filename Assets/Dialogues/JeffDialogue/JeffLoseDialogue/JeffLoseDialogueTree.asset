@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590f33a3004a34c2d8b63091a1e1394a, type: 3}
   m_Name: JeffLoseDialogueTree
   m_EditorClassIdentifier: 
-  startingSentence: {fileID: 0}
+  startingSentence: {fileID: 11400000, guid: 0f954fdb981b84deeab0467b761cfc12, type: 2}
