@@ -1512,6 +1512,7 @@ MonoBehaviour:
   MinnieBattle: {fileID: 530663087}
   SandcastleBattle: {fileID: 1974346701}
   SeesawBattle: {fileID: 1667951536}
+  JeffBattle: {fileID: 976968593}
 --- !u!114 &596278280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3085,7 +3086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &976968594
 Transform:
   m_ObjectHideFlags: 0

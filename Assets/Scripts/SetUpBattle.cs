@@ -11,6 +11,7 @@ public class SetUpBattle : MonoBehaviour
     public GameObject MinnieBattle;
     public GameObject SandcastleBattle;
     public GameObject SeesawBattle;
+    public GameObject JeffBattle;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,9 @@ public class SetUpBattle : MonoBehaviour
         else if (setUp.bullyBattle.Contains("SeeSaw")) {
             SeesawBattle.SetActive(true);
         }
+        else if (setUp.bullyBattle.Contains("Structure")) {
+            JeffBattle.SetActive(true);
+        }   
 
     }
 
