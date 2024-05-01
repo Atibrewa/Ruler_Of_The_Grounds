@@ -39,7 +39,7 @@ public class GenerateResults : MonoBehaviour
         else if (battle.bullyBattle.Contains("Sandcastle")) {
             playset = "sandbox";
         }
-        else if (battle.bullyBattle.Contains("Seesaw")) {
+        else if (battle.bullyBattle.Contains("See")) {
             playset = "seesaw";
         }
 
