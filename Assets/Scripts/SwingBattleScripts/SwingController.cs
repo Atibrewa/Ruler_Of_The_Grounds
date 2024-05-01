@@ -10,6 +10,7 @@ public class SwingController : MonoBehaviour
     private bool hit = false;
     public TextMeshProUGUI winLabel;
     public Statistics charStatistics;
+    public BattleSetUp battle;
 
     float smooth = 5.0f;
     public float tiltAngle = 5.0f;
@@ -45,9 +46,11 @@ public class SwingController : MonoBehaviour
                     hit = true;
                     if (gameObject.name.Contains("Billy")){
                         loseDialogueStart.Invoke();
+                        battle.SetPlayerWin(false);
                     }
                     else {
                         winDialogueStart.Invoke();
+                        battle.SetPlayerWin(true);
                     }
                     // Debug.Log(gameObject.name +  " HIT ANGLE EVOKED");
                     // hitAngle.Invoke();

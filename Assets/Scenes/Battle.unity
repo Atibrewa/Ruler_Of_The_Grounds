@@ -5234,6 +5234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winLabel: {fileID: 0}
   charStatistics: {fileID: 11400000, guid: 13de01f6527f544ca9d4acd0002cd45a, type: 2}
+  battle: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
   tiltAngle: 5
   winDialogueStart:
     m_PersistentCalls:
@@ -6013,6 +6014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winLabel: {fileID: 0}
   charStatistics: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+  battle: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
   tiltAngle: 5
   winDialogueStart:
     m_PersistentCalls:
