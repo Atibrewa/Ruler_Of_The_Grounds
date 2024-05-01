@@ -19,7 +19,7 @@ MonoBehaviour:
   options:
   - text: Claim playset.
     nextSentence: {fileID: 11400000, guid: 3906f8c3a427942c69e926be8e5470da, type: 2}
-    onOptionSelected: {fileID: 11400000, guid: 3992ed92aec914dacb1dd3bbd276a2ee, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 81256a21a24604647906a84ac2933875, type: 2}
   - text: Share playset.
     nextSentence: {fileID: 11400000, guid: 197fddafc39fd4351b6892dcc076a919, type: 2}
-    onOptionSelected: {fileID: 11400000, guid: 81256a21a24604647906a84ac2933875, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 3992ed92aec914dacb1dd3bbd276a2ee, type: 2}
