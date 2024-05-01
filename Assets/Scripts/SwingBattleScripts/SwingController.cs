@@ -35,7 +35,7 @@ public class SwingController : MonoBehaviour
             target = Quaternion.Euler(0, 0, tiltAroundZ);
             if (Quaternion.Angle(body.transform.rotation, target) < 2) {
                 direction = direction * -1;
-                tiltAngle += 1.0f + charStatistics.athletics;
+                tiltAngle += 1.0f + (charStatistics.athletics/15.0f);
             }
 
             if (tiltAngle < 80.0f) {
@@ -44,12 +44,13 @@ public class SwingController : MonoBehaviour
             else {
                 if (!hit) {
                     hit = true;
-                    if (gameObject.name.Contains("Billy")){
-                        loseDialogueStart.Invoke();
+                    if (gameObject.name.Contains("You")){
+                        winDialogueStart.Invoke();
                         
                     }
                     else {
-                        winDialogueStart.Invoke();
+                        
+                        loseDialogueStart.Invoke();
                         
                     }
                     // Debug.Log(gameObject.name +  " HIT ANGLE EVOKED");
