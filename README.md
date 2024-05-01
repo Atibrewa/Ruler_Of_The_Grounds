@@ -1,4 +1,4 @@
-# Ruler_Of_The_Grounds
+# Ruler Of The Grounds
 
 ![Ruler of the Grounds Image](https://github.com/Atibrewa/Ruler_Of_The_Grounds/assets/87740693/cdcc27d8-3c89-4efd-b7d7-a73fefd3ffa1)
  
