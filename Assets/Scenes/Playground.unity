@@ -681,6 +681,7 @@ GameObject:
   - component: {fileID: 339719590}
   - component: {fileID: 339719589}
   - component: {fileID: 339719588}
+  - component: {fileID: 339719593}
   m_Layer: 5
   m_Name: PlaygroundCanvas
   m_TagString: Untagged
@@ -790,6 +791,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &339719593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339719587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a69664fb9dc942b0a62f018d39a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 908612237}
 --- !u!224 &421172442 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3302641826869551050, guid: ab7ea85d0561f4068b06a13701826775, type: 3}
@@ -807,6 +821,7 @@ GameObject:
   - component: {fileID: 470057652}
   - component: {fileID: 470057651}
   - component: {fileID: 470057650}
+  - component: {fileID: 470057653}
   m_Layer: 5
   m_Name: Door
   m_TagString: Untagged
@@ -927,6 +942,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470057648}
   m_CullTransparentMesh: 1
+--- !u!114 &470057653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470057648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339719593}
+          m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+          m_MethodName: changeToText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Wait for recess to end?
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &512086325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,6 +1134,7 @@ GameObject:
   - component: {fileID: 550140387}
   - component: {fileID: 550140386}
   - component: {fileID: 550140385}
+  - component: {fileID: 550140388}
   m_Layer: 5
   m_Name: PlayStructure
   m_TagString: Untagged
@@ -1210,6 +1255,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550140383}
   m_CullTransparentMesh: 1
+--- !u!114 &550140388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550140383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339719593}
+          m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+          m_MethodName: changeToText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Check out the playstructure!
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &590061369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2036,6 +2110,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 339719593}
+          m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+          m_MethodName: changeToText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Check my grades
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &1144686839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2165,6 +2251,7 @@ GameObject:
   - component: {fileID: 1175829520}
   - component: {fileID: 1175829519}
   - component: {fileID: 1175829518}
+  - component: {fileID: 1175829521}
   m_Layer: 5
   m_Name: Minnie
   m_TagString: Untagged
@@ -2297,6 +2384,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175829516}
   m_CullTransparentMesh: 1
+--- !u!114 &1175829521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175829516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339719593}
+          m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+          m_MethodName: changeToText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Talk to... Minnie the Meanie?
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1195337920
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,6 +2425,7 @@ GameObject:
   - component: {fileID: 1195337924}
   - component: {fileID: 1195337923}
   - component: {fileID: 1195337922}
+  - component: {fileID: 1195337925}
   m_Layer: 5
   m_Name: Swings
   m_TagString: Untagged
@@ -2379,18 +2496,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 339719588}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: PlayNewScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Battle
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
         m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
         m_MethodName: SetBullyBattle
@@ -2401,6 +2506,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Swings
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 339719588}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: PlayNewScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Battle
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1195337923
@@ -2441,6 +2558,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195337920}
   m_CullTransparentMesh: 1
+--- !u!114 &1195337925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195337920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339719593}
+          m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+          m_MethodName: changeToText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Play on the swings!
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1198283875
 GameObject:
   m_ObjectHideFlags: 0
@@ -3845,6 +3991,7 @@ GameObject:
   - component: {fileID: 1975745600}
   - component: {fileID: 1975745599}
   - component: {fileID: 1975745598}
+  - component: {fileID: 1975745601}
   m_Layer: 5
   m_Name: SeeSaw
   m_TagString: Untagged
@@ -3965,6 +4112,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975745596}
   m_CullTransparentMesh: 1
+--- !u!114 &1975745601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975745596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339719593}
+          m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+          m_MethodName: changeToText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Get on the SeeSaw
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2007236652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3977,6 +4153,7 @@ GameObject:
   - component: {fileID: 2007236656}
   - component: {fileID: 2007236655}
   - component: {fileID: 2007236654}
+  - component: {fileID: 2007236657}
   m_Layer: 5
   m_Name: Sandcastle
   m_TagString: Untagged
@@ -4047,18 +4224,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 339719588}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: PlayNewScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Battle
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
         m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
         m_MethodName: SetBullyBattle
@@ -4069,6 +4234,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Sandcastle
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 339719588}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: PlayNewScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Battle
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2007236655
@@ -4109,6 +4286,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007236652}
   m_CullTransparentMesh: 1
+--- !u!114 &2007236657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007236652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339719593}
+          m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
+          m_MethodName: changeToText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Build a sandcastle!
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2009766367
 GameObject:
   m_ObjectHideFlags: 0
