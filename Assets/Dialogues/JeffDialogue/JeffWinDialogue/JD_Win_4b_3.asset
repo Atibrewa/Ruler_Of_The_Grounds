@@ -15,5 +15,5 @@ MonoBehaviour:
   text: "As they say, sucks to suck, loser. \n"
   speaker: You
   nextSentence: {fileID: 11400000, guid: 3f73d4a1bb8894774afe39e0785c7d31, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 3d22f4a135aea4571a266574bf464405, type: 2}
   options: []

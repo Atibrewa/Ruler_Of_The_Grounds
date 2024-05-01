@@ -9,12 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5894d55c5f44b009c08d224a4bb3c7, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 9ea6a6384a21d45bdb3351ae6298a6b7, type: 3}
+  m_Name: JeffLeave
   m_EditorClassIdentifier: 
-  athletics: 40
-  reputation: 62
-  language: 51
-  creativity: 50
-  math: 50
-  actions: 0

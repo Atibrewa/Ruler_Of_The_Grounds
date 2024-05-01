@@ -15,5 +15,5 @@ MonoBehaviour:
   text: "The grounds are yours to rule. \n"
   speaker: Jeff
   nextSentence: {fileID: 11400000, guid: 0c317ae9cf065453a8b05c47f2a73f72, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 3d22f4a135aea4571a266574bf464405, type: 2}
   options: []
