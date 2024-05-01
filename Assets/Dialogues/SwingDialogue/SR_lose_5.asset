@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
   m_Name: SR_lose_5
   m_EditorClassIdentifier: 
-  text: '-5 Reputation.
-
-'
+  text: You lose 5 reputation and recess ends.
   speaker: 
   nextSentence: {fileID: 0}
   eventOption: {fileID: 11400000, guid: 3e56511945a7241fb9974338202a1362, type: 2}
