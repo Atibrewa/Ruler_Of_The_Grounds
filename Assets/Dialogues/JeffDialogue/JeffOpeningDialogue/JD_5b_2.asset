@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_Lose_3
+  m_Name: JD_5b_2
   m_EditorClassIdentifier: 
-  text: "I can\u2019t wait for the whole school to hear!"
-  speaker: Minnie
-  nextSentence: {fileID: 11400000, guid: b6642a1ac841e4ec8a5375a7bf56b2fc, type: 2}
+  text: "Heh, that\u2019s what I thought. See me again when you\u2019re worthy\u2026 "
+  speaker: Jeff
+  nextSentence: {fileID: 11400000, guid: 3e31ec40ae4f14455b6051a621c5a563, type: 2}
   eventOption: {fileID: 0}
   options: []

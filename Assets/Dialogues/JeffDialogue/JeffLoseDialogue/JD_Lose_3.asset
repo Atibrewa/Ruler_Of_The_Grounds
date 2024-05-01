@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: MD_Lose_3
+  m_Name: JD_Lose_3
   m_EditorClassIdentifier: 
-  text: "I can\u2019t wait for the whole school to hear!"
-  speaker: Minnie
-  nextSentence: {fileID: 11400000, guid: b6642a1ac841e4ec8a5375a7bf56b2fc, type: 2}
+  text: 'I told you a long time to get used to being on the ground. '
+  speaker: Jeff
+  nextSentence: {fileID: 11400000, guid: 25ebf849ca4574dfc829d1c216938563, type: 2}
   eventOption: {fileID: 0}
   options: []
