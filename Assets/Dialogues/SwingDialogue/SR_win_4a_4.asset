@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Sure.
   speaker: Billy
-  nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 2401429f69ce744289d2e6b39524baa7, type: 2}
+  nextSentence: {fileID: 11400000, guid: 46760255c2b144b8bbca42c86d0d4cc6, type: 2}
+  eventOption: {fileID: 0}
   options: []

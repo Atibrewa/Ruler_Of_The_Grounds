@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SR_win_4
+  m_Name: SR_win_7
   m_EditorClassIdentifier: 
-  text: 'You feel kinda bad... '
+  text: What now?
   speaker: 
   nextSentence: {fileID: 0}
   eventOption: {fileID: 0}
   options:
-  - text: 'Tell Billy that we can share the swings. '
-    nextSentence: {fileID: 11400000, guid: 949d44124b3174881bfda8b55f0608e2, type: 2}
-    onOptionSelected: {fileID: 0}
-  - text: Tell Billy that HE SHOULD SUCK IT!!!
-    nextSentence: {fileID: 11400000, guid: 7600dc852cae741839c1de22f2b76da7, type: 2}
-    onOptionSelected: {fileID: 0}
+  - text: Claim the swings.
+    nextSentence: {fileID: 11400000, guid: 19cda1bbe8e4c4075aba94cf5a3c30fd, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 81256a21a24604647906a84ac2933875, type: 2}
+  - text: Share the swings.
+    nextSentence: {fileID: 11400000, guid: c6aee201073534ec6b471e3db3e36f91, type: 2}
+    onOptionSelected: {fileID: 11400000, guid: 3992ed92aec914dacb1dd3bbd276a2ee, type: 2}

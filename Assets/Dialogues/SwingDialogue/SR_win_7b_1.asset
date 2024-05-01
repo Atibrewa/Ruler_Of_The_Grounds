@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: SR_win_4b_4
+  m_Name: SR_win_7b_1
   m_EditorClassIdentifier: 
-  text: You shove Billy out of the way as you keep swinging.
+  text: You hop off the swings and offer it over to the kids.
   speaker: 
-  nextSentence: {fileID: 11400000, guid: 46760255c2b144b8bbca42c86d0d4cc6, type: 2}
-  eventOption: {fileID: 0}
+  nextSentence: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 2401429f69ce744289d2e6b39524baa7, type: 2}
   options: []
