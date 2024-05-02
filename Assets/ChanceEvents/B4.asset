@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: B4
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
+  eventText: "The Dealer: Psst! Hey new kid, if you don\u2019t tell the teacher,
+    I can get you some cool stuff. Here, take this pack of cigarettes I got from
+    the teacher\u2019s bag. Just be cool and don\u2019t tell anyone alright? (+2
+    Reputation)"
   athletics: 0
   creativity: 0
-  language: -2
-  math: -2
-  reputation: 0
+  language: 0
+  math: 0
+  reputation: 2
   imgSprite: {fileID: 0}

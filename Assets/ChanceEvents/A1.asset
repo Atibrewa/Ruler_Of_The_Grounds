@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
   m_Name: A1
   m_EditorClassIdentifier: 
-  eventText: Oh no! As you head out to recess, you look down and see that your shoelaces
-    are missing! Across the playground, you see a kid known only as "The Dealer"
-    seems to be trading them for another kid's hoodie.
-  athletics: -1
+  eventText: 'Ouch! As you run out to recess, a foot comes out of nowhere and trips
+    you. You feel your ankle crumple under you and your knee skids on the asphalt.
+    You look up to see the emperor running off towards the play structure laughing.
+    (-4 Athletics) '
+  athletics: -4
   creativity: 0
   language: 0
   math: 0

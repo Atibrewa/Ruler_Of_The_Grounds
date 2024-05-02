@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: D1
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
+  eventText: "More and more kids are being friendly to you, and you decide to test
+    your luck by trying to take a turn on the slide. Before you can even step foot
+    on the play structure, Jeff leaps down in front of you and crosses his arms.
+    You\u2019ve got a lot to learn before you can take on the Emperor\u2026 (-2 Reputation)"
   athletics: 0
   creativity: 0
-  language: -2
-  math: -2
-  reputation: 0
+  language: 0
+  math: 0
+  reputation: -2
   imgSprite: {fileID: 0}

@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: E2
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
+  eventText: "Lawrence: I hate to do this, but I heard a rumor that you cheated on
+    your last math quiz\u2026 Now, I know this can\u2019t possibly be true, but just
+    know that I\u2019ll be keeping a close eye on you in math today\u2026 (-2 Math) "
   athletics: 0
   creativity: 0
-  language: -2
+  language: 0
   math: -2
   reputation: 0
   imgSprite: {fileID: 0}
