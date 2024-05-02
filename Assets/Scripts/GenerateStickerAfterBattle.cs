@@ -7,30 +7,28 @@ public class GenerateStickerAfterBattle : MonoBehaviour
 {
     public Sprite seesawSticker, swingSticker, jeffSticker, minnieSticker, sandboxSticker;
     public Image stickerImage;
+    public Statistics playerStat;
     public BattleSetUp setUp;
-    // Start is called before the first frame update
-    void Start()
+
+    public void GenerateSticker()
     {
-        if (setUp.bullyBattle.Contains("Swing")) {
+        if (playerStat.getStickerbyStructureName("swings") && setUp.bullyBattle.Contains("Swing")) {
+            Debug.Log("swing win");
             stickerImage.sprite = swingSticker;
         }
-        else if (setUp.bullyBattle.Contains("Minnie")) {
+        else if (playerStat.getStickerbyStructureName("minnie") && setUp.bullyBattle.Contains("Minnie")) {
             stickerImage.sprite = minnieSticker;
         }
-        else if (setUp.bullyBattle.Contains("Sandcastle")) {
+        else if (playerStat.getStickerbyStructureName("sandbox") && setUp.bullyBattle.Contains("Sandcastle")) {
             stickerImage.sprite = sandboxSticker;
         }
-        else if (setUp.bullyBattle.Contains("SeeSaw")) {
+        else if (playerStat.getStickerbyStructureName("seesaw") && setUp.bullyBattle.Contains("SeeSaw")) {
             stickerImage.sprite = seesawSticker;
         }
-        else if (setUp.bullyBattle.Contains("Structure")) {
+        else if (playerStat.getStickerbyStructureName("playstructure") && setUp.bullyBattle.Contains("Structure")) {
             stickerImage.sprite = jeffSticker;
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

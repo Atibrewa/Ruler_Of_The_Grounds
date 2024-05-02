@@ -3598,16 +3598,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
-        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
-        m_MethodName: SetConqueredBattle
+      - m_Target: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+        m_TargetAssemblyTypeName: Statistics, Assembly-CSharp
+        m_MethodName: setStickerbyStructureName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Structure
+          m_StringArgument: playstructure
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 635226838}
+        m_TargetAssemblyTypeName: GenerateStickerAfterBattle, Assembly-CSharp
+        m_MethodName: GenerateSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 263447340}
@@ -4745,7 +4757,8 @@ MonoBehaviour:
   minnieSticker: {fileID: -530645981, guid: b7a5296a5302c4d4b8dd19d9802dec67, type: 3}
   sandboxSticker: {fileID: -469258176, guid: b7a5296a5302c4d4b8dd19d9802dec67, type: 3}
   stickerImage: {fileID: 477525891}
-  setUp: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+  playerStat: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+  setUp: {fileID: 0}
 --- !u!1 &638781009
 GameObject:
   m_ObjectHideFlags: 0
@@ -5554,16 +5567,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
-        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
-        m_MethodName: SetConqueredBattle
+      - m_Target: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+        m_TargetAssemblyTypeName: Statistics, Assembly-CSharp
+        m_MethodName: setStickerbyStructureName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Minnie
+          m_StringArgument: minnie
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 635226838}
+        m_TargetAssemblyTypeName: GenerateStickerAfterBattle, Assembly-CSharp
+        m_MethodName: GenerateSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1862888953}
@@ -7152,7 +7177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &903275581
 Transform:
   m_ObjectHideFlags: 0
@@ -7815,7 +7840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1021301546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7877,7 +7902,7 @@ Transform:
   m_GameObject: {fileID: 1021301545}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -254.52545, y: -28.330004, z: 0}
+  m_LocalPosition: {x: -254.52545, y: -28.330004, z: -1}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8018,16 +8043,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
-        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
-        m_MethodName: SetConqueredBattle
+      - m_Target: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+        m_TargetAssemblyTypeName: Statistics, Assembly-CSharp
+        m_MethodName: setStickerbyStructureName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Sandcastle
+          m_StringArgument: sandbox
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 635226838}
+        m_TargetAssemblyTypeName: GenerateStickerAfterBattle, Assembly-CSharp
+        m_MethodName: GenerateSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2065852442}
@@ -8927,16 +8964,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
-        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
-        m_MethodName: SetConqueredBattle
+      - m_Target: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+        m_TargetAssemblyTypeName: Statistics, Assembly-CSharp
+        m_MethodName: setStickerbyStructureName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SeeSaw
+          m_StringArgument: seesaw
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 635226838}
+        m_TargetAssemblyTypeName: GenerateStickerAfterBattle, Assembly-CSharp
+        m_MethodName: GenerateSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 503371570}
@@ -14472,7 +14521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2003000335
 Transform:
   m_ObjectHideFlags: 0
@@ -14916,16 +14965,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
-        m_TargetAssemblyTypeName: BattleSetUp, Assembly-CSharp
-        m_MethodName: SetConqueredBattle
+      - m_Target: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
+        m_TargetAssemblyTypeName: Statistics, Assembly-CSharp
+        m_MethodName: setStickerbyStructureName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Swing
+          m_StringArgument: swing
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 635226838}
+        m_TargetAssemblyTypeName: GenerateStickerAfterBattle, Assembly-CSharp
+        m_MethodName: GenerateSticker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1528780952}
