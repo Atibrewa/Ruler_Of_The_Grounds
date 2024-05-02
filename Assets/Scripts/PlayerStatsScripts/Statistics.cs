@@ -11,21 +11,57 @@ public class Statistics : ScriptableObject
     public void UpdateStat(string stat, int add) {
         if (stat == "athletics") {
             athletics += add;
+            if (athletics > 50) {
+                athletics = 50;
+            }
+            else if (athletics < 0) {
+                athletics = 0;
+            }
         }
         else if (stat == "reputation") {
             reputation += add;
+            if (reputation > 50) {
+                reputation = 50;
+            }
+            else if (reputation < 0) {
+                reputation = 0;
+            }
         }
         else if (stat ==  "language") {
             language += add;
+            if (language > 50) {
+                language = 50;
+            }
+            else if (language < 0) {
+                language = 0;
+            }
         }
         else if (stat == "creativity") {
             creativity += add;
+            if (creativity > 50) {
+                creativity = 50;
+            }
+            else if (creativity < 0) {
+                creativity = 0;
+            }
         }
         else if (stat == "math") {
             math += add;
+            if (math > 50) {
+                math = 50;
+            }
+            else if (math < 0) {
+                math = 0;
+            }
         }
         else if (stat == "actions") {
             actions += add;
+            if (actions > 2) {
+                actions = 2;
+            }
+            else if (actions < 0) {
+                actions = 0;
+            }
         }
     }
 

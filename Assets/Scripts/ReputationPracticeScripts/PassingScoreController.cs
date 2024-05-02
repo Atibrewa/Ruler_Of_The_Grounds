@@ -73,7 +73,7 @@ public class PassingScoreController : MonoBehaviour {
         gameOver = true;
         int statUpdate = (int)score/4;
         scoreLabel.SetText("Stat: +" + statUpdate);
-        stats.reputation += statUpdate;
+        stats.UpdateStat("reputation", statUpdate);
         popup.SetActive(true);
     }
 
