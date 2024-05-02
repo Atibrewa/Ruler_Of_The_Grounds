@@ -16,5 +16,5 @@ MonoBehaviour:
     no one can stop you now. '
   speaker: 
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 5b1959cfe79aa4cf7b478101733ea6f7, type: 2}
   options: []
