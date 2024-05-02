@@ -14,9 +14,14 @@ public class ChangeScene : MonoBehaviour
 
     public void PlayIfActions(string newScene) {
         if (stats.actions < 2) {
-            stats.actions++;
+            stats.UpdateStat("actions", 1);
             PlayNewScene(newScene);
         }
+    }
+
+    public void GoBackActions(string newScene) {
+        stats.UpdateStat("actions", -1);
+        PlayNewScene(newScene);
     }
 
 }

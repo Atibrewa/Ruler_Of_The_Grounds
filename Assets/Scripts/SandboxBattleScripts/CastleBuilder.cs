@@ -48,10 +48,10 @@ public class CastleBuilder : MonoBehaviour
 
 
         while (playerBuildIndex <= 6 && bullyBuildIndex <= 6) {
-            playerCount += (playerStat.creativity / 12.0f);
+            playerCount += (playerStat.creativity / 24.0f);
             
 
-            bullyCount += (bullyStat.creativity / 12.0f);
+            bullyCount += (bullyStat.creativity / 24.0f);
 
             playerThreshold = AnimatePlayerCastleBasedOnThreshold(playerThreshold, playerCount);
             bullyThreshold = AnimateBullyCastleBasedOnThreshold(bullyThreshold, bullyCount);
