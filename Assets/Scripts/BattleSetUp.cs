@@ -24,6 +24,7 @@ public class BattleSetUp : ScriptableObject
     }
 
     public List<string> ReturnConqueredBattles(){
+        Debug.Log("returning list right now");
         return conqueredBattles;
     }
 }
