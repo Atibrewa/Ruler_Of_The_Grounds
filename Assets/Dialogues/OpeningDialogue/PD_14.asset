@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: PD_11
+  m_Name: PD_14
   m_EditorClassIdentifier: 
-  text: '*sigh* I''m going to the nurses....'
-  speaker: Lawrence
-  nextSentence: {fileID: 11400000, guid: 77e9a00cdd43d48e483422da156a3c38, type: 2}
-  eventOption: {fileID: 11400000, guid: 73c0e5db93655409fa533b32f6a0204c, type: 2}
+  text: What bad luck.
+  speaker: 
+  nextSentence: {fileID: 11400000, guid: 41e32af1ff1314c3ba8edf76186700a5, type: 2}
+  eventOption: {fileID: 0}
   options: []

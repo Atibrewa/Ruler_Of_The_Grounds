@@ -39,10 +39,10 @@ public class PushBattleHandler : MonoBehaviour
         battleStarted = true;
         if (wins > 3) {
             playerPlusAmount = 0.05f;
-            bullyPlusAmount = 0.01f;
+            bullyPlusAmount = 0.025f;
         }
         else {
-            playerPlusAmount = 0.01f;
+            playerPlusAmount = 0.025f;
             bullyPlusAmount = 0.05f;
         }
 
