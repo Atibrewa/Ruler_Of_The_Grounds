@@ -23,7 +23,7 @@ public class BattleSetUp : ScriptableObject
         conqueredBattles.Add(battleName);
     }
 
-    private List<string> ReturnConqueredBattles(){
+    public List<string> ReturnConqueredBattles(){
         return conqueredBattles;
     }
 }
