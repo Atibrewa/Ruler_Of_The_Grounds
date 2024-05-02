@@ -7,8 +7,9 @@ public class BattleSetUp : ScriptableObject
 {
     public string bullyBattle;
     public bool peacefulEnding;
+    
+    public List<string> conqueredBattles;
 
-   
 
     public void SetPeacefulEnding(bool ending) {
         peacefulEnding = ending;
@@ -18,7 +19,11 @@ public class BattleSetUp : ScriptableObject
         bullyBattle = name;
     }
 
-    public void SetDialogueTree() {
+    public void SetConqueredBattle(string battleName) {
+        conqueredBattles.Add(battleName);
+    }
 
+    private List<string> ReturnConqueredBattles(){
+        return conqueredBattles;
     }
 }

@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c5233309273d4346b4742680eb9a80d, type: 3}
   m_Name: BattleSetUp
   m_EditorClassIdentifier: 
-  bullyBattle: 
-  peacefulEnding: 0
+  bullyBattle: Sandcastle
+  peacefulEnding: 1
+  conqueredBattles:
+  - Swing
+  - Minnie
