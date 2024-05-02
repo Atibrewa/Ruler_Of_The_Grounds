@@ -16,25 +16,31 @@ public class ChanceManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int chanceIndex = Random.Range (0, objects.Count);
+        setIndex();
+        int chanceIndex = Random.Range (0, upperLimit);
         curEvent = objects[chanceIndex];
         text.text = curEvent.eventText;
         // imgSpot.sprite = curEvent.imgSprite;
         updateStats();
     }
 
-    void Update()
+    private void setIndex() 
     {
-        // need to update this based on the final numbers of categories A-E
-        // int rep = playerStats.reputation;
-        // if (rep > 40) {
-        //     upperLimit = 40;
-        // } else if (rep > 30) {
-        //     upperLimit = 35;
-        // }
+        int rep = playerStats.reputation;
+        if (rep > 40) {
+            upperLimit = 35;
+        } else if (rep > 30) {
+            upperLimit = 30;
+        } else if (rep > 20) {
+            upperLimit = 24;
+        } else if (rep > 10) {
+            upperLimit = 16;
+        } else {
+            upperLimit = 9;
+        }
     }
 
-    void updateStats()
+    private void updateStats()
     {
         playerStats.UpdateStat("athletics", curEvent.athletics);
         playerStats.UpdateStat("creativity", curEvent.creativity);
