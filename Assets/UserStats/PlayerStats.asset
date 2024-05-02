@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
   athletics: 40
-  reputation: 87
+  reputation: 97
   language: 51
   creativity: 50
   math: 2
