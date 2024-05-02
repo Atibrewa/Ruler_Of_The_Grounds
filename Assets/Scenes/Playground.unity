@@ -1307,6 +1307,35 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2dcc191845376164298fd39bc07746e5, type: 2}
   - {fileID: 11400000, guid: f8c8c35a70dee544185422ac2cb60e0a, type: 2}
   - {fileID: 11400000, guid: 81cb23dc39071854fb1bba8198f46c75, type: 2}
+  - {fileID: 11400000, guid: bd39d37d2827994449dede5314b3c9bd, type: 2}
+  - {fileID: 11400000, guid: 1c2799bd6090cdd45a962778017ba860, type: 2}
+  - {fileID: 11400000, guid: 408e77d87cc519f47830e95cf3078a89, type: 2}
+  - {fileID: 11400000, guid: 34505b9683e2b7f4d9f28195c4307383, type: 2}
+  - {fileID: 11400000, guid: 673de830e5077eb4b9c0e2854387d036, type: 2}
+  - {fileID: 11400000, guid: 339f372df4adecc43956b7bb9470f514, type: 2}
+  - {fileID: 11400000, guid: fe72dcd827b012847a53e81086ff7b78, type: 2}
+  - {fileID: 11400000, guid: 2305a33b65c351949a526c230b6f7e86, type: 2}
+  - {fileID: 11400000, guid: be0d8f5a3b284c9489794b598501f02a, type: 2}
+  - {fileID: 11400000, guid: 5cd7b7cc395663247820c8f2aa3d340f, type: 2}
+  - {fileID: 11400000, guid: 4d437fc19cec30841bf593e3218aa497, type: 2}
+  - {fileID: 11400000, guid: 5522548b58239414bac74a47593d0890, type: 2}
+  - {fileID: 11400000, guid: 01e0bf1ff03f0614295dc3329181d0c3, type: 2}
+  - {fileID: 11400000, guid: a48cbd8a656115f4ea3c90cea56e6a22, type: 2}
+  - {fileID: 11400000, guid: f2f2fca35af9ae84ba6f209e2c0c8662, type: 2}
+  - {fileID: 11400000, guid: d0dba1a6aadb9974ca2d5537e23a8c8a, type: 2}
+  - {fileID: 11400000, guid: bcf7870abd8f2d7429068f8ec6544284, type: 2}
+  - {fileID: 11400000, guid: e52e87411c0a9464ca96820741d4f687, type: 2}
+  - {fileID: 11400000, guid: ff2a73d5b1f601346bfa2839e253b0f8, type: 2}
+  - {fileID: 11400000, guid: d153f7b33f121dc45a0510c3162a9cb5, type: 2}
+  - {fileID: 11400000, guid: 11a7006d52bc6a342b75ae33c48d5926, type: 2}
+  - {fileID: 11400000, guid: 3659f1e405ae836438389736ea660ab8, type: 2}
+  - {fileID: 11400000, guid: 8c1a86473a7eb4a4b81a419da77ab5bd, type: 2}
+  - {fileID: 11400000, guid: 637e124d873842149a17d570b0470293, type: 2}
+  - {fileID: 11400000, guid: bbbeaa379bcfd354ebdff77482d2e085, type: 2}
+  - {fileID: 11400000, guid: 1b888399c0f445d43909543ff3c5f959, type: 2}
+  - {fileID: 11400000, guid: e0adba3cb766a43499caf00f791e7afe, type: 2}
+  - {fileID: 11400000, guid: a69b76616cb91bf43aad87d0433803ff, type: 2}
+  - {fileID: 11400000, guid: 3479f357debb50c459d6a42d6b237505, type: 2}
   text: {fileID: 1112835283}
   playerStats: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
   imgSpot: {fileID: 1788373785}
@@ -5148,7 +5177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2063763515
 MonoBehaviour:
   m_ObjectHideFlags: 0
