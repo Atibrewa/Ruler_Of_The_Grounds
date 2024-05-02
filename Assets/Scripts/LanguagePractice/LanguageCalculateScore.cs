@@ -24,7 +24,7 @@ public class LanguageCalculateScore : MonoBehaviour
         // TODO: Add any calculations that should be done for this!
         int score = speller.score;
         scoreText.text = "Stat: +" + score.ToString();
-        playerStats.language += score;
+        playerStats.UpdateStat("language", score);
         Debug.Log("Added to Language skills");
 
     }

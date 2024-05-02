@@ -15,6 +15,6 @@ MonoBehaviour:
   athletics: 5
   reputation: 5
   language: 5
-  creativity: 5
-  math: 5
-  actions: 1
+  creativity: 50
+  math: 3
+  actions: 0
