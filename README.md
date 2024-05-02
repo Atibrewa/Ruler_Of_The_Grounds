@@ -20,20 +20,16 @@ The choice is yours, and recess has just begun.
 
 ## Credits/About Us
 ### Maggie Faust
-[ADD YOUR ROLES HERE]
+Game Development
 
 ### Linda Lor
-[ADD YOUR ROLES HERE]
+Animation, Game Design, Game Development
 
 ### Sean Restivo
-Narrative Writing
-Game Design
-Sound Design
+Narrative Writing, Game Design, Sound Design
 
 ### Aahanaa Tibrewal
-Game Design
-Game Development
-Art Design and Creation?
+Environment Artist, Game Design, Game Development
 
 ### Special thanks to Dr. James Dawes and Dr. Bret Jackson for their invaluable support and instruction!
 
@@ -42,6 +38,6 @@ Crumpled paper background image by “kues1” on Freepik: https://www.freepik.c
 
 Ruled paper background image by “rawpixel.com” on Freepik: https://www.freepik.com/free-vector/blank-white-notepaper-design-vector_24382364.htm
 
-Songs “March of the Babes,” “Bitsy,” and “Sunshine” by Silent Swimmer on itch.io: https://silentswimmer.itch.io/
-
 Font is “First Time Writing!” by GGBotNet on dafont.com: https://www.dafont.com/first-time-writing.font
+
+Songs “March of the Babes,” “Bitsy,” and “Sunshine” by Silent Swimmer on itch.io: https://silentswimmer.itch.io/
