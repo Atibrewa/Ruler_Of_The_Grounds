@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: JD_Win_8b_4
+  m_Name: CD_6
   m_EditorClassIdentifier: 
-  text: "You\u2019ve done a good thing here. \n"
-  speaker: 
-  nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 3a4866b5d80334314996466c5576445a, type: 2}
+  text: I think you two would get along well.
+  speaker: Teacher
+  nextSentence: {fileID: 11400000, guid: 97b0ba118b69641e399750762ab64cfc, type: 2}
+  eventOption: {fileID: 0}
   options: []

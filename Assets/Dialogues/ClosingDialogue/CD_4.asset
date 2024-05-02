@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: JD_Win_8b_4
+  m_Name: CD_4
   m_EditorClassIdentifier: 
-  text: "You\u2019ve done a good thing here. \n"
-  speaker: 
-  nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 3a4866b5d80334314996466c5576445a, type: 2}
+  text: A new student also just transferred here.
+  speaker: Teacher
+  nextSentence: {fileID: 11400000, guid: 43b9ccbc0fb754fde9dd85e4c87b54da, type: 2}
+  eventOption: {fileID: 0}
   options: []

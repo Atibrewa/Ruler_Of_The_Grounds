@@ -14,7 +14,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullyBattle: Structure
   peacefulEnding: 0
-  conqueredBattles:
-  - Swing
-  - Minnie
-  - Sandcastle

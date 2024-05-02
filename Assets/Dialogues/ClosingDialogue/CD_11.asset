@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: JD_Win_8b_4
+  m_Name: CD_11
   m_EditorClassIdentifier: 
-  text: "You\u2019ve done a good thing here. \n"
-  speaker: 
+  text: So you think you're ruler of the grounds now?
+  speaker: Susie
   nextSentence: {fileID: 0}
-  eventOption: {fileID: 11400000, guid: 3a4866b5d80334314996466c5576445a, type: 2}
+  eventOption: {fileID: 11400000, guid: 5b1959cfe79aa4cf7b478101733ea6f7, type: 2}
   options: []
