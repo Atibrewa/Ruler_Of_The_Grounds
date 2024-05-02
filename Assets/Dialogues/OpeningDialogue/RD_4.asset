@@ -16,5 +16,5 @@ MonoBehaviour:
     wanna come play with me?
   speaker: Lawrence
   nextSentence: {fileID: 11400000, guid: 326cdb0acdc9a429e852cd4983cd012f, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 8dbe26a3720a2496a8128e9648e95bc0, type: 2}
   options: []

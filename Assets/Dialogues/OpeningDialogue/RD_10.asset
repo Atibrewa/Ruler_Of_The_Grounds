@@ -15,5 +15,5 @@ MonoBehaviour:
   text: You should know better than bringing peasants to my domain.
   speaker: ???
   nextSentence: {fileID: 11400000, guid: 0737410a671be4951a9b5ece0c69de4b, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 9ff2c26af9383465f8928d1d93c61ed1, type: 2}
   options: []
