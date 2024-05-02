@@ -15,6 +15,7 @@ public class WordSpeller : MonoBehaviour
     private Color textColor;
     public int score = 0;
 
+    public AudioSource clickSound;
     // Letters Used: m, x, h, a, b, s, o
     // Roughly ~51 words
     private string[] possibleWords = {
@@ -51,6 +52,7 @@ public class WordSpeller : MonoBehaviour
     }
 
     public void Add(string letter) {
+        clickSound.Play();
         if (!isMaxString) {
             spelling.text += letter;
             if (targetWord.Length <= spelling.text.Length) {
