@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A6
+  m_Name: A9
   m_EditorClassIdentifier: 
-  eventText: "Beverly: Oh hey! I\u2019m Beverly, like Beverly Hills. My dad is actually
-    a movie star and he says that pretty soon I\u2019ll be in a movie with him! Anyway,
-    I just wanted to let you know that the See-Saw Scientist has been looking for
-    someone to test his new calcu\u2026 I mean, play\u2026 with. It\u2019ll be fun!"
+  eventText: "Sadie: Oh, hi, sorry\u2026 I don\u2019t know why I said sorry, that
+    was weird\u2026 I\u2019m Sadie. You\u2019re new, aren\u2019t you? Do you like
+    to draw? I drew this pizza upside down on the floor\u2026 Really makes you think,
+    huh? Doing art at recess is hard since the Sandbox Sovereign kicked me out. She
+    said my art wasn\u2019t good enough to \u201Cgrace the box\u201D and threw sand
+    in my face. Now I draw pizza\u2026  "
   athletics: 0
   creativity: 0
   language: 0

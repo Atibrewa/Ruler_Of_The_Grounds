@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: C1
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
+  eventText: "Zeke: Oops! Watch where you\u2019re going, I almost lost my place in
+    my book! You cannot go blundering about like a discombobulated duck! Sorry, that
+    was a tad too malicious of me. I just really wanted to try calling someone a
+    discombobulated duck\u2026 Word of advice, this school is crammed with depraved
+    villains, and sometimes a clever quip can save your life! (+2 Language) "
   athletics: 0
   creativity: 0
-  language: -2
-  math: -2
+  language: 2
+  math: 0
   reputation: 0
   imgSprite: {fileID: 0}

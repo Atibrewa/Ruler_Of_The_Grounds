@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
   m_Name: A3
   m_EditorClassIdentifier: 
-  eventText: Hey new kid! My name's Lawrence. I'm the teacher's official unofficial
-    assistant! I just wanted to welcome you to Westwood Elementary and let you know
-    that you're doing a great job! I know kids can be kinda mean sometimes, but if
-    you just follow the rules everything will work out fine. Maybe we can eat lunch
-    together sometime...
+  eventText: "Oops! Your mind wandered while painting in class today and you forgot
+    to clean your paint brushes. Now they\u2019ve gotten all crusty with dried paint!
+    (-2 Creativity)"
   athletics: 0
-  creativity: 0
-  math: 0
+  creativity: -2
   language: 0
-  reputation: -2
+  math: 0
+  reputation: 0
+  imgSprite: {fileID: 0}

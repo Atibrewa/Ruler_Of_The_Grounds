@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: B6
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
+  eventText: "Beverly: Hi! I just heard the craziest thing and I need to tell someone!
+    Apparently, Emperor Jeff has been held back twice! I don\u2019t get it, I sit
+    next to him in class and he never gets a question wrong\u2026 It's like he doesn\u2019t
+    want to pass.  "
   athletics: 0
   creativity: 0
-  language: -2
-  math: -2
+  language: 0
+  math: 0
   reputation: 0
   imgSprite: {fileID: 0}

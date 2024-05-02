@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: C4
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
-  athletics: 0
+  eventText: 'Random 3rd grader: Hey! Wanna play tag with us? (+1 Reputation, +2
+    Athletics) '
+  athletics: 2
   creativity: 0
-  language: -2
-  math: -2
-  reputation: 0
+  language: 0
+  math: 0
+  reputation: 1
   imgSprite: {fileID: 0}

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
   m_Name: A2
   m_EditorClassIdentifier: 
-  eventText: 'Everyone at lunch is whispering and glancing at you. Eventually, the
-    kid next to you tells you the gossip. Someone has spread a rumor that you have
-    a crush on the most popular girl in school, Minnie the Meanie! '
+  eventText: 'EW! Someone stuffed your pencil case with chewed-up gum! (-2 Math,
+    -2 Language) '
   athletics: 0
   creativity: 0
-  math: 0
-  language: 0
-  reputation: -1
+  language: -2
+  math: -2
+  reputation: 0
+  imgSprite: {fileID: 0}

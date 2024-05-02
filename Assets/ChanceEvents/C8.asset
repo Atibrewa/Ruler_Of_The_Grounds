@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: C8
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
+  eventText: "The Dealer: Hehe, look what I got from Lawrence\u2019s backpack, it\u2019s
+    his SR-1685 graphing calculator! Bet this will help on your next math test. LISTEN!
+    You never saw me\u2026 (+3 Math) "
   athletics: 0
   creativity: 0
-  language: -2
-  math: -2
+  language: 0
+  math: 3
   reputation: 0
   imgSprite: {fileID: 0}

@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
   m_Name: A5
   m_EditorClassIdentifier: 
-  eventText: "Oh hey! I'm Alexander, you know, like Alexander the Great? My dad says
-    I'm his direct descendant. Anyway, I just wanted to let you know that the See-Saw
-    Scientist has been looking for someone to experiment\u2026 I mean, play\u2026
-    with. You should go say hi! "
-  athletics: 0
+  eventText: "Uh oh, at lunch today, you realize a kid named The Dealer seems to
+    have stolen your lunchbox and now you don\u2019t have anything to eat! (-3 Athletics)"
+  athletics: -3
   creativity: 0
-  math: 0
   language: 0
+  math: 0
   reputation: 0
+  imgSprite: {fileID: 0}

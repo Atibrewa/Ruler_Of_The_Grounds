@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ca8571f310f74eb4f579c94489e1e, type: 3}
-  m_Name: A4
+  m_Name: D4
   m_EditorClassIdentifier: 
-  eventText: Oh no! You open your backpack and find that all of your school supplies
-    have been stolen! (-2 Math, -2 Language)
+  eventText: "Zeke: Hey you! Look what I found! It\u2019s a book of poetry I found
+    under the play structure. I already read it, so you can have it if you want\u2026
+    (+3 Language)"
   athletics: 0
   creativity: 0
-  language: -2
-  math: -2
+  language: 3
+  math: 0
   reputation: 0
   imgSprite: {fileID: 0}
