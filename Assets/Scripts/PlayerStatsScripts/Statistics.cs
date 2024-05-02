@@ -49,9 +49,7 @@ public class Statistics : ScriptableObject
     }
 
     public void setStickerbyStructureName(string structure) {
-        Debug.Log("CALLED SET STICKER");
         if (structure == "swings") {
-            Debug.Log("Swings has been to true");
             swings = true;
         } else if (structure == "seesaw") {
             seesaw = true;
