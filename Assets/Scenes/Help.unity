@@ -371,7 +371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -223.51, y: 173}
   m_SizeDelta: {x: 308.3701, y: 136.1022}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004494888
@@ -394,7 +394,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: We're working on adding help instructions!
+  m_text: "Classroom Phase - Play minigames to build skills in five groups: Math,
+    Creativity, Language, Athletics, and Reputation.\r\nRandom Encounters - As your
+    reputation grows, the environment changes with you. Random events will occur
+    every day between the classroom and recess phases. These events can help or hurt
+    your skills, but they can also let you meet other kids at school! \r\nRecess
+    Phase - Challenge bullies on the playground and defeat them by having a higher
+    skill level than the bully!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c871d5d9c0a35b4284332460bf29287, type: 2}
   m_sharedMaterial: {fileID: -3838534759394140045, guid: 5c871d5d9c0a35b4284332460bf29287, type: 2}
@@ -457,7 +463,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -463.9906, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -880,11 +886,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1042260227342254446, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -310.09952
+      value: 314
       objectReference: {fileID: 0}
     - target: {fileID: 1042260227342254446, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -196.94351
+      value: -211
       objectReference: {fileID: 0}
     - target: {fileID: 1042260227342254446, guid: 7b183e8ca7c972d4b9462f41ceaaa8d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
