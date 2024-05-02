@@ -10,6 +10,7 @@ public class JumpOnSeesaw : MonoBehaviour
     public UnityEvent winEvent; 
     public UnityEvent winDialogueStart;
     public UnityEvent loseDialogueStart;
+    public AudioSource seesawSound;
 
 
     private float bounceCount;
@@ -52,6 +53,7 @@ public class JumpOnSeesaw : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (running) {
+            seesawSound.Play();
             body.velocity = (transform.up * -15.0f);
             body.mass = 15;
             bounceCount += (stats.math/50.0f);
