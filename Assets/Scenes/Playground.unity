@@ -337,6 +337,7 @@ GameObject:
   - component: {fileID: 137614416}
   - component: {fileID: 137614415}
   - component: {fileID: 137614414}
+  - component: {fileID: 137614417}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -394,6 +395,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137614417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137614413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b047107ace14def9be66f0e6dcbc06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battles: {fileID: 0}
+  swingButton: {fileID: 0}
+  minnieButton: {fileID: 0}
+  sandcastleButton: {fileID: 0}
+  seesawButton: {fileID: 0}
+  structureButton: {fileID: 0}
 --- !u!1001 &201536985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -680,6 +699,7 @@ GameObject:
   - component: {fileID: 339719589}
   - component: {fileID: 339719588}
   - component: {fileID: 339719593}
+  - component: {fileID: 339719594}
   m_Layer: 5
   m_Name: PlaygroundCanvas
   m_TagString: Untagged
@@ -802,6 +822,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 908612237}
+--- !u!114 &339719594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339719587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b047107ace14def9be66f0e6dcbc06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battles: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
+  swingButton: {fileID: 1195337922}
+  minnieButton: {fileID: 1175829518}
+  sandcastleButton: {fileID: 2007236654}
+  seesawButton: {fileID: 1975745598}
+  structureButton: {fileID: 550140385}
 --- !u!1 &440100363
 GameObject:
   m_ObjectHideFlags: 0
