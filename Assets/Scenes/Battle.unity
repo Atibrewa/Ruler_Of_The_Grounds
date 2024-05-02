@@ -935,7 +935,7 @@ Transform:
   m_GameObject: {fileID: 263447340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -88.53226, y: -248, z: 0}
+  m_LocalPosition: {x: -88.53226, y: -248, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4758,7 +4758,7 @@ MonoBehaviour:
   sandboxSticker: {fileID: -469258176, guid: b7a5296a5302c4d4b8dd19d9802dec67, type: 3}
   stickerImage: {fileID: 477525891}
   playerStat: {fileID: 11400000, guid: 69c37ff5993fe024eb019fbcf88c156e, type: 2}
-  setUp: {fileID: 0}
+  setUp: {fileID: 11400000, guid: 59a36ad936d544053b243edcc0f8d933, type: 2}
 --- !u!1 &638781009
 GameObject:
   m_ObjectHideFlags: 0
@@ -6603,7 +6603,7 @@ Transform:
   m_GameObject: {fileID: 825025616}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -347.7477, y: -278.37, z: 1}
+  m_LocalPosition: {x: -347.7477, y: -278.37, z: 2}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7639,7 +7639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &976968594
 Transform:
   m_ObjectHideFlags: 0
@@ -10322,7 +10322,7 @@ Transform:
   m_GameObject: {fileID: 1503140385}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -350.84772, y: -272.492, z: 0}
+  m_LocalPosition: {x: -350.84772, y: -272.492, z: -1}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 0.39999998}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -14521,7 +14521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2003000335
 Transform:
   m_ObjectHideFlags: 0
@@ -14974,7 +14974,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: swing
+          m_StringArgument: swings
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 635226838}
