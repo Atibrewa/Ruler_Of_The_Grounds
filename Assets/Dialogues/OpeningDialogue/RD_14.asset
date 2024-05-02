@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c420632733bd4d03abdec13f14ee955, type: 3}
-  m_Name: RD_11
+  m_Name: RD_14
   m_EditorClassIdentifier: 
-  text: "J-Jeff! Hi! We were just passing by\u2026"
-  speaker: Lawrence
-  nextSentence: {fileID: 11400000, guid: af162a88c69d34c51aeb924d1caf7b92, type: 2}
-  eventOption: {fileID: 11400000, guid: 719e790694711473a91001117dd0c8db, type: 2}
+  text: I- I...
+  speaker: You
+  nextSentence: {fileID: 11400000, guid: f8ab2c6e85a5244c686b0b6503b23294, type: 2}
+  eventOption: {fileID: 0}
   options: []
