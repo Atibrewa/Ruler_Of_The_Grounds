@@ -25,5 +25,6 @@ public class PlayButtonScript : MonoBehaviour
         stats.language = 5;
         stats.creativity = 5;
         stats.math = 5;
+        stats.actions = 0;
     }
 }
