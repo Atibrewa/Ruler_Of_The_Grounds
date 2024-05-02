@@ -19,7 +19,7 @@ public class ChanceManager : MonoBehaviour
         int chanceIndex = Random.Range (0, objects.Count);
         curEvent = objects[chanceIndex];
         text.text = curEvent.eventText;
-        imgSpot.sprite = curEvent.imgSprite;
+        // imgSpot.sprite = curEvent.imgSprite;
         updateStats();
     }
 
