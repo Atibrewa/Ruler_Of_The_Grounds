@@ -15,5 +15,5 @@ MonoBehaviour:
   text: Lawrence!!!
   speaker: You
   nextSentence: {fileID: 11400000, guid: e1c9ce288717a4b52a794360e7695326, type: 2}
-  eventOption: {fileID: 0}
+  eventOption: {fileID: 11400000, guid: 980b98ab801924390a0fd5e56deafbad, type: 2}
   options: []
