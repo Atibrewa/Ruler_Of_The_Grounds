@@ -23,19 +23,13 @@ The choice is yours, and recess has just begun.
 Game Development
 
 ### Linda Lor
-Animation
-Game Design 
-Game Development
+Animation, Game Design, Game Development
 
 ### Sean Restivo
-Narrative Writing
-Game Design
-Sound Design
+Narrative Writing, Game Design, Sound Design
 
 ### Aahanaa Tibrewal
-Environment Artist
-Game Design
-Game Development
+Environment Artist, Game Design, Game Development
 
 ### Special thanks to Dr. James Dawes and Dr. Bret Jackson for their invaluable support and instruction!
 
